@@ -1,0 +1,6 @@
+[submodule ".claude/skills/book2skill"]
+	path = .claude/skills/book2skill
+	url = https://github.com/kangarooking/cangjie-skill.git
+[submodule ".hermes/skills/darwin-skill"]
+	path = .hermes/skills/darwin-skill
+	url = https://github.com/alchaincyf/darwin-skill.git

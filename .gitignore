@@ -1,0 +1,12 @@
+# PDF 源书 (太大, 通过 Git LFS 或单独存储管理)
+*.pdf
+
+# OS
+.DS_Store
+
+# Claude Code
+.claude/settings.local.json
+
+# Temp
+CONTINUE_PROMPT.md
+*.tmp

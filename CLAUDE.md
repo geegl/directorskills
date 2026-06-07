@@ -154,6 +154,41 @@ output/books/<slug>/
 
 ---
 
+## 云端 Agent 启动指南
+
+### 初始化
+```bash
+git clone --recursive https://github.com/geegl/directorskills.git
+cd directorskills
+# 如果 clone 时没带 --recursive：
+git submodule update --init --recursive
+```
+
+### PDF 获取
+源书 PDF 存放于 Google Drive（见上方表格的 PDF 链接列），需要下载到本地供蒸馏流程读取。
+
+### 建议的工作流（仅供参考，可自行优化）
+
+> ⚠️ 以下是原作者的建议方案，非硬性要求。执行 Agent 可根据自身环境和偏好选择更优方案。
+
+**建议流程：**
+1. 从 Google Drive 下载 PDF 到本地（可用 `gdown`、`wget` 或浏览器手动下载）
+2. 按 book2skill 的 6 阶段流水线逐本蒸馏（参见 `CLAUDE.md` 中的 `RIA-TV++ 方法论`）
+3. 蒸馏完成后用 darwin-skill 做质量优化
+
+**关于 OCR 的建议：**
+- Claude 原生支持读取 PDF（包括扫描版图片 PDF），大多数情况下可直接处理，无需额外 OCR
+- 如果遇到图片质量差、识别率低的情况，可考虑以下 fallback：
+  - Apify Actor: [`cspnair/pdf-ocr-api`](https://apify.com/cspnair/pdf-ocr-api)（$0.01/PDF，支持多种 OCR 引擎）
+  - Python 库: `pytesseract` + `pdf2image`（本地部署，免费）
+  - Google Cloud Vision API（高精度，按量计费）
+
+**关于并行策略的建议：**
+- 镜头域 4 本书（shot-design、master-shots-v1/v2/v3）有交叉内容，建议串行蒸馏以便跨书链接
+- 导演域和视觉域可并行处理
+
+---
+
 ## darwin-skill 优化阶段（全部蒸馏完后）
 
 按 darwin-skill Phase 0-3 执行：

@@ -1,0 +1,57 @@
+---
+name: sound-design-listening-modes
+description: >
+  Four listening modes (reduced, causal, semantic, referential) for understanding how audiences
+  perceive and interpret sounds. Enables conscious mode-switching for effective sound design.
+source_book: 声音设计 — David Sonnenschein
+source_chapter: 第四章
+tags: [framework, perception, listening, psychoacoustics, chion]
+related_skills: [sound-design-energy-model, sound-design-gestalt, sound-design-emotion-ref]
+---
+
+# RIA++ Skill: 四种听音模式 (Four Listening Modes)
+
+## R — 原文 (Reading)
+
+> "米歇尔·琼对三种听音模式作了辨析：简化模式、因果模式和语义模式。这里还介绍了第四种：参考模式。"
+
+## I — 方法论骨架 (Interpretation)
+
+听众在接收声音时，会在四种心理模式间无意识地切换：
+
+1. **简化模式（Reduced）**：关注声音本身的物理属性——音调、音色、节奏。不考虑声源或含义。这是声音设计师的"专业听音"模式。
+2. **因果模式（Causal）**：通过声音判断声源——什么在响？在哪里？这是日常生活中最常用的模式。
+3. **语义模式（Semantic）**：理解语言和编码系统的含义。同一含义可以用不同声音表达（不同口音/语言）。
+4. **参考模式（Referential）**：基于上下文理解声音的情绪和叙事含义——《大白鲨》的"喀喀"声=危险。
+
+关键洞察：声音设计师需要在四种模式间自如切换，理解观众可能处于哪种模式，并有意识地引导模式转换。
+
+## A1 — 书中的应用 (Past Application)
+
+《大白鲨》的主题音乐：简化模式下是两个低音音符的交替；因果模式下暗示某种接近的大型生物；参考模式下已成为"危险"的文化符号。观众从因果模式逐渐转为参考模式。
+
+## A2 — 触发场景 (Future Trigger) ★
+
+**场景1**：设计一个恐怖场景的声音，需要决定"揭示多少"。
+- 语言信号："观众会以为这是什么发出的声音？"
+
+**场景2**：为一个外语角色设计声音，需要保持情感共鸣。
+- 语言信号："观众听不懂语言时还能感受到情绪吗？"
+
+**场景3**：评估一段声音设计是否有效。
+- 语言信号："观众会以什么方式听这段声音？"
+
+## E — 可执行步骤 (Execution)
+
+1. **模式诊断**：对每个声音元素，问"观众最可能用哪种模式听？"（简化/因果/语义/参考）
+2. **模式利用**：选择你想要引导的模式——想让观众关注声音质感？用简化模式。想建立恐惧？用因果模式（不揭示声源）。
+3. **模式转换**：设计从一种模式到另一种的转换——从因果（什么在响？）到参考（危险来了！）。
+
+## B — 边界 (Boundary) ★
+
+**反场景**：纯语言对话场景（语义模式主导，其他模式不适用）、功能性音效（闹钟/提示音）。
+
+**失败模式**：
+- 在因果模式下观众无法识别声源时产生困惑（不是恐惧）
+- 在参考模式下使用观众不熟悉的文化符号
+- 过度依赖简化模式，声音变得抽象、脱离叙事

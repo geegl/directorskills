@@ -1,0 +1,56 @@
+---
+name: sound-design-less-is-more
+description: >
+  Use minimum sound elements for maximum impact. Let audience fill in gaps mentally.
+  Counter-intuitive: removing sounds often increases emotional engagement.
+source_book: 声音设计 — David Sonnenschein
+source_chapter: 第四章
+tags: [principle, simplicity, audience-participation, counter-intuitive]
+related_skills: [sound-design-vader-breathing, sound-design-auditory-hierarchy]
+---
+
+# RIA++ Skill: 少即是多原则 (Less Is More)
+
+## R — 原文 (Reading)
+
+> "有时候你可以用最少数量的声音元素得到最大的冲击力，通过让观众填补自己头脑中的信息缺失，使他们有更大的参与性。"
+
+## I — 方法论骨架 (Interpretation)
+
+声音设计中的"少即是多"原则基于一个心理学机制：当声音信息不完整时，观众的大脑会主动"补全"缺失的部分，这个补全过程使观众更投入、更紧张。
+
+- 多个声音元素堆叠→观众被动接收→参与度低
+- 少量精心选择的声音→观众主动补全→参与度高
+- 单一声音+沉默→观众想象力被激活→最大冲击力
+
+本·伯特为黑武士设计声音时，尝试了心跳+呼吸+机器声的复杂组合，最终发现单一的循环呼吸声最具冲击力。"险恶的简单"成为了文化象征。
+
+## A1 — 书中的应用 (Past Application)
+
+黑武士（Darth Vader）声音设计：从多种心跳、呼吸、机器声的复杂组合，简化为单一的循环呼吸声。这个极简的声音成为了全球性的文化符号——证明了简单比复杂更有力。
+
+## A2 — 触发场景 (Future Trigger) ★
+
+**场景1**：一个场景的声音设计感觉"太满"。
+- 语言信号："声音太多了/太吵了/没有重点。"
+
+**场景2**：设计一个反派或神秘角色的声音。
+- 语言信号："这个角色应该听起来怎样？"
+
+**场景3**：恐怖场景需要最大的恐惧感。
+- 语言信号："怎么让这个场景更吓人？"
+
+## E — 可执行步骤 (Execution)
+
+1. **删除测试**：逐个关闭声音元素，找到"最小子集"——哪些声音去掉后场景反而更好？
+2. **单一焦点**：选择一个核心声音元素作为前景，其他全部退后或删除
+3. **沉默设计**：在关键戏剧时刻使用沉默——让观众用想象力填补
+
+## B — 边界 (Boundary) ★
+
+**反场景**：动作片高潮（需要丰富的声音层次）、音乐剧（音乐是核心）、纪录片（需要真实环境声）。
+
+**失败模式**：
+- 过度简化导致场景"空洞"——观众需要足够的声音信息来理解空间
+- 在需要丰富层次的地方错误使用——不是所有场景都适合极简
+- 简单不等于单调——单一声音也需要变化（速度、音调、位置）

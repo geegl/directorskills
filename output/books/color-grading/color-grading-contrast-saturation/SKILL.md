@@ -1,0 +1,97 @@
+---
+name: color-grading-contrast-saturation
+description: |
+  当用户调整对比度后发现色彩变化、诊断'调完对比度颜色不对了'、或理解RGB处理的副作用时调用。核心 trigger：用户提到'对比度调完颜色变了'、'饱和度'、'RGB处理'。不适用于：用户讨论整体工作流（用 primary-workflow）。
+source_book: 《调色师手册》Alexis Van Hurkman
+source_chapter: 第3章、第4章、第9章
+tags: [color-grading, color-correction, post-production, visual-storytelling]
+related_skills:
+  - depends-on: color-grading-primary-workflow — 一级校色是所有调色的基础
+  - composes-with: color-grading-shot-matching — 镜头匹配中需要考虑色温/记忆色彩
+  - composes-with: color-grading-look-development — 创意风格建立在技术校色之上
+---
+
+# 对比度与饱和度联动效应
+
+## R — 原文 (Reading)
+
+> 在RGB色彩空间中处理对比度时，饱和度会随之增加。扩大对比度后需检查并补偿饱和度增加。
+>
+> — Van Hurkman, 第3章、第4章、第9章
+
+---
+
+## I — 方法论骨架 (Interpretation)
+
+对比度和饱和度在RGB色彩空间中是联动的——扩大对比度会同时增加饱和度，降低对比度会降低饱和度。这是RGB处理的物理特性，不是软件bug。
+
+核心规则：每次调整对比度后，必须检查饱和度是否过度增加。如果使用Y-only（亮度-only）处理对比度则不会有此问题，但大多数软件默认使用RGB处理。
+
+独特价值：很多调色师发现'调完对比度颜色不对了'但不知道原因——联动效应是根本原因。
+
+---
+
+## A1 — 书中的应用 (Past Application)
+
+### 案例 1
+- **问题**: 如何在实际调色中应用此原理
+- **方法论的使用**: 调色师扩大了画面对比度（提高Gain降低Lift），发现角色肤色变得过于饱和。原因：RGB处理对比度时，高光和暗部的饱和度都被推高了。解决方案：在调整对比度后，略微降低全局饱和度来补偿。
+- **结论**: 此原理提供了超越直觉的专业判断依据
+- **结果**: 调色效果更加准确和自然
+
+---
+
+## A2 — 触发场景 (Future Trigger) ★
+
+### 用户会在什么情境下需要这个 skill?
+
+1. 对比度调完颜色变了
+2. 饱和度太高怎么办
+3. RGB处理的副作用
+
+### 语言信号 (用户的话里出现这些就应激活)
+
+- "对比度"
+- "饱和度"
+- "RGB"
+- "颜色变了"
+- "太饱和"
+
+### 与相邻 skill 的区分
+
+- 与 `color-grading-primary-workflow` 的区别: primary-workflow 是整体工作流，本 skill 聚焦特定技术原理
+- 与 `color-grading-look-development` 的区别: look-development 是创意风格，本 skill 是技术校准
+
+---
+
+## E — 可执行步骤 (Execution)
+
+当 skill 被激活后, agent 应按以下步骤执行:
+
+1. **调整对比度**
+   - 完成标准: 按正常流程调整Lift/Gamma/Gain。完成标准：对比度范围符合预期
+
+2. **检查饱和度变化**
+   - 完成标准: 用矢量示波器检查饱和度是否过度增加。完成标准：肤色仍在楔形范围内
+   - 判停条件: 若条件不满足，先确认素材质量和监视器校准
+
+3. **补偿饱和度**
+   - 完成标准: 如果饱和度过度，降低全局饱和度或用HSL选色只补偿问题区域。完成标准：色彩自然
+
+---
+
+## B — 边界 (Boundary) ★
+
+### 不要在以下情况使用此 skill
+
+- 不要忽略对比度调整后的饱和度变化——这是最常见的隐蔽错误
+- 不要在不理解RGB vs Y-only差异的情况下选择处理方式
+
+### 作者在书中警告的失败模式
+
+- 对比度调整后肤色过度饱和——最常见的联动效应问题
+- 降低对比度后画面变得灰暗——同时降低了饱和度但没有补偿
+
+### 作者的盲点
+
+作者假设调色师理解RGB处理的物理特性，但很多初学者不知道联动效应的存在。此外，某些软件的对比度控件可能使用Y-only处理，不会产生联动效应。

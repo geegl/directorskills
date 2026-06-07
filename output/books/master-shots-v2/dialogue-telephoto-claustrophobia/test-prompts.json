@@ -1,0 +1,22 @@
+[
+  {
+    "input": "角色在法庭上听到判决，怎么拍他的反应才有冲击力？",
+    "expected_activation": true,
+    "reason": "角色接收到冲击性信息，需要心理压迫感"
+  },
+  {
+    "input": "我想拍一个角色在公园散步的长镜头",
+    "expected_activation": false,
+    "reason": "日常场景不需要长焦压迫"
+  },
+  {
+    "input": "怎么让观众感受到角色听到噩耗时的窒息感？",
+    "expected_activation": true,
+    "reason": "坏消息+窒息感=核心 trigger"
+  },
+  {
+    "input": "角色崩溃的瞬间用什么镜头？",
+    "expected_activation": true,
+    "reason": "情感冲击时刻需要长焦放大微表情"
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "skill": "scene-transition-seamless-pause",
+  "version": "0.1.0",
+  "source_book": "《大师场景：顶级场景转换术》 — Jeffrey Michael Bays",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "我的场景转换有8分钟长，怎么让观众不觉得拖沓？",
+      "expected_behavior": "应激活，建议用非情节内容（景物、氛围）填充，创造无缝间歇",
+      "notes": "正面场景：长转换设计"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "怎么让观众在不知不觉中休息？",
+      "expected_behavior": "应激活，解释无间歇欺骗的原理",
+      "notes": "正面场景：隐性间歇"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "电视剧的广告间歇怎么设计？",
+      "expected_behavior": "不应激活，这是电视广告间歇，不是电影的无间歇欺骗",
+      "notes": "诱饵：电视广告"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "舞台剧的幕间休息多长时间合适？",
+      "expected_behavior": "不应激活，这是舞台剧的幕间休息",
+      "notes": "诱饵：舞台剧"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "我的纪录片也需要这种无间歇欺骗吗？",
+      "expected_behavior": "可以激活——纪录片也可以用景物/氛围镜头创造隐性间歇",
+      "notes": "边界：纪录片"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

@@ -1,0 +1,44 @@
+{
+  "skill": "dialogue-distance-collapse-arc",
+  "version": "0.1.0",
+  "source_book": "《大师镜头 第二卷》 Christopher Kenworthy",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "角色在场景里情绪崩溃了，哭完了之后怎么自然地回到正常对话？",
+      "expected_behavior": "应激活，建议用向后退出镜头将观众和演员带回到现实",
+      "notes": "正面场景：崩溃后的回归"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "我想用摄影机推近来表现两个角色越来越亲密，但不想切镜头",
+      "expected_behavior": "应激活，指导一镜到底的推近及其中的象征性空间变化",
+      "notes": "正面场景：推近的象征叙事"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "两个角色在偷偷说话，我想在推近的过程中让观众感觉到他们之间有隔阂",
+      "expected_behavior": "应激活，建议推近过程中让两人从画面中央逐渐分开到两边",
+      "notes": "正面场景：推近中的分离象征"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "快节奏的动作片里两个角色在对话，需要快速切镜头保持紧张感",
+      "expected_behavior": "不应激活，快节奏剪辑不适合一镜到底的推近/退出",
+      "notes": "诱饵：快节奏场景"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "恐怖片里摄影机慢慢推近一个角色的脸，这是在制造恐惧还是情感深入？",
+      "expected_behavior": "两种解读都可能——恐怖片的推近可能是为了制造恐惧而非情感深入，需要根据上下文判断",
+      "notes": "边界：恐怖片推近 vs 情感推近"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

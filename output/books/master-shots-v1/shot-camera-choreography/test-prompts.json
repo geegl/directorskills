@@ -1,0 +1,59 @@
+{
+  "skill": "shot-camera-choreography",
+  "version": "0.1.0",
+  "source_book": "《大师镜头：低成本拍大片的100个高级技巧（第1卷）》 — Christopher Kenworthy",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "我有一场戏角色要从犹豫到下定决心走出房间，演员走位和摄影机怎么配合才能表现这个心理变化？",
+      "expected_behavior": "应激活 shot-camera-choreography，引导用户设计演员运动路线和摄影机运动轨迹的同步配合",
+      "notes": "核心场景：通过运动设计外化心理变化"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "我不想用正反打拍对话，两个人争执的场景有什么更有表现力的镜头设计？",
+      "expected_behavior": "应激活 shot-camera-choreography，建议用编舞法设计争执场景中演员的交叉运动路线",
+      "notes": "对话场景的替代方案需求"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "我拍完发现摄影机运动太刻意了，观众老是注意到摄影机在动，怎么让它不被注意到？",
+      "expected_behavior": "应激活 shot-camera-choreography，诊断摄影机运动与演员运动的同步性问题",
+      "notes": "摄影机暴露问题，编舞法的核心关切"
+    },
+    {
+      "id": "should-trigger-04",
+      "type": "should_trigger",
+      "prompt": "帮我设计一场戏的镜头方案，角色要穿过人群走到舞台中央发表演讲",
+      "expected_behavior": "应激活 shot-camera-choreography，引导用户系统设计演员穿越人群的路线和摄影机的跟拍方案",
+      "notes": "完整的镜头设计需求"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "手持稳定器和三脚架拍出来的画面有什么区别？各适合什么场景？",
+      "expected_behavior": "不应激活此 skill，用户在讨论摄影设备的技术特性，不涉及演员和摄影机的运动配合设计",
+      "notes": "诱饵：涉及摄影机运动但只是设备选择讨论"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "我拍纪录片跟拍一个街头艺人，他走到哪我跟到哪，有什么跟拍技巧？",
+      "expected_behavior": "不应激活此 skill，用户在讨论不可控的真实场景拍摄，编舞法假设可以事先设计",
+      "notes": "诱饵：涉及跟拍但场景不可控，编舞法不适用"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "我要拍一场打斗戏，演员要同时做动作摄影机也要动，但我不想事先设计得太死板，想保留一些即兴感，怎么平衡？",
+      "expected_behavior": "边界场景：编舞法强调事先设计，但用户想要即兴感。应建议用编舞法设计大框架（关键运动点和转折），在细节处留出即兴空间",
+      "notes": "边界：事先设计 vs 即兴拍摄的平衡"
+    }
+  ],
+  "minimum_pass_rate": 0.8,
+  "notes": "至少 3 条 should_trigger + 2 条 should_not_trigger + 1 条 edge_case。"
+}

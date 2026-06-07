@@ -1,0 +1,52 @@
+{
+  "skill": "shot-dual-camera-tension",
+  "version": "0.1.0",
+  "source_book": "《大师镜头：低成本拍大片的100个高级技巧（第1卷）》 — Christopher Kenworthy",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "我要拍一个追逐场景，想让观众感受到追兵越来越近，但实际距离没变，有什么镜头技巧？",
+      "expected_behavior": "应激活 shot-dual-camera-tension，建议用两台摄影机不同速度和运动状态制造追近的错觉",
+      "notes": "核心场景：追逐场景中的力量对比"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "两人对峙的场景，不用台词怎么让观众一眼看出谁更强？",
+      "expected_behavior": "应激活 shot-dual-camera-tension，建议用稳定运动拍摄强者、慌乱运动拍摄弱者",
+      "notes": "通过运动状态暗示力量对比"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "我有两台摄影机可以同时拍，怎么充分利用双机位来增强叙事效果？",
+      "expected_behavior": "应激活 shot-dual-camera-tension，引导用户通过运动状态差异而非只是角度差异来使用双机位",
+      "notes": "双机位的叙事性使用"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "我有三台摄影机，怎么设置多机位拍摄一场舞台剧？",
+      "expected_behavior": "不应激活此 skill，用户在讨论多机位拍摄的技术设置，不涉及运动状态差异的叙事设计",
+      "notes": "诱饵：涉及多机位但是技术设置而非叙事设计"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "手持摄影和稳定器拍出来的画面质感有什么不同？我该买哪个？",
+      "expected_behavior": "不应激活此 skill，用户在讨论设备选择，不涉及用运动状态差异制造叙事张力",
+      "notes": "诱饵：涉及手持和稳定但是设备选购而非叙事设计"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "我要拍一个角色从强势变弱势的逆转过程，只有一台摄影机，能实现类似的运动对比效果吗？",
+      "expected_behavior": "边界场景：用户想要运动对比效果但只有一台摄影机。应建议用 shot-still-vs-motion-decision 作为替代方案，或建议在后期通过速度变化模拟",
+      "notes": "边界：双机位需要 vs 单机位限制"
+    }
+  ],
+  "minimum_pass_rate": 0.8,
+  "notes": "至少 3 条 should_trigger + 2 条 should_not_trigger + 1 条 edge_case。"
+}

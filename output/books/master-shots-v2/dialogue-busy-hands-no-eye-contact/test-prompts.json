@@ -1,0 +1,22 @@
+[
+  {
+    "input": "我的两个演员在厨房对话，但他们演得太僵了，像在背台词",
+    "expected_activation": true,
+    "reason": "演员对话生硬是此 skill 的核心 trigger"
+  },
+  {
+    "input": "我要拍一场告白戏，男主角要直视女主角的眼睛说出我爱你",
+    "expected_activation": false,
+    "reason": "告白场景需要直接对视，此 skill 不适用"
+  },
+  {
+    "input": "亲密场景怎么拍才不像在演？两个角色是老朋友",
+    "expected_activation": true,
+    "reason": "亲密对话+自然感需求=触发此 skill"
+  },
+  {
+    "input": "演员太紧张了，手不知道往哪放",
+    "expected_activation": true,
+    "reason": "演员紧张+手部无处安放=需要找事干"
+  }
+]

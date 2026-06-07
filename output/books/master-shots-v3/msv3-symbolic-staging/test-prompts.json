@@ -1,0 +1,30 @@
+{
+  "skill_id": "msv3-symbolic-staging",
+  "prompts": [
+    {
+      "id": "ss-01",
+      "prompt": "I have a scene where two characters who are secretly attracted to each other are having a mundane conversation about work. How do I visually convey the attraction without changing the dialogue?",
+      "expected_behavior": "Should recommend the double push-in technique (5.1): alternating over-the-shoulder shots with simultaneous push-ins toward each actor. The camera movement itself becomes the metaphor for mutual attraction."
+    },
+    {
+      "id": "ss-02",
+      "prompt": "In my thriller, the villain gradually takes control of a situation from the hero. The dialogue doesn't explicitly state this shift. How do I show it through camera work?",
+      "expected_behavior": "Should describe the camera proximity transfer technique (5.5): villain approaches camera while dolly retreats, then after the cut, camera stays near the villain. The audience feels the villain has 'taken' the camera from the hero."
+    },
+    {
+      "id": "ss-03",
+      "prompt": "I'm shooting a scene where three friends are having dinner and one of them is about to be excluded from the group. How do I stage this?",
+      "expected_behavior": "Should reference the group dissolution technique (5.8): start with tight grouping, then have actors physically reposition so each ends up in their own frame. The excluded actor should pass behind the others to make it feel natural."
+    },
+    {
+      "id": "ss-04",
+      "prompt": "A couple is having an intimate moment but I want to show that something is about to interrupt their connection. How do I set this up visually?",
+      "expected_behavior": "Should recommend using depth of field / focus pull (5.3): pull one actor slightly out of focus to create a momentary feeling of separation, then have them move back into focus to re-establish connection."
+    },
+    {
+      "id": "ss-05",
+      "prompt": "My scene has a character who appears physically imposing walking toward the camera from a high angle. Should the high angle make them look weak?",
+      "expected_behavior": "Should explain that high angle + forward movement + not looking up = overwhelming presence (5.4). The key is that the actor doesn't acknowledge the camera's elevated position. Their forward stride dominates."
+    }
+  ]
+}

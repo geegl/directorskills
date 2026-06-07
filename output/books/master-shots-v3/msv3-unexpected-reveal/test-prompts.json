@@ -1,0 +1,30 @@
+{
+  "skill_id": "msv3-unexpected-reveal",
+  "prompts": [
+    {
+      "id": "ur-01",
+      "prompt": "I want to create a subtle sense of unease in a scene where a character is sneaking through a house. How do I use the camera to make the audience feel something is wrong?",
+      "expected_behavior": "Should recommend the POV destruction technique (3.4): establish what appears to be the character's POV moving through the house, then have the character walk into the shot. This destroys the voyeuristic identification and creates unease. Should mention the timing — the POV must be established for 2-4 seconds before the break."
+    },
+    {
+      "id": "ur-02",
+      "prompt": "I'm shooting a scene where the camera pulls back from a window to reveal the exterior. How do I make this reveal surprising?",
+      "expected_behavior": "Should recommend the movement misdirection technique (3.5): the audience expects to see the exterior, but the camera stops on an unexpected subject — perhaps a character who wasn't expected to be there. Should reference the Harry Potter example where the pull-back reveals Rupert Grint."
+    },
+    {
+      "id": "ur-03",
+      "prompt": "My character gestures toward something off-screen. I want the reveal to feel tense and unexpected. What camera movement should I use?",
+      "expected_behavior": "Should recommend the tilt-reveal technique (4.6): use pan/tilt to follow the gesture and gradually reveal the full context — often something surprising like hidden threats. Should reference the Leon example where the tilt reveals armed men waiting."
+    },
+    {
+      "id": "ur-04",
+      "prompt": "I've established a POV shot of my character looking around a room. Now I want to break the audience's sense of safety. What's the most effective way?",
+      "expected_behavior": "Should recommend having the character walk into their own POV shot (3.4). This subconsciously signals that the rules of the scene have changed. Should emphasize that the POV must be convincingly established first — if it's not, the break won't work."
+    },
+    {
+      "id": "ur-05",
+      "prompt": "I'm shooting a thriller where the audience thinks the camera is revealing a safe room, but I want to show it's actually dangerous. How do I structure the reveal?",
+      "expected_behavior": "Should recommend establishing the camera movement as a standard room reveal (pull-back or pan), then stopping on an unexpected element that signals danger — a weapon, an unexpected person, a changed detail. Should mention that the audience must commit to their assumption before the break (2-4 seconds)."
+    }
+  ]
+}

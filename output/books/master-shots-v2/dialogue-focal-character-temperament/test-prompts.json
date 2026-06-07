@@ -1,0 +1,22 @@
+[
+  {
+    "input": "同一个演员前半段是好人后半段黑化了，怎么用镜头区分？",
+    "expected_activation": true,
+    "reason": "通过焦距改变角色气质感知"
+  },
+  {
+    "input": "我的50mm镜头景深太浅了，要不要换更长的？",
+    "expected_activation": false,
+    "reason": "讨论的是焦距的物理特性，不是叙事用途"
+  },
+  {
+    "input": "反派第一次出场怎么拍才有视觉冲击力？",
+    "expected_activation": true,
+    "reason": "需要通过镜头选择建立角色气质"
+  },
+  {
+    "input": "两个角色对话，怎么让观众一眼看出谁更强？",
+    "expected_activation": true,
+    "reason": "力量对比的视觉化需要焦距选择"
+  }
+]

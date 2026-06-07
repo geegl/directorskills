@@ -1,0 +1,51 @@
+{
+  "skill": "scene-transition-music-quadrant",
+  "version": "0.1.0",
+  "source_book": "《大师场景：顶级场景转换术》 — Jeffrey Michael Bays",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "主角刚刚经历了一场激烈的争吵，下一个场景是他独自开车离开。这两个场景之间的音乐怎么处理？",
+      "expected_behavior": "应激活 scene-transition-music-quadrant，建议根据情感需求选择四象限组合（如争吵结尾用静默，开车时音乐渐入=静默→音乐）",
+      "notes": "正面场景：情感转换的音频策略"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "我在剪辑一个短视频，两个片段之间要不要加BGM过渡？",
+      "expected_behavior": "应激活 scene-transition-music-quadrant，建议分析两个片段的音频状态后选择合适的组合",
+      "notes": "正面场景：短视频的音频过渡"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "大事件之后的场景转换，音乐突然停了会不会让观众觉得奇怪？",
+      "expected_behavior": "应激活 scene-transition-music-quadrant，解释音乐→静默组合的效果是紧张收束，不是错误",
+      "notes": "正面场景：音乐→静默策略"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "这段配乐的版权问题怎么解决？",
+      "expected_behavior": "不应激活，这是版权问题，不是音频策略",
+      "notes": "诱饵：版权问题"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "这个场景里演员的台词声音太小了怎么调？",
+      "expected_behavior": "不应激活，这是音频工程问题，不是场景转换策略",
+      "notes": "诱饵：音频技术问题"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "我的电影全程没有配乐，只有环境音。这种情况下场景转换怎么处理音频？",
+      "expected_behavior": "应激活——即使是纯环境音，也适用四象限框架（环境音的有无/变化等同于音乐/静默的选择）",
+      "notes": "边界：无配乐电影的极端情况"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

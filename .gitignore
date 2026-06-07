@@ -10,3 +10,20 @@
 # Temp
 CONTINUE_PROMPT.md
 *.tmp
+
+# OCR intermediate images
+output/books/*/grids/
+output/books/*/pages/
+output/books/*/ocr/
+
+# Scripts (working files)
+scripts/
+render_grids.py
+
+# Copyright protection - do NOT upload OCR text or source content
+output/books/*/full_text*.md
+output/books/*/retry_results.md
+pdfs/preview_*.jpg
+pdfs/verify_*.jpg
+pdfs/real_*.pdf
+pdfs/_*.pdf

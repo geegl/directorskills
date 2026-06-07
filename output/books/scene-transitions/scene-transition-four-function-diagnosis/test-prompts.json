@@ -1,0 +1,52 @@
+{
+  "skill": "scene-transition-four-function-diagnosis",
+  "version": "0.1.0",
+  "source_book": "《大师场景：顶级场景转换术》 — Jeffrey Michael Bays",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "我在剪辑一部短片，两个场景之间的转场不知道该用什么风格，音乐还是静默？",
+      "expected_behavior": "应激活 scene-transition-four-function-diagnosis，引导用户用四功能诊断法确定转换需要满足的心理功能，再根据功能选择技法。",
+      "notes": "用户在纠结场景转换风格，需要功能诊断来指导选择。"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "我的影片有一段场景转换感觉很平，但说不上来哪里不对，能帮我分析一下吗？",
+      "expected_behavior": "应激活 scene-transition-four-function-diagnosis，用四功能诊断法扫描该转换，判断它是否缺乏明确功能（即末节场景）。",
+      "notes": "用户感觉转换有问题但无法诊断，需要功能分析工具。"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "我在设计一款叙事游戏的过场动画，每个过场应该让玩家做什么？",
+      "expected_behavior": "应激活 scene-transition-four-function-diagnosis，将四功能（思考/感受/舒缓/联系）应用到游戏过场动画设计中。",
+      "notes": "用户在设计过场动画，需要场景转换功能的系统化指导。"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "我想写一个关于时间旅行的电影剧本，怎么构建故事结构？",
+      "expected_behavior": "不应激活本 skill，因为用户在讨论整体故事结构而非场景转换细节。应使用故事构建框架。",
+      "notes": "诱饵：用户提到'故事结构'但与场景转换功能诊断无关。"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "这个对话场景应该用正反打还是过肩镜头？",
+      "expected_behavior": "不应激活本 skill，因为用户在讨论单一场景内部的镜头调度而非场景之间的转换。",
+      "notes": "诱饵：镜头调度问题，不涉及场景转换功能诊断。"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "我在做一个商业广告，15秒内有5个场景切换，每个切换应该有什么功能？",
+      "expected_behavior": "应该部分激活——四功能诊断法的原则适用，但需要根据广告的特殊性（极短时长、商业目的）做适应性调整。可以建议简化为'冲击'和'过渡'两种功能。",
+      "notes": "边界：广告的场景转换逻辑与电影不完全相同，但功能诊断的思维框架仍有参考价值。"
+    }
+  ],
+  "minimum_pass_rate": 0.8,
+  "notes": "至少 3 条 should_trigger + 2 条 should_not_trigger + 1 条 edge_case。全部 should_not_trigger 必须通过 (诱饵容错为 0)。"
+}

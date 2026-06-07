@@ -1,0 +1,44 @@
+{
+  "skill": "dialogue-camera-follow-identity",
+  "version": "0.1.0",
+  "source_book": "《大师镜头 第二卷》 Christopher Kenworthy",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "追逐场景中，我该让摄影机跟着追人的还是被追的？",
+      "expected_behavior": "应激活，指导跟随被追角色以获得观众认同",
+      "notes": "正面场景：经典追逐选择"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "老板在训话员工，怎么让观众站在老板这边？",
+      "expected_behavior": "应激活，建议摄影机锁定老板，保持固定距离和高度跟随",
+      "notes": "正面场景：训话/演讲跟随"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "一个角色追着另一个角色在房间里走来走去说话，怎么拍出追赶感？",
+      "expected_behavior": "应激活，指导跟随被追角色，追的人放画面边缘",
+      "notes": "正面场景：房间内追赶"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "纪录片拍摄两个政治候选人的辩论，怎么分配镜头？",
+      "expected_behavior": "不应激活，纪录片需要客观性，不应让观众认同某一方",
+      "notes": "诱饵：纪录片客观拍摄"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "反派电影里我想让观众害怕反派，该跟谁拍？",
+      "expected_behavior": "跟随原则可被反转——跟随反派可以制造不安和恐惧，但这需要谨慎使用",
+      "notes": "边界：跟随=认同的反转"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

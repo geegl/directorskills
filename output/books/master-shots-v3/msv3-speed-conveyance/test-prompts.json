@@ -1,0 +1,30 @@
+{
+  "skill_id": "msv3-speed-conveyance",
+  "prompts": [
+    {
+      "id": "sc-01",
+      "prompt": "My chase scene feels slow despite fast editing. What am I doing wrong?",
+      "expected_behavior": "Should diagnose the camera angle problem: likely shooting along the actor's path rather than perpendicular. Should recommend near-180° angle (7.7), lowering camera for ground proximity, and adding foreground objects (2.2). Should warn that fast cutting alone doesn't create speed."
+    },
+    {
+      "id": "sc-02",
+      "prompt": "I'm shooting a training montage where the character runs through a park. How do I make it feel intense without fast cutting?",
+      "expected_behavior": "Should recommend orbit with distance variation (7.6), passing behind trees/pillars, and using foreground objects to create motion blur (2.2). Should mention that maintaining constant distance then suddenly shifting creates a perceptual 'jump'."
+    },
+    {
+      "id": "sc-03",
+      "prompt": "I want to shoot a single-take action sequence that feels fast and kinetic. What camera techniques should I use?",
+      "expected_behavior": "Should recommend layering multiple speed techniques: near-perpendicular angle (7.7), low camera height, foreground objects (2.2), and distance variation during movement (7.6). Should emphasize combining these in one shot rather than cutting between them (7.1)."
+    },
+    {
+      "id": "sc-04",
+      "prompt": "My Steadicam operator is following the actor at a constant distance through a corridor. It looks smooth but boring. How do I add energy?",
+      "expected_behavior": "Should recommend varying the distance during the shot (7.6): maintain constant distance for 2-3 beats, then shift several feet closer or further. Should also suggest having the camera pass behind pillars or doorways to create speed perception."
+    },
+    {
+      "id": "sc-05",
+      "prompt": "I'm filming a car chase. The camera is mounted on the side of the car tracking alongside. It feels flat. What's missing?",
+      "expected_behavior": "Should diagnose that the camera is likely too high and too far from the ground. Should recommend lowering the camera, adding foreground objects (other cars, barriers, poles flashing past), and using a more perpendicular angle to the car's path rather than parallel."
+    }
+  ]
+}

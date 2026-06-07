@@ -1,0 +1,44 @@
+{
+  "skill": "scene-transition-synch-node",
+  "version": "0.1.0",
+  "source_book": "《大师场景：顶级场景转换术》 — Jeffrey Michael Bays",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "我有三条故事线，怎么让观众知道它们是相关的？",
+      "expected_behavior": "应激活，建议使用同步节点（物体/场所/人物相遇）",
+      "notes": "正面场景"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "多线叙事的故事线怎么交汇？",
+      "expected_behavior": "应激活，解释同步节点的三种类型",
+      "notes": "正面场景"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "单线叙事的故事结构怎么设计？",
+      "expected_behavior": "不应激活，单线叙事不需要同步节点",
+      "notes": "诱饵"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "两个角色之间的对话怎么写？",
+      "expected_behavior": "不应激活，这是对白问题",
+      "notes": "诱饵"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "我的多线叙事中故事线永远不交汇，还需要同步节点吗？",
+      "expected_behavior": "不太需要——如果故事线刻意不交汇（如选集式电影），同步节点不适用",
+      "notes": "边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

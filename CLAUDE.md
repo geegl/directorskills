@@ -1,6 +1,6 @@
 # DirectorSkills — 导演书籍蒸馏项目
 
-> 用 book2skill 把 7 本导演/电影制作书籍蒸馏成可执行 skills，再用 darwin-skill 做质量优化。
+> 用 book2skill 把 10 本影视制作全流程书籍蒸馏成可执行 skills，再用 darwin-skill 做质量优化。
 
 ---
 
@@ -10,42 +10,60 @@
 DirectorSkills/
 ├── CLAUDE.md                          # 本文件（项目上下文）
 ├── output/books/                      # 蒸馏产出
-│   ├── directing-masterclass/         # ✅ 已完成
-
-│   ├── master-shots-v1/               # ✅ 已完成
-│   ├── master-shots-v2/               # ⏳ 待开始
-│   ├── master-shots-v3/               # ⏳ 待开始
-│   ├── color-grading/                 # ⏳ 待开始
-│   └── scene-transitions/             # ⏳ 待开始
-└── *.pdf                              # 源书 PDF（存于 Google Drive，见下方链接）
+│   ├── story-design/                  # ⏳ 待蒸馏
+│   ├── directing-masterclass/         # ✅ 已完成 (15 skills)
+│   ├── master-shots-v1/               # ✅ 已完成 (6 skills)
+│   ├── shot-design/                   # ⏳ 待蒸馏 (OCR完成)
+│   ├── cinematography-brown/          # ⏳ 待OCR
+│   ├── color-grading/                 # ⏳ 待蒸馏 (OCR完成)
+│   ├── scene-transitions/             # ✅ 已完成 (11 skills)
+│   ├── sound-design/                  # ⏳ 待OCR
+│   ├── master-shots-v2/               # ✅ 已完成 (16 skills)
+│   └── master-shots-v3/               # ✅ 已完成 (8 skills)
+└── pdfs/                              # 源书 PDF（见下方链接）
 ```
 
 ---
 
-## 7 本书清单与分组
+## 10 本书清单与 AI 影视全流程覆盖
 
-### 主题域分组
-- **镜头域** (Shot): 4 本，共享镜头语言，skill 间有交叉
-- **导演域** (Directing): 1 本，基础方法论总纲
-- **视觉域** (Visual): 2 本，后期/视觉叙事
+覆盖从剧本到最终输出的完整影视制作链，每本书对应 AI 影视生成工作流的一个关键环节。
 
-| # | slug | 书名 | 作者 | 主题 | 状态 | PDF 链接 |
-|---|------|------|------|------|------|----------|
-| 1 | `directing-masterclass` | 电影导演大师课 | Alexander Mackendrick | 导演方法论 | ✅ 完成 | [下载](https://drive.google.com/file/d/1IKPyDhJwXAA5_I8eFTjJvZP5Et4GVoWi/view?usp=drive_link) |
-| 2 | `master-shots-v1` | 大师镜头 第1卷 | Christopher Kenworthy | 镜头技法 | ✅ 完成 | [下载](https://drive.google.com/file/d/1B4rrvbxpvDiAn_eJ2uOtj4NZz-LD04vf/view?usp=drive_link) |
-| 3 | `shot-design` | 从构思到银幕：电影镜头设计 | Steven Katz | 镜头设计 | ⏳ 待蒸馏 | [下载](https://drive.google.com/file/d/1nowaRBiLaTN6pdfr6x4hweacJ6IDn6MT/view?usp=sharing) |
-| 4 | `master-shots-v2` | 大师镜头·第2卷 | Christopher Kenworthy | 对话镜头 | ✅ 完成 | [下载](https://drive.google.com/file/d/1A10sOYuPl78A7GaLVxYSUIvwh33MdHOB/view?usp=drive_link) |
-| 5 | `master-shots-v3` | 大师镜头·第3卷 | Christopher Kenworthy | 镜头调度 | ✅ 完成 | [下载](https://drive.google.com/file/d/1zGhQcHEVICXMaJJfNtysrVsTP3DXvxJ7/view?usp=drive_link) |
-| 6 | `color-grading` | 调色师手册·第2版 | Alexis Van Hurkman | 调色技法 | ⏳ OCR中 | [下载](https://drive.google.com/file/d/1BKYNgVFVc-JYQc3Vm4lD4u0I847JyWAK/view?usp=drive_link) |
-| 7 | `scene-transitions` | 大师场景：顶级场景转换术 | Jeffrey Michael Bays | 场景转换 | ✅ 完成 | [下载](https://drive.google.com/file/d/1FtIPf8T_AuY6VJsXSU1lOgS3Oa7-34sM/view?usp=drive_link) |
+| # | 类别 | slug | 书名 | 作者 | 状态 | Skills |
+|---|------|------|------|------|------|--------|
+| 1 | 剧本结构 | `story-design` | 《救猫咪》Save the Cat! | Blake Snyder | ⏳ 全文就绪，待蒸馏 | - |
+| 2 | 导演思维 | `directing-masterclass` | 《电影导演大师课》 | Alexander Mackendrick | ✅ 完成 | 15 |
+| 3 | 镜头技巧 | `master-shots-v1` | 《大师镜头》第1卷 | Christopher Kenworthy | ✅ 完成 | 6 |
+| 4 | 分镜设计 | `shot-design` | 《电影镜头设计：从构思到银幕》 | Steven Katz | ⏳ 全文就绪，待蒸馏 | - |
+| 5 | 灯光摄影 | `cinematography-brown` | 《电影摄影：理论与实践》 | Blain Brown | ⏳ 待OCR | - |
+| 6 | 色彩调色 | `color-grading` | 《调色师手册》第2版 | Alexis Van Hurkman | ⏳ 全文就绪，待蒸馏 | - |
+| 7 | 场景转场 | `scene-transitions` | 《大师场景》 | Jeffrey Michael Bays | ✅ 完成 | 11 |
+| 8 | 声音设计 | `sound-design` | 《声音设计》 | David Sonnenschein | ⏳ 待OCR | - |
+| 9 | 镜头技巧 | `master-shots-v2` | 《大师镜头》第2卷 | Christopher Kenworthy | ✅ 完成 | 16 |
+| 10 | 镜头技巧 | `master-shots-v3` | 《大师镜头》第3卷 | Christopher Kenworthy | ✅ 完成 | 8 |
 
-> **PDF 大小参考**：7 个 PDF 总计约 680MB。其中 master-shots-v3 最大（~158MB），master-shots-v1 最小（~8MB）。下载和处理时请注意磁盘空间。
+### PDF 下载链接
+
+| slug | Google Drive 链接 |
+|------|-------------------|
+| story-design | https://drive.google.com/file/d/10IhuOtTRmfF6NzStsMbrvq88fPDZpI6C/view?usp=sharing |
+| directing-masterclass | https://drive.google.com/file/d/1IKPyDhJwXAA5_I8eFTjJvZP5Et4GVoWi/view?usp=drive_link |
+| master-shots-v1 | https://drive.google.com/file/d/1B4rrvbxpvDiAn_eJ2uOtj4NZz-LD04vf/view?usp=drive_link |
+| shot-design | https://drive.google.com/file/d/1nowaRBiLaTN6pdfr6x4hweacJ6IDn6MT/view?usp=sharing |
+| cinematography-brown | ⚠️ 待补充（当前链接指向《声音设计》） |
+| color-grading | https://drive.google.com/file/d/1BKYNgVFVc-JYQc3Vm4lD4u0I847JyWAK/view?usp=drive_link |
+| scene-transitions | https://drive.google.com/file/d/1FtIPf8T_AuY6VJsXSU1lOgS3Oa7-34sM/view?usp=drive_link |
+| sound-design | https://drive.google.com/file/d/1gMn976hSAgwxZ2VVAX35xdzJLcvMgA_g/view?usp=sharing |
+| master-shots-v2 | https://drive.google.com/file/d/1A10sOYuPl78A7GaLVxYSUIvwh33MdHOB/view?usp=drive_link |
+| master-shots-v3 | https://drive.google.com/file/d/1zGhQcHEVICXMaJJfNtysrVsTP3DXvxJ7/view?usp=drive_link |
+
+> **PDF 总计约 700MB+**。master-shots-v3 最大（~151MB），story-design 最小（~2.3MB）。
 
 ### 蒸馏顺序
 ```
-批次 1: 导演域 (directing-masterclass) ✅
-批次 2: 镜头域 (master-shots-v1 → v2 → v3) ✅
-批次 3: 视觉域 (color-grading + scene-transitions) ⏳
+批次 1 (已完成): directing-masterclass, master-shots-v1/v2/v3, scene-transitions ✅
+批次 2 (进行中): story-design + shot-design + color-grading (全文已就绪)
+批次 3 (待OCR):  cinematography-brown + sound-design (扫描PDF需OCR)
 ```
 
 ---
@@ -113,7 +131,7 @@ output/books/<slug>/
 
 | # | 类别 | slug | 书名 | 作者 | 核心内容 | AI蒸馏价值 |
 |---|------|------|------|------|----------|-----------|
-| 1 | 剧本结构 | save-the-cat | 《救猫咪》Save the Cat! | Blake Snyder | 15节拍表（Beat Sheet）结构，商业化故事模板 | 最适合转成强约束System Prompt模板，保障短剧每集Hook与起承转合一致性 |
+| 1 | 剧本结构 | story-design | 《救猫咪》Save the Cat! | Blake Snyder | 15节拍表（Beat Sheet）结构，商业化故事模板 | 最适合转成强约束System Prompt模板，保障短剧每集Hook与起承转合一致性 |
 | 2 | 导演思维 | directing-masterclass | 《电影导演大师课》On Film-making | Alexander Mackendrick | 场景戏剧目的、subtext、人物行为与视觉叙事关系 | 教AI"为什么拍这个镜头"，提升prompt的戏剧意图与情绪精准度 |
 | 3 | 镜头技巧 | master-shots-v1 | 《大师镜头》第1卷 | Christopher Kenworthy | 100+种具体场面镜头运动、构图与覆盖方案 | 直接转化为镜头prompt库与多镜头覆盖策略模板 |
 | 4 | 分镜设计 | shot-design | 《电影镜头设计：从构思到银幕》Shot by Shot | Steven D. Katz | 从剧本到分镜清单、场面覆盖、轴线与连续性 | 建立"剧本→Shotlist→AI生成"标准化工作流 |
@@ -128,7 +146,7 @@ output/books/<slug>/
 
 | slug | Google Drive 链接 |
 |------|-------------------|
-| save-the-cat | https://drive.google.com/file/d/10IhuOtTRmfF6NzStsMbrvq88fPDZpI6C/view?usp=sharing |
+| story-design | https://drive.google.com/file/d/10IhuOtTRmfF6NzStsMbrvq88fPDZpI6C/view?usp=sharing |
 | directing-masterclass | https://drive.google.com/file/d/1IKPyDhJwXAA5_I8eFTjJvZP5Et4GVoWi/view?usp=drive_link |
 | master-shots-v1 | https://drive.google.com/file/d/1B4rrvbxpvDiAn_eJ2uOtj4NZz-LD04vf/view?usp=drive_link |
 | shot-design | https://drive.google.com/file/d/1nowaRBiLaTN6pdfr6x4hweacJ6IDn6MT/view?usp=sharing |

@@ -1,0 +1,46 @@
+{
+  "skill": "shot-design-storyboard-rapid",
+  "version": "0.1.0",
+  "source_book": "《电影镜头设计》 — Steven D. Katz",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "我不会画画，怎么快速画出分镜？",
+      "expected_behavior": "应激活，引导用简笔人物和立方体方法"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "故事板需要画得很精细吗？",
+      "expected_behavior": "应激活，解释快速影像化不需要精细绘画"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "怎么把脑中的画面快速变成草图？",
+      "expected_behavior": "应激活，介绍立方体包裹法"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "帮我写一个完整的故事大纲",
+      "expected_behavior": "不应激活"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "这个场景的对白怎么改？",
+      "expected_behavior": "不应激活"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "我需要给客户展示精美的分镜稿",
+      "expected_behavior": "应部分激活——快速方法可用于初稿，但精美稿需要专业插画"
+    }
+  ],
+  "minimum_pass_rate": 0.8,
+  "notes": "至少 3 条 should_trigger + 2 条 should_not_trigger + 1 条 edge_case。"
+}

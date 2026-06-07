@@ -1,0 +1,46 @@
+{
+  "skill": "shot-design-angle-context",
+  "version": "0.1.0",
+  "source_book": "《电影镜头设计》 — Steven D. Katz",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "低角度拍出来效果不对怎么办？",
+      "expected_behavior": "应激活，解释角度的上下文依赖性"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "仰拍俯拍怎么选择？",
+      "expected_behavior": "应激活，引导根据故事语境选择而非公式"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "摄影角度本身有意义吗？",
+      "expected_behavior": "应激活，解释角度由故事决定"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "故事结局怎么设计？",
+      "expected_behavior": "不应激活"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "对白怎么写？",
+      "expected_behavior": "不应激活"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "恐怖片的低角度有什么特殊效果？",
+      "expected_behavior": "应激活——恐怖片的角度有相对固定的惯例"
+    }
+  ],
+  "minimum_pass_rate": 0.8,
+  "notes": "至少 3 条 should_trigger + 2 条 should_not_trigger + 1 条 edge_case。"
+}

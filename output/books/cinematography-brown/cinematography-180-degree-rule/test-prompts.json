@@ -1,0 +1,45 @@
+{
+  "skill": "cinematography-180-degree-rule",
+  "version": "0.1.0",
+  "source_book": "《电影摄影：理论与实践》 — Blain Brown",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "180度规则是什么？怎么用？",
+      "expected_behavior": "应激活，解释180度规则的原理和操作"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "观众搞不清谁在看谁怎么办",
+      "expected_behavior": "应激活，检查是否违反了180度规则"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "怎么在对话场景中切换摄影机位置？",
+      "expected_behavior": "应激活，介绍合法的摄影机位置"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "故事的结局怎么设计？",
+      "expected_behavior": "不应激活——这是故事结构问题"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "对白怎么写？",
+      "expected_behavior": "不应激活——这是编剧问题"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "我想故意打破180度规则制造混乱感",
+      "expected_behavior": "应激活——解释规则的同时说明何时可以打破"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

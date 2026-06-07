@@ -1,0 +1,46 @@
+{
+  "skill": "story-design-theme-b-story",
+  "version": "0.1.0",
+  "source_book": "《救猫咪》 — Blake Snyder",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "我的故事'不知道在说什么'，主题表达不清楚",
+      "expected_behavior": "应激活 story-design-theme-b-story，引导用B Story讨论主题"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "B Story怎么写？跟A Story什么关系？",
+      "expected_behavior": "应激活 story-design-theme-b-story，解释B Story是主题的讨论场"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "主题表达太说教了怎么办？",
+      "expected_behavior": "应激活 story-design-theme-b-story，建议把主题埋入B Story而非直接宣布"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "这个场景的节奏怎么调整？",
+      "expected_behavior": "不应激活——这是场景层面的问题"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "主角的性格怎么塑造？",
+      "expected_behavior": "不应激活——这是角色塑造问题，不是主题表达问题"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "我的故事没有B Story，主题怎么表达？",
+      "expected_behavior": "应激活——没有B Story是问题所在，需要设计B Story来承载主题"
+    }
+  ],
+  "minimum_pass_rate": 0.8,
+  "notes": "至少 3 条 should_trigger + 2 条 should_not_trigger + 1 条 edge_case。全部 should_not_trigger 必须通过。"
+}

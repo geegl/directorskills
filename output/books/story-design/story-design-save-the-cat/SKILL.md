@@ -1,0 +1,97 @@
+---
+name: story-design-save-the-cat
+description: |
+  当用户需要让主角更讨人喜欢、诊断观众不关心主角的问题、或设计主角首次出场时调用。核心 trigger：用户提到'观众不喜欢主角'、'怎么让主角讨人喜欢'、'第一次出场'、'Save the Cat'。不适用于：用户讨论反派设计（反派不需要讨人喜欢）。
+source_book: 《救猫咪》Blake Snyder
+source_chapter: 第5章 Heroes
+tags: [screenwriting, story-structure, beat-sheet, blake-snyder]
+related_skills:
+  - depends-on: story-design-beat-sheet — 其他7个skill都基于BS2框架
+  - composes-with: story-design-genres — 类型决定BS2的具体节拍内容
+  - composes-with: story-design-logline — logline是概念的终极测试
+  - contrasts-with: directing-story-framework — STC!是商业模板，directing是自由构建
+---
+
+# Save the Cat 认同建立法
+
+## R — 原文 (Reading)
+
+> The hero has to do something when we first meet him so that we like him and want him to win. It's the Save the Cat moment.
+>
+> — Snyder, 第5章 Heroes
+
+---
+
+## I — 方法论骨架 (Interpretation)
+
+Save the Cat 是指主角在首次出场时做一件让观众喜欢的事——救一只猫、帮助弱者、展示幽默感。核心思想是：观众需要一个理由来关心主角，这个理由必须在故事开始后不久就建立。
+
+4种变体：Save the Cat（救弱者），Save the Dog（展示脆弱），Pet the Dog（与弱者建立联系），We're Introduced to Them via Victim（通过受害者视角引入）。每种变体适用于不同类型的主角。
+
+独特价值：如果观众不关心主角，整个故事就崩了。Save the Cat 是最简单但最有效的主角认同建立技巧。
+
+---
+
+## A1 — 书中的应用 (Past Application)
+
+### 案例 1
+- **问题**: 如何在商业故事中应用此方法论
+- **方法论的使用**: 《The Queen》中，Helen Mirren 饰演的女王在前半段被塑造成'冷酷'的皇家形象。直到'Save the Stag'时刻——她在苏格兰高地看到一只被困的鹿，独自走上前去解救——观众才终于感受到她的人性。这个 moment 改变了观众对她的看法，也预示了她后续的政策转变。
+- **结论**: 此框架提供了可操作的工具，将抽象的故事问题转化为具体的结构决策
+- **结果**: 故事获得了清晰的结构和情感弧线
+
+---
+
+## A2 — 触发场景 (Future Trigger) ★
+
+### 用户会在什么情境下需要这个 skill?
+
+1. 观众不喜欢主角
+2. 怎么让主角讨人喜欢
+3. 主角第一次出场怎么设计
+
+### 语言信号 (用户的话里出现这些就应激活)
+
+- "Save the Cat"
+- "主角讨人喜欢"
+- "观众认同"
+- "第一次出场"
+
+### 与相邻 skill 的区分
+
+- 与 `story-design-beat-sheet` 的区别: beat-sheet 是整体15节拍框架，本 skill 聚焦特定方法论
+- 与 `story-design-genres` 的区别: genres 决定'是什么类型'，本 skill 决定'怎么操作'
+
+---
+
+## E — 可执行步骤 (Execution)
+
+当 skill 被激活后, agent 应按以下步骤执行:
+
+1. **选择变体**
+   - 完成标准: 根据主角类型选择：英雄型用 Save the Cat（救弱者），普通人型用 Save the Dog（展示脆弱），反英雄型用 Pet the Dog（与弱者建立联系）
+
+2. **设计具体行动**
+   - 完成标准: 行动必须是可见的、具体的——'他帮助了别人'太抽象，'他从树上救下一只猫'才有效
+   - 判停条件: 若核心条件不满足，则回到步骤1重新评估
+
+3. **放在故事早期**
+   - 完成标准: Save the Cat 必须在主角首次出场后的前5分钟内发生——延迟太久观众会形成负面印象
+
+---
+
+## B — 边界 (Boundary) ★
+
+### 不要在以下情况使用此 skill
+
+- 不要在反派身上使用——反派不需要讨人喜欢，反而需要让人恐惧或厌恶
+- 不要用抽象的'好人'标签——必须是具体的、可见的行动
+
+### 作者在书中警告的失败模式
+
+- Save the Cat 时刻放在故事过半才出现——观众已经形成了对主角的负面印象
+- 行动太抽象——'他是个好人'不如'他从树上救下一只猫'有效
+
+### 作者的盲点
+
+作者假设所有主角都需要讨人喜欢，但某些反英雄叙事（如《绝命毒师》）可能故意延迟或跳过 Save the Cat，让观众对主角的认同变得更加复杂。

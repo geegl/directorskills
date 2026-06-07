@@ -1,0 +1,46 @@
+{
+  "skill": "story-design-genres",
+  "version": "0.1.0",
+  "source_book": "《救猫咪》 — Blake Snyder",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "我的故事是关于一群人被困在一个房子里，有一个怪物追杀他们，这是什么类型？",
+      "expected_behavior": "应激活 story-design-genres，识别为 Monster in the House 类型"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "爱情片的套路有哪些？怎么写出不一样的爱情故事？",
+      "expected_behavior": "应激活 story-design-genres，介绍 Buddy Love 类型的核心元素"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "我的主角是一个普通人突然获得了超能力，这算什么类型？",
+      "expected_behavior": "应激活 story-design-genres，识别为 Out of the Bottle 或 Superhero 类型"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "帮我写一个恐怖场景的分镜",
+      "expected_behavior": "不应激活——这是具体场景设计，不是类型分析"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "《闪灵》的恐怖元素有哪些？",
+      "expected_behavior": "不应激活——这是已有作品的分析，不是类型诊断"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "我的故事既有怪物追杀又有爱情线，应该怎么分类？",
+      "expected_behavior": "应激活——识别主类型（MITH）和副类型（Buddy Love），说明如何结合"
+    }
+  ],
+  "minimum_pass_rate": 0.8,
+  "notes": "至少 3 条 should_trigger + 2 条 should_not_trigger + 1 条 edge_case。全部 should_not_trigger 必须通过。"
+}

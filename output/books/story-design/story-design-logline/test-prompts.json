@@ -1,0 +1,46 @@
+{
+  "skill": "story-design-logline",
+  "version": "0.1.0",
+  "source_book": "《救猫咪》 — Blake Snyder",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "我有一个故事创意，能帮我用一句话说清楚吗？",
+      "expected_behavior": "应激活 story-design-logline，用4+4公式帮助提炼"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "这个logline怎么样：'一个警察追捕一个连环杀手'",
+      "expected_behavior": "应激活 story-design-logline，指出缺乏irony，引导改进"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "怎么评估一个故事创意是否可行？",
+      "expected_behavior": "应激活 story-design-logline，用logline的irony标准来评估"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "帮我写一个完整的故事大纲",
+      "expected_behavior": "不应激活——这是大纲写作，不是logline提炼"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "这个标题怎么样？",
+      "expected_behavior": "不应激活——标题评估虽然相关但不是logline的核心功能"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "我的故事太复杂了，一句话说不清楚怎么办？",
+      "expected_behavior": "应激活——复杂故事更需要logline来检验概念是否清晰"
+    }
+  ],
+  "minimum_pass_rate": 0.8,
+  "notes": "至少 3 条 should_trigger + 2 条 should_not_trigger + 1 条 edge_case。全部 should_not_trigger 必须通过。"
+}

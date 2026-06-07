@@ -1,0 +1,46 @@
+{
+  "skill": "story-design-midpoint",
+  "version": "0.1.0",
+  "source_book": "《救猫咪》 — Blake Snyder",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "我的故事到中间就散了，第二幕写不下去",
+      "expected_behavior": "应激活 story-design-midpoint，用假胜利/假失败来锚定中点"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "Midpoint怎么设计？",
+      "expected_behavior": "应激活 story-design-midpoint，解释False Victory/False Failure"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "故事的节奏怎么控制？中间太平淡了",
+      "expected_behavior": "应激活 story-design-midpoint，用Midpoint转折提升节奏"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "结局怎么设计？",
+      "expected_behavior": "不应激活——这是终局问题"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "开场怎么写才有吸引力？",
+      "expected_behavior": "不应激活——这是Opening Image问题"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "散文式故事需要Midpoint吗？",
+      "expected_behavior": "应部分激活——散文式故事可以没有明确的Midpoint转折，但需要某种形式的中点锚定"
+    }
+  ],
+  "minimum_pass_rate": 0.8,
+  "notes": "至少 3 条 should_trigger + 2 条 should_not_trigger + 1 条 edge_case。全部 should_not_trigger 必须通过。"
+}

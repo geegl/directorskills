@@ -1,0 +1,46 @@
+{
+  "skill": "story-design-beat-sheet",
+  "version": "0.1.0",
+  "source_book": "《救猫咪》 — Blake Snyder",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "我想写一个关于时间旅行的故事，但不知道怎么构建结构",
+      "expected_behavior": "应激活 story-design-beat-sheet，引导用户用15节拍框架从Opening Image到Final Image逐步构建"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "我的剧本第二幕总是写散了，有什么好的结构工具吗？",
+      "expected_behavior": "应激活 story-design-beat-sheet，用BS2的Midpoint和Fun and Games节拍来锚定第二幕"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "Beat Sheet怎么用？15个节拍每个都要写吗？",
+      "expected_behavior": "应激活 story-design-beat-sheet，解释每个节拍的功能和必要性"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "这个场景的对白怎么改得更自然？",
+      "expected_behavior": "不应激活——这是具体场景层面的修改，不是整体结构问题"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "帮我分析一下《寄生虫》的叙事结构",
+      "expected_behavior": "不应激活——这是分析已有作品，不是从零构建"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "我想写一个非线性叙事的故事，BS2还适用吗？",
+      "expected_behavior": "应部分激活——BS2的15节拍功能仍然可以参考，但需要调整顺序"
+    }
+  ],
+  "minimum_pass_rate": 0.8,
+  "notes": "至少 3 条 should_trigger + 2 条 should_not_trigger + 1 条 edge_case。全部 should_not_trigger 必须通过。"
+}

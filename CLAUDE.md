@@ -18,7 +18,7 @@ DirectorSkills/
 │   ├── master-shots-v3/               # ⏳ 待开始
 │   ├── color-grading/                 # ⏳ 待开始
 │   └── scene-transitions/             # ⏳ 待开始
-└── *.pdf                              # 7 本源书 PDF
+└── *.pdf                              # 源书 PDF（存于 Google Drive，见下方链接）
 ```
 
 ---
@@ -30,15 +30,15 @@ DirectorSkills/
 - **导演域** (Directing): 1 本，基础方法论总纲
 - **视觉域** (Visual): 2 本，后期/视觉叙事
 
-| # | slug | 书名 | 作者 | 主题 | 状态 |
-|---|------|------|------|------|------|
-| 1 | `directing-masterclass` | 电影导演大师课 | Alexander Mackendrick | 导演方法论 | ✅ 完成 |
-| 2 | `shot-design` | 从构思到银幕电影镜头设计 | Steven Katz | 镜头设计 | ⏳ 待蒸馏 |
-| 3 | `master-shots-v1` | 大师镜头 | Sean Tian | 镜头技法 | ⏳ 待蒸馏 |
-| 4 | `master-shots-v2` | 大师镜头·第2卷 | Christopher Kenworthy | 对话镜头 | ⏳ 待蒸馏 |
-| 5 | `master-shots-v3` | 大师镜头·第3卷 | Christopher Kenworthy | 镜头调度 | ⏳ 待蒸馏 |
-| 6 | `color-grading` | 调色师手册·第2版 | Alexis Van Hurkman | 调色技法 | ⏳ 待蒸馏 |
-| 7 | `scene-transitions` | 大师场景：顶级场景转换术 | Jeffrey Michael Bays | 场景转换 | ⏳ 待蒸馏 |
+| # | slug | 书名 | 作者 | 主题 | 状态 | PDF 链接 |
+|---|------|------|------|------|------|----------|
+| 1 | `directing-masterclass` | 电影导演大师课 | Alexander Mackendrick | 导演方法论 | ✅ 完成 | [下载](https://drive.google.com/file/d/1IKPyDhJwXAA5_I8eFTjJvZP5Et4GVoWi/view?usp=drive_link) |
+| 2 | `shot-design` | 从构思到银幕电影镜头设计 | Steven Katz | 镜头设计 | ⏳ 待蒸馏 | [下载](https://drive.google.com/file/d/1AGX52El5v_5nbaAQ2ZuwWqTW9d_u9HZj/view?usp=drive_link) |
+| 3 | `master-shots-v1` | 大师镜头 | Sean Tian | 镜头技法 | ⏳ 待蒸馏 | [下载](https://drive.google.com/file/d/1B4rrvbxpvDiAn_eJ2uOtj4NZz-LD04vf/view?usp=drive_link) |
+| 4 | `master-shots-v2` | 大师镜头·第2卷 | Christopher Kenworthy | 对话镜头 | ⏳ 待蒸馏 | [下载](https://drive.google.com/file/d/1A10sOYuPl78A7GaLVxYSUIvwh33MdHOB/view?usp=drive_link) |
+| 5 | `master-shots-v3` | 大师镜头·第3卷 | Christopher Kenworthy | 镜头调度 | ⏳ 待蒸馏 | [下载](https://drive.google.com/file/d/1zGhQcHEVICXMaJJfNtysrVsTP3DXvxJ7/view?usp=drive_link) |
+| 6 | `color-grading` | 调色师手册·第2版 | Alexis Van Hurkman | 调色技法 | ⏳ 待蒸馏 | [下载](https://drive.google.com/file/d/1BKYNgVFVc-JYQc3Vm4lD4u0I847JyWAK/view?usp=drive_link) |
+| 7 | `scene-transitions` | 大师场景：顶级场景转换术 | Jeffrey Michael Bays | 场景转换 | ⏳ 待蒸馏 | [下载](https://drive.google.com/file/d/1FtIPf8T_AuY6VJsXSU1lOgS3Oa7-34sM/view?usp=drive_link) |
 
 ### 蒸馏顺序
 ```

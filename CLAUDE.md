@@ -9,7 +9,6 @@
 ```
 DirectorSkills/
 ├── CLAUDE.md                          # 本文件（项目上下文）
-├── .claude/plans/book2skill-deep-thunder.md  # 完整蒸馏计划
 ├── output/books/                      # 蒸馏产出
 │   ├── directing-masterclass/         # ✅ 已完成
 │   ├── shot-design/                   # ⏳ 待开始
@@ -39,6 +38,8 @@ DirectorSkills/
 | 5 | `master-shots-v3` | 大师镜头·第3卷 | Christopher Kenworthy | 镜头调度 | ⏳ 待蒸馏 | [下载](https://drive.google.com/file/d/1zGhQcHEVICXMaJJfNtysrVsTP3DXvxJ7/view?usp=drive_link) |
 | 6 | `color-grading` | 调色师手册·第2版 | Alexis Van Hurkman | 调色技法 | ⏳ 待蒸馏 | [下载](https://drive.google.com/file/d/1BKYNgVFVc-JYQc3Vm4lD4u0I847JyWAK/view?usp=drive_link) |
 | 7 | `scene-transitions` | 大师场景：顶级场景转换术 | Jeffrey Michael Bays | 场景转换 | ⏳ 待蒸馏 | [下载](https://drive.google.com/file/d/1FtIPf8T_AuY6VJsXSU1lOgS3Oa7-34sM/view?usp=drive_link) |
+
+> **PDF 大小参考**：7 个 PDF 总计约 680MB。其中 master-shots-v3 最大（~158MB），master-shots-v1 最小（~8MB）。下载和处理时请注意磁盘空间。
 
 ### 蒸馏顺序
 ```
@@ -128,6 +129,8 @@ output/books/<slug>/
 
 ## 关键文件引用
 
+> **路径说明**：以下路径中的 `~` 表示 home 目录，在项目上下文中等价于项目根目录下的相对路径。例如 `~/.claude/skills/book2skill/` = `<project-root>/.claude/skills/book2skill/`（submodule 位置）。
+
 ### book2skill 方法论
 - 主流程: `~/.claude/skills/book2skill/SKILL.md`
 - 阶段 0: `~/.claude/skills/book2skill/methodology/01-stage0-adler.md`
@@ -186,6 +189,14 @@ git submodule update --init --recursive
 **关于并行策略的建议：**
 - 镜头域 4 本书（shot-design、master-shots-v1/v2/v3）有交叉内容，建议串行蒸馏以便跨书链接
 - 导演域和视觉域可并行处理
+
+**质量检查点（建议每本书蒸馏完成后）：**
+- [ ] `BOOK_OVERVIEW.md` 存在且非空
+- [ ] `verified.md` 存在且包含通过验证的候选
+- [ ] `INDEX.md` 存在且引用的 skill 全部有对应目录
+- [ ] 每个 skill 目录包含 `SKILL.md`（六段结构完整）和 `test-prompts.json`
+- [ ] `candidates/` 下 5 个文件齐全
+- [ ] `rejected/` 下有淘汰记录
 
 ---
 

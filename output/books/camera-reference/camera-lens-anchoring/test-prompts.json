@@ -1,0 +1,68 @@
+[
+  {
+    "id": "should-trigger-01",
+    "type": "should_trigger",
+    "prompt": "帮我写一个15秒的末日战场AI视频prompt，要有史诗感，用什么摄影机和镜头？",
+    "expected_behavior": "应激活此skill，推荐IMAX + Panavision C系列组合"
+  },
+  {
+    "id": "should-trigger-02",
+    "type": "should_trigger",
+    "prompt": "我在拍一个雨夜霓虹街道的场景，想拍出赛博朋克的感觉，用什么摄影机？",
+    "expected_behavior": "应激活此skill，推荐Sony Venice + Canon K-35"
+  },
+  {
+    "id": "should-trigger-03",
+    "type": "should_trigger",
+    "prompt": "怎么在prompt里写摄影机型号才能让AI出更好的画面？",
+    "expected_behavior": "应激活此skill，解释具体型号锚定原理"
+  },
+  {
+    "id": "should-trigger-04",
+    "type": "should_trigger",
+    "prompt": "我想模仿《银翼杀手2049》的画面质感，用什么设备组合？",
+    "expected_behavior": "应激活此skill，查表匹配Venice + K-35"
+  },
+  {
+    "id": "should-trigger-05",
+    "type": "should_trigger",
+    "prompt": "胶片感和数字感在摄影机选择上有什么区别？",
+    "expected_behavior": "应激活此skill，对比胶片vs数字摄影机特征"
+  },
+  {
+    "id": "should-not-trigger-01",
+    "type": "should_not_trigger",
+    "prompt": "这个场景的灯光怎么布置？三点布光法怎么用？",
+    "expected_behavior": "不应激活——灯光问题用cinematography-three-point-lighting"
+  },
+  {
+    "id": "should-not-trigger-02",
+    "type": "should_not_trigger",
+    "prompt": "Log素材怎么调色？RED的Log3G10和ARRI的Log-C有什么区别？",
+    "expected_behavior": "不应激活——调色问题用color-grading-log-workflow"
+  },
+  {
+    "id": "should-not-trigger-03",
+    "type": "should_not_trigger",
+    "prompt": "这个场景的构图怎么安排？三分法则怎么用？",
+    "expected_behavior": "不应激活——构图问题用shot-design相关skill"
+  },
+  {
+    "id": "should-not-trigger-04",
+    "type": "should_not_trigger",
+    "prompt": "故事结构怎么设计？三幕结构怎么写？",
+    "expected_behavior": "不应激活——叙事问题用story-design相关skill"
+  },
+  {
+    "id": "edge-01",
+    "type": "edge_case",
+    "prompt": "我用的是Blackmagic Pocket，能不能模仿出ARRI Alexa的质感？",
+    "expected_behavior": "应部分激活——可以给出近似方案但说明硬件差异"
+  },
+  {
+    "id": "edge-02",
+    "type": "edge_case",
+    "prompt": "Sora和Seedance对同一段摄影机描述的反应一样吗？",
+    "expected_behavior": "应部分激活——可以说明不同模型的差异"
+  }
+]

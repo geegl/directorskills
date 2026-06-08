@@ -2,24 +2,71 @@
 
 > 10 本影视制作全流程书籍 → 97 个可执行 AI skills
 
-把经典电影教材的核心方法论蒸馏成结构化、可被 AI agent 直接调用的 skills。覆盖从剧本到成片的完整制作链路。
+---
+
+## 为什么做这个项目
+
+AI 正在重塑影视制作流程——从剧本生成到镜头设计、从调色到声音，每个环节都可以被 AI agent 辅助甚至独立完成。但目前的 AI 影视工具缺乏**结构化的专业知识库**：它们能执行指令，却不懂"为什么这样拍更好"、"什么情况下不该用这个技巧"。
+
+DirectorSkills 把经典电影教材的核心方法论蒸馏成**结构化、可被 AI agent 直接调用**的 skills。每个 skill 包含：
+
+- **原文引用** — 来自权威教材的具体引文，可溯源
+- **方法论解读** — 从"知道"到"会用"的关键转化
+- **实战案例** — 真实电影场景中的应用
+- **触发条件** — 什么时候该用，什么时候不该用
+- **可执行步骤** — agent 拿到就能执行的 1-2-3 步
+- **失败模式** — 常见错误和作者盲点，避免踩坑
+
+**目标用户**：影视 AI agent 开发者、prompt 工程师、影视教育工作者。
+
+---
+
+## 为什么选这 10 本书
+
+选书标准：**每一本都是该领域公认的方法论标杆**，而非泛泛的入门读物。10 本书覆盖从剧本到成片的完整制作链路，每本书对应 AI 影视生成工作流的一个关键环节。
+
+| 环节 | 为什么需要 | 选的书 | 为什么选这本 |
+|------|-----------|--------|------------|
+| **剧本结构** | AI 生成的故事需要结构骨架 | 《救猫咪》Blake Snyder | 好莱坞最广泛使用的 15 节拍模板，可操作性最强 |
+| **导演思维** | AI 需要理解"为什么这样调度" | 《电影导演大师课》Alexander Mackendrick | 苏格兰动画之父的 USC 讲义，从故事到画面的完整方法论 |
+| **镜头技巧** | AI 需要具体的镜头语言库 | 《大师镜头》Vol.1-3 Christopher Kenworthy | 100+ 个具体镜头技法，每个配真实电影案例 |
+| **分镜设计** | AI 需要把文字转化为视觉 | 《电影镜头设计》Steven D. Katz | 分镜行业的"圣经"，从轴线到景别的完整系统 |
+| **灯光摄影** | AI 生成的画面需要光影逻辑 | 《电影摄影》Blain Brown | 覆盖 Zone System 到三点布光的完整摄影理论 |
+| **色彩调色** | AI 调色需要专业判断依据 | 《调色师手册》第 2 版 Alexis Van Hurkman | DaVinci Resolve 官方教材，从技术校正到创意风格 |
+| **场景转场** | AI 需要场景间的叙事连接 | 《大师场景》Jeffrey Michael Bays | 唯一专注场景转换的专著，9 种转场技法 |
+| **声音设计** | AI 需要声音叙事能力 | 《声音设计》David Sonnenschein | 声音设计领域的理论框架，从感知心理到实际操作 |
+
+---
+
+## 为什么用这些 skills
+
+### vs 直接问 ChatGPT
+
+| 维度 | 直接问 LLM | 用 DirectorSkills |
+|------|-----------|-------------------|
+| 知识来源 | 混合网络文章、可能过时 | 指定权威教材，可溯源到章节 |
+| 结构 | 自由发挥，每次不同 | RIA-TV++ 六段结构，一致可预期 |
+| 边界 | 不知道什么时候不该用 | B 段包含失败模式和作者盲点 |
+| 可测试 | 无法验证 | 每个 skill 配套 test-prompts |
+
+### vs 手动 prompt engineering
+
+- **97 个 skill 覆盖全链路**，不需要为每个场景重新写 prompt
+- **related_skills 交叉引用**，agent 可以自动发现关联方法论
+- **已通过 Darwin 质量审计**（平均 8.9/10），经过结构化验证
 
 ---
 
 ## Quick Start
 
 ```bash
-# Clone（含 submodules）
-git clone --recurse-submodules https://github.com/geegl/directorskills.git
+git clone https://github.com/geegl/directorskills.git
 cd directorskills
-
-# 如果已经 clone 但没有 submodules
-git submodule update --init --recursive
 ```
 
-仓库的核心内容在 `output/books/` 下。每个 skill 是一个自包含的 `SKILL.md` 文件，可单独使用。
+核心内容在 `output/books/` 下。每个 skill 是一个自包含的 `SKILL.md` 文件，可单独使用。
 
-### 快速使用
+### 使用方式
 
 1. 浏览 `output/books/` 找到你需要的领域（如 `color-grading/`）
 2. 进入具体 skill 目录（如 `color-grading-contrast-before-color/`）
@@ -29,16 +76,16 @@ git submodule update --init --recursive
 
 ## 覆盖范围
 
-| # | 类别 | 书名 | Skills |
-|---|------|------|--------|
-| 1 | 剧本结构 | 《救猫咪》Save the Cat! | 8 |
-| 2 | 导演思维 | 《电影导演大师课》On Film-making | 15 |
-| 3 | 镜头技巧 | 《大师镜头》Vol.1-3 | 26 |
-| 4 | 分镜设计 | 《电影镜头设计》Shot by Shot | 8 |
-| 5 | 灯光摄影 | 《电影摄影：理论与实践》 | 7 |
-| 6 | 色彩调色 | 《调色师手册》第2版 | 11 |
-| 7 | 场景转场 | 《大师场景》Between the Scenes | 9 |
-| 8 | 声音设计 | 《声音设计》Sound Design | 13 |
+| # | 类别 | 书名 | 作者 | Skills |
+|---|------|------|------|--------|
+| 1 | 剧本结构 | 《救猫咪》Save the Cat! | Blake Snyder | 8 |
+| 2 | 导演思维 | 《电影导演大师课》On Film-making | Alexander Mackendrick | 15 |
+| 3 | 镜头技巧 | 《大师镜头》Vol.1-3 | Christopher Kenworthy | 26 |
+| 4 | 分镜设计 | 《电影镜头设计》Shot by Shot | Steven D. Katz | 8 |
+| 5 | 灯光摄影 | 《电影摄影：理论与实践》 | Blain Brown | 7 |
+| 6 | 色彩调色 | 《调色师手册》第 2 版 | Alexis Van Hurkman | 11 |
+| 7 | 场景转场 | 《大师场景》Between the Scenes | Jeffrey Michael Bays | 9 |
+| 8 | 声音设计 | 《声音设计》Sound Design | David Sonnenschein | 13 |
 
 **总计 97 个 skills，Darwin 质量审计平均分 8.9/10**
 
@@ -121,7 +168,6 @@ def load_skills(books_dir="output/books"):
     skills = {}
     for skill_file in Path(books_dir).rglob("SKILL.md"):
         content = skill_file.read_text()
-        # 解析 YAML frontmatter
         parts = content.split("---", 2)
         if len(parts) >= 3:
             meta = yaml.safe_load(parts[1])
@@ -139,7 +185,6 @@ user_input = "怎么用灯光营造神秘感？"
 for name, skill in skills.items():
     desc = skill["metadata"].get("description", "")
     tags = skill["metadata"].get("tags", [])
-    # 简单匹配（生产环境建议用 embedding）
     if any(t in user_input for t in tags):
         print(f"匹配: {name}")
         print(skill["content"])
@@ -156,8 +201,8 @@ for name, skill in skills.items():
 
 ```
 output/books/<slug>/
-├── BOOK_OVERVIEW.md       # 全书概览（阶段 0 产出）
-├── INDEX.md               # skill 间链接索引（阶段 3 产出）
+├── BOOK_OVERVIEW.md       # 全书概览
+├── INDEX.md               # skill 间链接索引
 ├── verified.md            # 通过验证的候选列表
 ├── candidates/            # 提取的候选 skills
 ├── rejected/              # 淘汰的候选（含淘汰理由）
@@ -189,16 +234,16 @@ output/books/<slug>/
 
 ---
 
-## Submodules
+## 开发工具
 
-本仓库包含两个 git submodule：
+蒸馏过程使用了两个开源 skill 作为工具：
 
-| 路径 | 用途 |
-|------|------|
-| `.claude/skills/book2skill` | book2skill — 书籍蒸馏为 skills 的方法论技能 |
-| `.hermes/skills/darwin-skill` | Darwin Skill — 质量进化优化技能 |
+| 工具 | 用途 | 仓库 |
+|------|------|------|
+| book2skill | 书籍 → skills 的 6 阶段蒸馏方法论 | [kangarooking/cangjie-skill](https://github.com/kangarooking/cangjie-skill) |
+| Darwin Skill | 质量进化优化，9 维度评估 + 自动修复 | [alchaincyf/darwin-skill](https://github.com/alchaincyf/darwin-skill) |
 
-这些是蒸馏过程中使用的工具技能，不是本仓库的核心产出。核心产出在 `output/books/` 下。
+这些是开发过程中的工具，不包含在本仓库中。
 
 ---
 

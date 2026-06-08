@@ -5,17 +5,7 @@ pdfs/
 *.mobi
 full_text.md
 
-# OCR / development working files
-scripts/
-grids/
-pages/
-render_grids.py
-retry_results.md
-marker_input/
-marker_output/
-*_results.md
-
-# Development prompts
+# Development files
 CONTINUE_PROMPT.md
 
 # OS files

@@ -1,30 +1,27 @@
-{
-  "skill_id": "msv3-lens-emotion-mapping",
-  "prompts": [
-    {
-      "id": "lm-01",
-      "prompt": "I'm shooting a dialogue scene where two characters are having an intense argument in a small room. I want the audience to feel the claustrophobia and urgency. What lens should I use and how should the camera move?",
-      "expected_behavior": "Should recommend wide-angle lens near actors (1.6), small camera movement with large actor movement to create urgency. Should warn against telephoto in this context. Should mention that wide-angle exaggerates the room's smallness."
-    },
-    {
-      "id": "lm-02",
-      "prompt": "I need to shoot a scene where a character realizes they're being watched from across a crowded street. I want to isolate them emotionally from the crowd. What's the lens approach?",
-      "expected_behavior": "Should recommend telephoto lens from distance (1.1/1.4), which compresses the crowd into a blur behind the isolated subject. Should mention that foreground people crossing the frame will appear to move fast while the subject appears slow and trapped."
-    },
-    {
-      "id": "lm-03",
-      "prompt": "My Steadicam operator wants to use a 85mm lens for a following shot through corridors. Is this a good idea?",
-      "expected_behavior": "Should warn against telephoto + Steadicam combination (1.4). Every camera shake will be exaggerated. Should recommend switching to wide-angle for handheld/Steadicam movement work."
-    },
-    {
-      "id": "lm-04",
-      "prompt": "I want to create a Spielberg-style single-take scene where two actors move around a room and we see multiple compositions without cutting. How do I set this up?",
-      "expected_behavior": "Should reference the Schindler's List technique (1.7): static wide-angle camera near ground level, find 6-7 best compositions in the space, then choreograph actors to hit those marks naturally. Every movement must be motivated."
-    },
-    {
-      "id": "lm-05",
-      "prompt": "I'm shooting a chase scene but the wide-angle lens makes the lead actor's face look distorted in close-ups. How do I fix this?",
-      "expected_behavior": "Should recommend shooting from slightly above to mitigate wide-angle facial distortion (1.6). The slight high angle reduces the enlarged-nose effect while preserving the urgency of the wide lens."
-    }
-  ]
-}
+[
+  {
+    "id": "lm-01",
+    "prompt": "I'm shooting a dialogue scene where two characters are having an intense argument in a small room. I want the audience to feel the claustrophobia and urgency. What lens should I use and how should the camera move?",
+    "expected_behavior": "Should recommend wide-angle lens near actors (1.6), small camera movement with large actor movement to create urgency. Should warn against telephoto in this context. Should mention that wide-angle exaggerates the room's smallness."
+  },
+  {
+    "id": "lm-02",
+    "prompt": "I need to shoot a scene where a character realizes they're being watched from across a crowded street. I want to isolate them emotionally from the crowd. What's the lens approach?",
+    "expected_behavior": "Should recommend telephoto lens from distance (1.1/1.4), which compresses the crowd into a blur behind the isolated subject. Should mention that foreground people crossing the frame will appear to move fast while the subject appears slow and trapped."
+  },
+  {
+    "id": "lm-03",
+    "prompt": "My Steadicam operator wants to use a 85mm lens for a following shot through corridors. Is this a good idea?",
+    "expected_behavior": "Should warn against telephoto + Steadicam combination (1.4). Every camera shake will be exaggerated. Should recommend switching to wide-angle for handheld/Steadicam movement work."
+  },
+  {
+    "id": "lm-04",
+    "prompt": "I want to create a Spielberg-style single-take scene where two actors move around a room and we see multiple compositions without cutting. How do I set this up?",
+    "expected_behavior": "Should reference the Schindler's List technique (1.7): static wide-angle camera near ground level, find 6-7 best compositions in the space, then choreograph actors to hit those marks naturally. Every movement must be motivated."
+  },
+  {
+    "id": "lm-05",
+    "prompt": "I'm shooting a chase scene but the wide-angle lens makes the lead actor's face look distorted in close-ups. How do I fix this?",
+    "expected_behavior": "Should recommend shooting from slightly above to mitigate wide-angle facial distortion (1.6). The slight high angle reduces the enlarged-nose effect while preserving the urgency of the wide lens."
+  }
+]

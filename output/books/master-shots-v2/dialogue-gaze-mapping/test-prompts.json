@@ -1,44 +1,37 @@
-{
-  "skill": "dialogue-gaze-mapping",
-  "version": "0.1.0",
-  "source_book": "《大师镜头 第二卷》 Christopher Kenworthy",
-  "darwin_compatible": true,
-  "test_cases": [
-    {
-      "id": "should-trigger-01",
-      "type": "should_trigger",
-      "prompt": "我在拍一个八个人围坐开会的对话场景，不想用全景镜头但观众分不清谁在跟谁说话，怎么办？",
-      "expected_behavior": "应激活，指导用目光方向映射空间关系",
-      "notes": "正面场景：多人对话+不想用全景"
-    },
-    {
-      "id": "should-trigger-02",
-      "type": "should_trigger",
-      "prompt": "场景里有个角色一直没说话，后来突然插了一句话，观众完全不知道他是谁、在哪里，怎么处理？",
-      "expected_behavior": "应激活，建议用其他角色转身看来交代新说话者位置",
-      "notes": "正面场景：突然插话的空间定位"
-    },
-    {
-      "id": "should-trigger-03",
-      "type": "should_trigger",
-      "prompt": "群戏里演员的脸都在画面中央，但观众还是不知道他们分别在房间的什么位置，有什么办法？",
-      "expected_behavior": "应激活，建议用偏斜目光和头的角度来突出凝视方向",
-      "notes": "正面场景：需要强化方向信息"
-    },
-    {
-      "id": "should-not-trigger-01",
-      "type": "should_not_trigger",
-      "prompt": "两个人在咖啡馆对话，用什么镜头比较好？",
-      "expected_behavior": "不应激活，两人对话空间关系简单，不需要目光映射",
-      "notes": "诱饵：两人对话"
-    },
-    {
-      "id": "edge-01",
-      "type": "edge_case",
-      "prompt": "悬疑片里一个杀手藏在房间里，主角不知道他在，这时候怎么安排其他角色的目光方向？",
-      "expected_behavior": "不应完全激活——如果要隐藏杀手位置，就不应该用目光方向暴露他。但可以用其他角色的目光来暗示'房间里似乎有别人'",
-      "notes": "边界：故意隐藏位置 vs 需要空间清晰"
-    }
-  ],
-  "minimum_pass_rate": 0.8
-}
+[
+  {
+    "id": "should-trigger-01",
+    "type": "should_trigger",
+    "prompt": "我在拍一个八个人围坐开会的对话场景，不想用全景镜头但观众分不清谁在跟谁说话，怎么办？",
+    "expected_behavior": "应激活，指导用目光方向映射空间关系",
+    "notes": "正面场景：多人对话+不想用全景"
+  },
+  {
+    "id": "should-trigger-02",
+    "type": "should_trigger",
+    "prompt": "场景里有个角色一直没说话，后来突然插了一句话，观众完全不知道他是谁、在哪里，怎么处理？",
+    "expected_behavior": "应激活，建议用其他角色转身看来交代新说话者位置",
+    "notes": "正面场景：突然插话的空间定位"
+  },
+  {
+    "id": "should-trigger-03",
+    "type": "should_trigger",
+    "prompt": "群戏里演员的脸都在画面中央，但观众还是不知道他们分别在房间的什么位置，有什么办法？",
+    "expected_behavior": "应激活，建议用偏斜目光和头的角度来突出凝视方向",
+    "notes": "正面场景：需要强化方向信息"
+  },
+  {
+    "id": "should-not-trigger-01",
+    "type": "should_not_trigger",
+    "prompt": "两个人在咖啡馆对话，用什么镜头比较好？",
+    "expected_behavior": "不应激活，两人对话空间关系简单，不需要目光映射",
+    "notes": "诱饵：两人对话"
+  },
+  {
+    "id": "edge-01",
+    "type": "edge_case",
+    "prompt": "悬疑片里一个杀手藏在房间里，主角不知道他在，这时候怎么安排其他角色的目光方向？",
+    "expected_behavior": "不应完全激活——如果要隐藏杀手位置，就不应该用目光方向暴露他。但可以用其他角色的目光来暗示'房间里似乎有别人'",
+    "notes": "边界：故意隐藏位置 vs 需要空间清晰"
+  }
+]

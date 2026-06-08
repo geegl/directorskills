@@ -1,44 +1,37 @@
-{
-  "skill": "scene-transition-loyalty-transfer",
-  "version": "0.1.0",
-  "source_book": "《大师场景：顶级场景转换术》 — Jeffrey Michael Bays",
-  "darwin_compatible": true,
-  "test_cases": [
-    {
-      "id": "should-trigger-01",
-      "type": "should_trigger",
-      "prompt": "我的电影中途要换主角，怎么让观众接受？",
-      "expected_behavior": "应激活，建议用场景转换中的时间分配实现忠诚转移",
-      "notes": "正面场景"
-    },
-    {
-      "id": "should-trigger-02",
-      "type": "should_trigger",
-      "prompt": "配角怎么让观众记住？",
-      "expected_behavior": "应激活，建议延长配角的反应时间",
-      "notes": "正面场景"
-    },
-    {
-      "id": "should-not-trigger-01",
-      "type": "should_not_trigger",
-      "prompt": "这个角色的性格怎么塑造？",
-      "expected_behavior": "不应激活，这是角色塑造问题",
-      "notes": "诱饵"
-    },
-    {
-      "id": "should-not-trigger-02",
-      "type": "should_not_trigger",
-      "prompt": "剧本里角色的对白怎么写？",
-      "expected_behavior": "不应激活，这是编剧问题",
-      "notes": "诱饵"
-    },
-    {
-      "id": "edge-01",
-      "type": "edge_case",
-      "prompt": "反派也能成为观众同情的对象吗？",
-      "expected_behavior": "应激活——通过延长反派的反应时间可以实现",
-      "notes": "边界"
-    }
-  ],
-  "minimum_pass_rate": 0.8
-}
+[
+  {
+    "id": "should-trigger-01",
+    "type": "should_trigger",
+    "prompt": "我的电影中途要换主角，怎么让观众接受？",
+    "expected_behavior": "应激活，建议用场景转换中的时间分配实现忠诚转移",
+    "notes": "正面场景"
+  },
+  {
+    "id": "should-trigger-02",
+    "type": "should_trigger",
+    "prompt": "配角怎么让观众记住？",
+    "expected_behavior": "应激活，建议延长配角的反应时间",
+    "notes": "正面场景"
+  },
+  {
+    "id": "should-not-trigger-01",
+    "type": "should_not_trigger",
+    "prompt": "这个角色的性格怎么塑造？",
+    "expected_behavior": "不应激活，这是角色塑造问题",
+    "notes": "诱饵"
+  },
+  {
+    "id": "should-not-trigger-02",
+    "type": "should_not_trigger",
+    "prompt": "剧本里角色的对白怎么写？",
+    "expected_behavior": "不应激活，这是编剧问题",
+    "notes": "诱饵"
+  },
+  {
+    "id": "edge-01",
+    "type": "edge_case",
+    "prompt": "反派也能成为观众同情的对象吗？",
+    "expected_behavior": "应激活——通过延长反派的反应时间可以实现",
+    "notes": "边界"
+  }
+]

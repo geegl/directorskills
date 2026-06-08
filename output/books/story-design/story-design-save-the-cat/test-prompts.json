@@ -1,46 +1,38 @@
-{
-  "skill": "story-design-save-the-cat",
-  "version": "0.1.0",
-  "source_book": "《救猫咪》 — Blake Snyder",
-  "darwin_compatible": true,
-  "test_cases": [
-    {
-      "id": "should-trigger-01",
-      "type": "should_trigger",
-      "prompt": "我的主角出场后观众不喜欢他，怎么改？",
-      "expected_behavior": "应激活 story-design-save-the-cat，建议添加Save the Cat时刻"
-    },
-    {
-      "id": "should-trigger-02",
-      "type": "should_trigger",
-      "prompt": "怎么让观众一开始就关心主角？",
-      "expected_behavior": "应激活 story-design-save-the-cat，介绍4种变体"
-    },
-    {
-      "id": "should-trigger-03",
-      "type": "should_trigger",
-      "prompt": "Save the Cat具体怎么设计？",
-      "expected_behavior": "应激活 story-design-save-the-cat，提供具体行动设计步骤"
-    },
-    {
-      "id": "should-not-trigger-01",
-      "type": "should_not_trigger",
-      "prompt": "反派怎么设计才够可怕？",
-      "expected_behavior": "不应激活——反派不需要讨人喜欢"
-    },
-    {
-      "id": "should-not-trigger-02",
-      "type": "should_not_trigger",
-      "prompt": "主角的性格怎么描写？",
-      "expected_behavior": "不应激活——这是性格描写问题，不是认同建立问题"
-    },
-    {
-      "id": "edge-01",
-      "type": "edge_case",
-      "prompt": "我的主角是反英雄，需要Save the Cat吗？",
-      "expected_behavior": "应激活——反英雄需要用Pet the Dog变体而非直接Save the Cat"
-    }
-  ],
-  "minimum_pass_rate": 0.8,
-  "notes": "至少 3 条 should_trigger + 2 条 should_not_trigger + 1 条 edge_case。全部 should_not_trigger 必须通过。"
-}
+[
+  {
+    "id": "should-trigger-01",
+    "type": "should_trigger",
+    "prompt": "我的主角出场后观众不喜欢他，怎么改？",
+    "expected_behavior": "应激活 story-design-save-the-cat，建议添加Save the Cat时刻"
+  },
+  {
+    "id": "should-trigger-02",
+    "type": "should_trigger",
+    "prompt": "怎么让观众一开始就关心主角？",
+    "expected_behavior": "应激活 story-design-save-the-cat，介绍4种变体"
+  },
+  {
+    "id": "should-trigger-03",
+    "type": "should_trigger",
+    "prompt": "Save the Cat具体怎么设计？",
+    "expected_behavior": "应激活 story-design-save-the-cat，提供具体行动设计步骤"
+  },
+  {
+    "id": "should-not-trigger-01",
+    "type": "should_not_trigger",
+    "prompt": "反派怎么设计才够可怕？",
+    "expected_behavior": "不应激活——反派不需要讨人喜欢"
+  },
+  {
+    "id": "should-not-trigger-02",
+    "type": "should_not_trigger",
+    "prompt": "主角的性格怎么描写？",
+    "expected_behavior": "不应激活——这是性格描写问题，不是认同建立问题"
+  },
+  {
+    "id": "edge-01",
+    "type": "edge_case",
+    "prompt": "我的主角是反英雄，需要Save the Cat吗？",
+    "expected_behavior": "应激活——反英雄需要用Pet the Dog变体而非直接Save the Cat"
+  }
+]

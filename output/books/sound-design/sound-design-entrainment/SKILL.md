@@ -70,3 +70,9 @@ related_skills: [sound-design-contrast-drama, sound-design-expectation]
 - **Anti-pattern**: Using entrainment as a crutch instead of understanding the underlying emotional structure of the scene
 - **Blind spot**: Failing to account for how entrainment affects the audience's perception of time and pacing
 - **Common mistake**: Applying entrainment too uniformly — real dramatic impact comes from contrast and restraint
+
+### 作者的盲点 / 时代局限
+
+David Sonnenschein 的声音设计理论源自传统电影声音制作，对数字时代的新声音形态（如 ASMR、空间音频、AI 生成音效）覆盖不足。他假设声音设计师有专业录音棚和拟音资源，独立创作者的低成本声音解决方案讨论较少。书中理论框架偏重感知心理学，对文化差异导致的声音审美差异（如东西方对沉默的不同理解）涉及有限。
+
+此外，声音夹带效应的讨论基于西方音乐理论和感知心理学，对非西方音乐传统中的节奏夹带（如印度塔拉、非洲复合节奏）涉及有限。此外，他未充分讨论视觉节奏与听觉节奏的交互夹带效应。

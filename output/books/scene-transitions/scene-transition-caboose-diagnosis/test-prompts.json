@@ -1,44 +1,37 @@
-{
-  "skill": "scene-transition-caboose-diagnosis",
-  "version": "0.1.0",
-  "source_book": "《大师场景：顶级场景转换术》 — Jeffrey Michael Bays",
-  "darwin_compatible": true,
-  "test_cases": [
-    {
-      "id": "should-trigger-01",
-      "type": "should_trigger",
-      "prompt": "我觉得电影里有几个场景是多余的，怎么判断要不要删？",
-      "expected_behavior": "应激活，用四功能诊断法和删除测试判断",
-      "notes": "正面场景"
-    },
-    {
-      "id": "should-trigger-02",
-      "type": "should_trigger",
-      "prompt": "电影太长了，怎么精简？",
-      "expected_behavior": "应激活，建议诊断末节场景",
-      "notes": "正面场景"
-    },
-    {
-      "id": "should-not-trigger-01",
-      "type": "should_not_trigger",
-      "prompt": "这个场景的表演怎么改进？",
-      "expected_behavior": "不应激活，这是表演问题",
-      "notes": "诱饵"
-    },
-    {
-      "id": "should-not-trigger-02",
-      "type": "should_not_trigger",
-      "prompt": "剧本的对白太长了怎么精简？",
-      "expected_behavior": "不应激活，这是对白问题",
-      "notes": "诱饵"
-    },
-    {
-      "id": "edge-01",
-      "type": "edge_case",
-      "prompt": "这个场景不推进情节但提供了很好的氛围，要不要删？",
-      "expected_behavior": "不应该删除——提供氛围的场景满足'舒缓'功能，不是末节场景",
-      "notes": "边界：氛围场景vs末节场景"
-    }
-  ],
-  "minimum_pass_rate": 0.8
-}
+[
+  {
+    "id": "should-trigger-01",
+    "type": "should_trigger",
+    "prompt": "我觉得电影里有几个场景是多余的，怎么判断要不要删？",
+    "expected_behavior": "应激活，用四功能诊断法和删除测试判断",
+    "notes": "正面场景"
+  },
+  {
+    "id": "should-trigger-02",
+    "type": "should_trigger",
+    "prompt": "电影太长了，怎么精简？",
+    "expected_behavior": "应激活，建议诊断末节场景",
+    "notes": "正面场景"
+  },
+  {
+    "id": "should-not-trigger-01",
+    "type": "should_not_trigger",
+    "prompt": "这个场景的表演怎么改进？",
+    "expected_behavior": "不应激活，这是表演问题",
+    "notes": "诱饵"
+  },
+  {
+    "id": "should-not-trigger-02",
+    "type": "should_not_trigger",
+    "prompt": "剧本的对白太长了怎么精简？",
+    "expected_behavior": "不应激活，这是对白问题",
+    "notes": "诱饵"
+  },
+  {
+    "id": "edge-01",
+    "type": "edge_case",
+    "prompt": "这个场景不推进情节但提供了很好的氛围，要不要删？",
+    "expected_behavior": "不应该删除——提供氛围的场景满足'舒缓'功能，不是末节场景",
+    "notes": "边界：氛围场景vs末节场景"
+  }
+]

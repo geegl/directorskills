@@ -1,52 +1,44 @@
-{
-  "skill": "shot-distract-and-scare",
-  "version": "0.1.0",
-  "source_book": "《大师镜头：低成本拍大片的100个高级技巧（第1卷）》 — Christopher Kenworthy",
-  "darwin_compatible": true,
-  "test_cases": [
-    {
-      "id": "should-trigger-01",
-      "type": "should_trigger",
-      "prompt": "我要拍一个jump scare，但不想用老套路，怎么设计才能让观众真的被吓到？",
-      "expected_behavior": "应激活 shot-distract-and-scare，引导用户用三步流程：制造紧张、合理分散注意力、在放松瞬间突袭",
-      "notes": "核心场景：惊吓效果设计，且用户已意识到套路失效问题"
-    },
-    {
-      "id": "should-trigger-02",
-      "type": "should_trigger",
-      "prompt": "观众都知道我角色身后会出现一个鬼，我怎么还能吓到他们？",
-      "expected_behavior": "应激活 shot-distract-and-scare，建议用分散注意力手段让观众在关键时刻忘记危险",
-      "notes": "已知危险场景中的惊吓设计"
-    },
-    {
-      "id": "should-trigger-03",
-      "type": "should_trigger",
-      "prompt": "我想让两个人第一次对视的瞬间特别有张力，怎么拍才能让观众期待这个对视？",
-      "expected_behavior": "应激活 shot-distract-and-scare，建议用延迟对视策略——先让两人不断避免直视，积累张力后突然对视",
-      "notes": "非恐怖场景中的打破预期应用（爱情场景）"
-    },
-    {
-      "id": "should-not-trigger-01",
-      "type": "should_not_trigger",
-      "prompt": "我的恐怖片剧本怎么写才能让故事更吓人？情节上有什么技巧？",
-      "expected_behavior": "不应激活此 skill，用户在讨论剧本/故事层面的恐怖设计，不是镜头拍摄技法",
-      "notes": "诱饵：涉及吓人但是剧本层面而非镜头层面"
-    },
-    {
-      "id": "should-not-trigger-02",
-      "type": "should_not_trigger",
-      "prompt": "怎么营造一种持续的悬疑氛围？整场戏都要让观众感到不安。",
-      "expected_behavior": "不应激活此 skill，用户要的是持续的悬疑氛围而非具体的惊吓瞬间",
-      "notes": "诱饵：涉及悬疑但是持续状态而非瞬间打破"
-    },
-    {
-      "id": "edge-01",
-      "type": "edge_case",
-      "prompt": "我想在喜剧片里突然插入一个恐怖元素吓观众一跳，但不想破坏喜剧氛围，怎么平衡？",
-      "expected_behavior": "边界场景：涉及惊吓设计但目标是喜剧类型。应激活 skill 但特别强调分散注意力的手段要与喜剧场景自然融合",
-      "notes": "边界：跨类型应用，喜剧中的恐怖元素"
-    }
-  ],
-  "minimum_pass_rate": 0.8,
-  "notes": "至少 3 条 should_trigger + 2 条 should_not_trigger + 1 条 edge_case。"
-}
+[
+  {
+    "id": "should-trigger-01",
+    "type": "should_trigger",
+    "prompt": "我要拍一个jump scare，但不想用老套路，怎么设计才能让观众真的被吓到？",
+    "expected_behavior": "应激活 shot-distract-and-scare，引导用户用三步流程：制造紧张、合理分散注意力、在放松瞬间突袭",
+    "notes": "核心场景：惊吓效果设计，且用户已意识到套路失效问题"
+  },
+  {
+    "id": "should-trigger-02",
+    "type": "should_trigger",
+    "prompt": "观众都知道我角色身后会出现一个鬼，我怎么还能吓到他们？",
+    "expected_behavior": "应激活 shot-distract-and-scare，建议用分散注意力手段让观众在关键时刻忘记危险",
+    "notes": "已知危险场景中的惊吓设计"
+  },
+  {
+    "id": "should-trigger-03",
+    "type": "should_trigger",
+    "prompt": "我想让两个人第一次对视的瞬间特别有张力，怎么拍才能让观众期待这个对视？",
+    "expected_behavior": "应激活 shot-distract-and-scare，建议用延迟对视策略——先让两人不断避免直视，积累张力后突然对视",
+    "notes": "非恐怖场景中的打破预期应用（爱情场景）"
+  },
+  {
+    "id": "should-not-trigger-01",
+    "type": "should_not_trigger",
+    "prompt": "我的恐怖片剧本怎么写才能让故事更吓人？情节上有什么技巧？",
+    "expected_behavior": "不应激活此 skill，用户在讨论剧本/故事层面的恐怖设计，不是镜头拍摄技法",
+    "notes": "诱饵：涉及吓人但是剧本层面而非镜头层面"
+  },
+  {
+    "id": "should-not-trigger-02",
+    "type": "should_not_trigger",
+    "prompt": "怎么营造一种持续的悬疑氛围？整场戏都要让观众感到不安。",
+    "expected_behavior": "不应激活此 skill，用户要的是持续的悬疑氛围而非具体的惊吓瞬间",
+    "notes": "诱饵：涉及悬疑但是持续状态而非瞬间打破"
+  },
+  {
+    "id": "edge-01",
+    "type": "edge_case",
+    "prompt": "我想在喜剧片里突然插入一个恐怖元素吓观众一跳，但不想破坏喜剧氛围，怎么平衡？",
+    "expected_behavior": "边界场景：涉及惊吓设计但目标是喜剧类型。应激活 skill 但特别强调分散注意力的手段要与喜剧场景自然融合",
+    "notes": "边界：跨类型应用，喜剧中的恐怖元素"
+  }
+]

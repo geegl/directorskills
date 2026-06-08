@@ -1,59 +1,51 @@
-{
-  "skill": "shot-telephoto-compression",
-  "version": "0.1.0",
-  "source_book": "《大师镜头：低成本拍大片的100个高级技巧（第1卷）》 — Christopher Kenworthy",
-  "darwin_compatible": true,
-  "test_cases": [
-    {
-      "id": "should-trigger-01",
-      "type": "should_trigger",
-      "prompt": "我要拍一个打斗场景，但演员不能真的打到对方，怎么拍才能看起来像真的打中了？",
-      "expected_behavior": "应激活 shot-telephoto-compression，引导用户用长焦镜头加借位走位制造打中的错觉",
-      "notes": "核心场景：假打变真打，长焦压缩空间的经典应用"
-    },
-    {
-      "id": "should-trigger-02",
-      "type": "should_trigger",
-      "prompt": "我拍一个追踪场景，追踪者和被追踪者实际距离很远，但我想让观众觉得快追上了，有什么办法？",
-      "expected_behavior": "应激活 shot-telephoto-compression，建议用长焦镜头压缩空间让追踪者显得更近",
-      "notes": "追踪场景的空间压缩需求，是长焦特效的核心应用之一"
-    },
-    {
-      "id": "should-trigger-03",
-      "type": "should_trigger",
-      "prompt": "我有一场走廊里的恐怖戏，角色慢慢走近，但走廊太宽了看起来不吓人，怎么增强威胁感？",
-      "expected_behavior": "应激活 shot-telephoto-compression，建议从走廊尽头用长焦拍摄，压缩走廊空间让角色显得更大更近",
-      "notes": "狭窄空间中的威胁感增强，长焦压缩的悬疑应用"
-    },
-    {
-      "id": "should-trigger-04",
-      "type": "should_trigger",
-      "prompt": "低成本动作片，没有武指也没有特效预算，打斗场面怎么拍得有冲击力？",
-      "expected_behavior": "应激活 shot-telephoto-compression，建议用长焦借位技法制造暴力效果",
-      "notes": "低成本加动作场景，是长焦特效的核心使用场景"
-    },
-    {
-      "id": "should-not-trigger-01",
-      "type": "should_not_trigger",
-      "prompt": "我该用什么焦距的镜头拍人像？85mm还是135mm好？",
-      "expected_behavior": "不应激活此 skill，用户在问基础摄影知识（人像焦距选择），不是在设计视觉错觉",
-      "notes": "诱饵：涉及长焦但只是焦距技术参数讨论"
-    },
-    {
-      "id": "should-not-trigger-02",
-      "type": "should_not_trigger",
-      "prompt": "我的纪录片需要拍摄野生动物，用长焦镜头拍摄远处的狮子有什么技巧？",
-      "expected_behavior": "不应激活此 skill，用户在讨论实际拍摄远距离物体，不是制造视觉错觉",
-      "notes": "诱饵：涉及长焦但用途是真实拍摄而非障眼法设计"
-    },
-    {
-      "id": "edge-01",
-      "type": "edge_case",
-      "prompt": "我想拍一场追逐戏，同时需要让追踪者显得更近，也需要让两个角色的运动状态形成对比，该怎么设计？",
-      "expected_behavior": "边界场景：同时涉及长焦压缩和双机位对比。应判断为两个 skill 的组合使用场景，主激活长焦特效，同时建议参考双机位对比张力",
-      "notes": "边界：两个 skill 的交叉应用场景，追踪场景是两者的共同领域"
-    }
-  ],
-  "minimum_pass_rate": 0.8,
-  "notes": "至少 3 条 should_trigger + 2 条 should_not_trigger + 1 条 edge_case。全部 should_not_trigger 必须通过（诱饵容错为 0）。"
-}
+[
+  {
+    "id": "should-trigger-01",
+    "type": "should_trigger",
+    "prompt": "我要拍一个打斗场景，但演员不能真的打到对方，怎么拍才能看起来像真的打中了？",
+    "expected_behavior": "应激活 shot-telephoto-compression，引导用户用长焦镜头加借位走位制造打中的错觉",
+    "notes": "核心场景：假打变真打，长焦压缩空间的经典应用"
+  },
+  {
+    "id": "should-trigger-02",
+    "type": "should_trigger",
+    "prompt": "我拍一个追踪场景，追踪者和被追踪者实际距离很远，但我想让观众觉得快追上了，有什么办法？",
+    "expected_behavior": "应激活 shot-telephoto-compression，建议用长焦镜头压缩空间让追踪者显得更近",
+    "notes": "追踪场景的空间压缩需求，是长焦特效的核心应用之一"
+  },
+  {
+    "id": "should-trigger-03",
+    "type": "should_trigger",
+    "prompt": "我有一场走廊里的恐怖戏，角色慢慢走近，但走廊太宽了看起来不吓人，怎么增强威胁感？",
+    "expected_behavior": "应激活 shot-telephoto-compression，建议从走廊尽头用长焦拍摄，压缩走廊空间让角色显得更大更近",
+    "notes": "狭窄空间中的威胁感增强，长焦压缩的悬疑应用"
+  },
+  {
+    "id": "should-trigger-04",
+    "type": "should_trigger",
+    "prompt": "低成本动作片，没有武指也没有特效预算，打斗场面怎么拍得有冲击力？",
+    "expected_behavior": "应激活 shot-telephoto-compression，建议用长焦借位技法制造暴力效果",
+    "notes": "低成本加动作场景，是长焦特效的核心使用场景"
+  },
+  {
+    "id": "should-not-trigger-01",
+    "type": "should_not_trigger",
+    "prompt": "我该用什么焦距的镜头拍人像？85mm还是135mm好？",
+    "expected_behavior": "不应激活此 skill，用户在问基础摄影知识（人像焦距选择），不是在设计视觉错觉",
+    "notes": "诱饵：涉及长焦但只是焦距技术参数讨论"
+  },
+  {
+    "id": "should-not-trigger-02",
+    "type": "should_not_trigger",
+    "prompt": "我的纪录片需要拍摄野生动物，用长焦镜头拍摄远处的狮子有什么技巧？",
+    "expected_behavior": "不应激活此 skill，用户在讨论实际拍摄远距离物体，不是制造视觉错觉",
+    "notes": "诱饵：涉及长焦但用途是真实拍摄而非障眼法设计"
+  },
+  {
+    "id": "edge-01",
+    "type": "edge_case",
+    "prompt": "我想拍一场追逐戏，同时需要让追踪者显得更近，也需要让两个角色的运动状态形成对比，该怎么设计？",
+    "expected_behavior": "边界场景：同时涉及长焦压缩和双机位对比。应判断为两个 skill 的组合使用场景，主激活长焦特效，同时建议参考双机位对比张力",
+    "notes": "边界：两个 skill 的交叉应用场景，追踪场景是两者的共同领域"
+  }
+]

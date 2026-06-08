@@ -17,3 +17,9 @@ Thumbs.db
 __pycache__/
 *.pyc
 .venv/
+
+# OCR grid images and page renders
+grids/
+pages/
+render_grids.py
+retry_results.md

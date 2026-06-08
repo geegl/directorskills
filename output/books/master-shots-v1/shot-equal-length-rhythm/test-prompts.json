@@ -1,52 +1,44 @@
-{
-  "skill": "shot-equal-length-rhythm",
-  "version": "0.1.0",
-  "source_book": "《大师镜头：低成本拍大片的100个高级技巧（第1卷）》 — Christopher Kenworthy",
-  "darwin_compatible": true,
-  "test_cases": [
-    {
-      "id": "should-trigger-01",
-      "type": "should_trigger",
-      "prompt": "我有两条线索同时进行，一条是受害者在正常活动，一条是杀手在靠近，怎么通过剪辑节奏控制让最后的惊吓更有效？",
-      "expected_behavior": "应激活 shot-equal-length-rhythm，建议用等长镜头平行剪辑制造虚假安全感，然后在关键时刻打破节奏",
-      "notes": "核心场景：平行剪辑中的节奏控制"
-    },
-    {
-      "id": "should-trigger-02",
-      "type": "should_trigger",
-      "prompt": "观众都知道危险要来了，但我想让他们仍然被吓到，怎么通过镜头长度来控制节奏？",
-      "expected_behavior": "应激活 shot-equal-length-rhythm，建议用等长镜头制造还有时间的安全感，然后突然打破",
-      "notes": "已知危险场景中的虚假安全感设计"
-    },
-    {
-      "id": "should-trigger-03",
-      "type": "should_trigger",
-      "prompt": "这场戏的剪辑节奏不对，每个镜头长度都不一样，看起来很乱，怎么让它更有节奏感？",
-      "expected_behavior": "应激活 shot-equal-length-rhythm，建议先统一镜头长度建立节奏感，再在关键点打破",
-      "notes": "剪辑阶段的节奏优化"
-    },
-    {
-      "id": "should-not-trigger-01",
-      "type": "should_not_trigger",
-      "prompt": "怎么用快切制造紧张感？动作戏的剪辑节奏应该多快？",
-      "expected_behavior": "不应激活此 skill，用户在讨论持续的快切节奏，等长镜头是先稳后破的策略，不是持续加速",
-      "notes": "诱饵：涉及节奏但是快切而非等长后打破"
-    },
-    {
-      "id": "should-not-trigger-02",
-      "type": "should_not_trigger",
-      "prompt": "这场戏只有一条线索，主角一个人在房间里，怎么通过剪辑控制节奏？",
-      "expected_behavior": "不应激活此 skill，等长节奏需要至少两条线索交替才能建立，单条线索场景不适用",
-      "notes": "诱饵：涉及节奏控制但场景只有单条线索"
-    },
-    {
-      "id": "edge-01",
-      "type": "edge_case",
-      "prompt": "我想在爱情片中用等长镜头制造一种平静感，但不打算打破它，就让整场戏保持等长节奏，可以吗？",
-      "expected_behavior": "边界场景：用户想要等长但不打破。应指出等长本身没有叙事价值，价值在于打破。如果不需要打破，等长只是普通的节奏均匀，不需要专门设计",
-      "notes": "边界：等长不打破是否有意义"
-    }
-  ],
-  "minimum_pass_rate": 0.8,
-  "notes": "至少 3 条 should_trigger + 2 条 should_not_trigger + 1 条 edge_case。"
-}
+[
+  {
+    "id": "should-trigger-01",
+    "type": "should_trigger",
+    "prompt": "我有两条线索同时进行，一条是受害者在正常活动，一条是杀手在靠近，怎么通过剪辑节奏控制让最后的惊吓更有效？",
+    "expected_behavior": "应激活 shot-equal-length-rhythm，建议用等长镜头平行剪辑制造虚假安全感，然后在关键时刻打破节奏",
+    "notes": "核心场景：平行剪辑中的节奏控制"
+  },
+  {
+    "id": "should-trigger-02",
+    "type": "should_trigger",
+    "prompt": "观众都知道危险要来了，但我想让他们仍然被吓到，怎么通过镜头长度来控制节奏？",
+    "expected_behavior": "应激活 shot-equal-length-rhythm，建议用等长镜头制造还有时间的安全感，然后突然打破",
+    "notes": "已知危险场景中的虚假安全感设计"
+  },
+  {
+    "id": "should-trigger-03",
+    "type": "should_trigger",
+    "prompt": "这场戏的剪辑节奏不对，每个镜头长度都不一样，看起来很乱，怎么让它更有节奏感？",
+    "expected_behavior": "应激活 shot-equal-length-rhythm，建议先统一镜头长度建立节奏感，再在关键点打破",
+    "notes": "剪辑阶段的节奏优化"
+  },
+  {
+    "id": "should-not-trigger-01",
+    "type": "should_not_trigger",
+    "prompt": "怎么用快切制造紧张感？动作戏的剪辑节奏应该多快？",
+    "expected_behavior": "不应激活此 skill，用户在讨论持续的快切节奏，等长镜头是先稳后破的策略，不是持续加速",
+    "notes": "诱饵：涉及节奏但是快切而非等长后打破"
+  },
+  {
+    "id": "should-not-trigger-02",
+    "type": "should_not_trigger",
+    "prompt": "这场戏只有一条线索，主角一个人在房间里，怎么通过剪辑控制节奏？",
+    "expected_behavior": "不应激活此 skill，等长节奏需要至少两条线索交替才能建立，单条线索场景不适用",
+    "notes": "诱饵：涉及节奏控制但场景只有单条线索"
+  },
+  {
+    "id": "edge-01",
+    "type": "edge_case",
+    "prompt": "我想在爱情片中用等长镜头制造一种平静感，但不打算打破它，就让整场戏保持等长节奏，可以吗？",
+    "expected_behavior": "边界场景：用户想要等长但不打破。应指出等长本身没有叙事价值，价值在于打破。如果不需要打破，等长只是普通的节奏均匀，不需要专门设计",
+    "notes": "边界：等长不打破是否有意义"
+  }
+]

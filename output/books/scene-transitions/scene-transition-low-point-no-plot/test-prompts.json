@@ -1,51 +1,44 @@
-{
-  "skill": "scene-transition-low-point-no-plot",
-  "version": "0.1.0",
-  "source_book": "《大师场景：顶级场景转换术》 — Jeffrey Michael Bays",
-  "darwin_compatible": true,
-  "test_cases": [
-    {
-      "id": "should-trigger-01",
-      "type": "should_trigger",
-      "prompt": "我的电影连续三个场景都是高强度动作戏，观众说看得太累了。怎么处理？",
-      "expected_behavior": "应激活，建议在动作场景之间插入低潮（景物镜头、安静环境）",
-      "notes": "正面场景：审美疲劳"
-    },
-    {
-      "id": "should-trigger-02",
-      "type": "should_trigger",
-      "prompt": "两个紧张场景之间怎么过渡才不会让观众觉得太赶？",
-      "expected_behavior": "应激活，建议用低潮（不透露情节的景物/氛围镜头）连接",
-      "notes": "正面场景：紧张场景过渡"
-    },
-    {
-      "id": "should-trigger-03",
-      "type": "should_trigger",
-      "prompt": "这个场景开头用景物镜头合适吗？",
-      "expected_behavior": "应激活，分析场景是否需要低潮，如果需要则建议用景物镜头",
-      "notes": "正面场景：景物镜头使用"
-    },
-    {
-      "id": "should-not-trigger-01",
-      "type": "should_not_trigger",
-      "prompt": "这个追逐戏的剪辑节奏怎么把握？",
-      "expected_behavior": "不应激活，这是场景内部的剪辑问题，不是场景转换的低潮设计",
-      "notes": "诱饵：场景内部节奏"
-    },
-    {
-      "id": "should-not-trigger-02",
-      "type": "should_not_trigger",
-      "prompt": "我的视频背景音乐太吵了怎么调低？",
-      "expected_behavior": "不应激活，这是音频工程问题",
-      "notes": "诱饵：音频技术"
-    },
-    {
-      "id": "edge-01",
-      "type": "edge_case",
-      "prompt": "我的恐怖片全程都需要保持紧张感，是不是就不需要低潮了？",
-      "expected_behavior": "应激活——即使恐怖片也需要低潮来让紧张更强烈，关键是低潮不能太放松",
-      "notes": "边界：恐怖片的低潮设计"
-    }
-  ],
-  "minimum_pass_rate": 0.8
-}
+[
+  {
+    "id": "should-trigger-01",
+    "type": "should_trigger",
+    "prompt": "我的电影连续三个场景都是高强度动作戏，观众说看得太累了。怎么处理？",
+    "expected_behavior": "应激活，建议在动作场景之间插入低潮（景物镜头、安静环境）",
+    "notes": "正面场景：审美疲劳"
+  },
+  {
+    "id": "should-trigger-02",
+    "type": "should_trigger",
+    "prompt": "两个紧张场景之间怎么过渡才不会让观众觉得太赶？",
+    "expected_behavior": "应激活，建议用低潮（不透露情节的景物/氛围镜头）连接",
+    "notes": "正面场景：紧张场景过渡"
+  },
+  {
+    "id": "should-trigger-03",
+    "type": "should_trigger",
+    "prompt": "这个场景开头用景物镜头合适吗？",
+    "expected_behavior": "应激活，分析场景是否需要低潮，如果需要则建议用景物镜头",
+    "notes": "正面场景：景物镜头使用"
+  },
+  {
+    "id": "should-not-trigger-01",
+    "type": "should_not_trigger",
+    "prompt": "这个追逐戏的剪辑节奏怎么把握？",
+    "expected_behavior": "不应激活，这是场景内部的剪辑问题，不是场景转换的低潮设计",
+    "notes": "诱饵：场景内部节奏"
+  },
+  {
+    "id": "should-not-trigger-02",
+    "type": "should_not_trigger",
+    "prompt": "我的视频背景音乐太吵了怎么调低？",
+    "expected_behavior": "不应激活，这是音频工程问题",
+    "notes": "诱饵：音频技术"
+  },
+  {
+    "id": "edge-01",
+    "type": "edge_case",
+    "prompt": "我的恐怖片全程都需要保持紧张感，是不是就不需要低潮了？",
+    "expected_behavior": "应激活——即使恐怖片也需要低潮来让紧张更强烈，关键是低潮不能太放松",
+    "notes": "边界：恐怖片的低潮设计"
+  }
+]

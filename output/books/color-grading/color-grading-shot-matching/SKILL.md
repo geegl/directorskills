@@ -73,3 +73,9 @@ related_skills:
 1. Does this shot matching choice serve the emotional beat, or is it just visually "cool"?
 2. Would a casual viewer notice the technique? If yes, it's probably too heavy
 3. Does the grade maintain skin tone naturalism after shot matching adjustments?
+
+### 作者的盲点 / 时代局限
+
+Alexis Van Hurkman 的调色方法论基于专业 DaVinci Resolve 工作流，对轻量级工具（如 Premiere Lumetri、手机调色 App）的适配讨论不足。他假设调色师有参考级监视器和校色环境，独立创作者在消费级显示器上的调色策略覆盖较少。书中色彩科学理论偏重 REC.709，对 HDR/WCG 工作流的实操指导相对薄弱。
+
+此外，镜头匹配的讨论偏重相邻镜头的一致性，对长距离匹配（如首尾呼应的色彩设计）的策略讨论不足。此外，他未充分讨论混合光源场景（如日光+人工光）的匹配挑战，以及多机位拍摄的色彩一致性预处理方案。

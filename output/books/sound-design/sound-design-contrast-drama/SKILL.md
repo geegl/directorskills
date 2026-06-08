@@ -68,3 +68,9 @@ related_skills: [sound-design-loudness-fatigue, sound-design-expectation]
 - **Anti-pattern**: Using contrast drama as a crutch instead of understanding the underlying emotional structure of the scene
 - **Blind spot**: Failing to account for how contrast drama affects the audience's perception of time and pacing
 - **Common mistake**: Applying contrast drama too uniformly — real dramatic impact comes from contrast and restraint
+
+### 作者的盲点 / 时代局限
+
+David Sonnenschein 的声音设计理论源自传统电影声音制作，对数字时代的新声音形态（如 ASMR、空间音频、AI 生成音效）覆盖不足。他假设声音设计师有专业录音棚和拟音资源，独立创作者的低成本声音解决方案讨论较少。书中理论框架偏重感知心理学，对文化差异导致的声音审美差异（如东西方对沉默的不同理解）涉及有限。
+
+此外，声音对比的讨论偏重技术层面的动态范围控制，对心理声学层面的对比感知（如听众的适应效应导致对比感减弱）讨论不足。此外，他假设观众在最佳听音环境中观看，对流媒体压缩对声音对比度的影响覆盖较少。

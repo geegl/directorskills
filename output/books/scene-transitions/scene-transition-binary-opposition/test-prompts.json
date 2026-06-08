@@ -1,52 +1,44 @@
-{
-  "skill": "scene-transition-binary-opposition",
-  "version": "0.1.0",
-  "source_book": "《大师场景：顶级场景转换术》 — Jeffrey Michael Bays",
-  "darwin_compatible": true,
-  "test_cases": [
-    {
-      "id": "should-trigger-01",
-      "type": "should_trigger",
-      "prompt": "我在拍一部悬疑片，主角从一个温暖明亮的咖啡厅走出来，下一个场景是他独自在黑暗的停车场。这两个场景的转换怎么处理才能让观众感受到强烈的对比？",
-      "expected_behavior": "应激活 scene-transition-binary-opposition，建议利用二元对立的多个维度（光线、声音、空间、温度）同时制造对比",
-      "notes": "正面场景：场所选择和对比设计"
-    },
-    {
-      "id": "should-trigger-02",
-      "type": "should_trigger",
-      "prompt": "我的电影有三条故事线，怎么让观众在切换时感受到每条线的不同氛围？",
-      "expected_behavior": "应激活 scene-transition-binary-opposition，建议为每条故事线建立独特的对立维度组合",
-      "notes": "正面场景：多线叙事的场景并置"
-    },
-    {
-      "id": "should-trigger-03",
-      "type": "should_trigger",
-      "prompt": "怎么在一个房间里拍完一整场戏还能让观众感觉到场景在变化？",
-      "expected_behavior": "应激活 scene-transition-binary-opposition，建议通过视角、时间、声音等维度在单场景内创造对立",
-      "notes": "正面场景：单场景内的对立创造"
-    },
-    {
-      "id": "should-not-trigger-01",
-      "type": "should_not_trigger",
-      "prompt": "这个镜头的构图怎么安排比较好？前景放人物还是背景放人物？",
-      "expected_behavior": "不应激活，这是单个镜头的构图问题，不是场景之间的转换",
-      "notes": "诱饵：构图问题，非场景转换"
-    },
-    {
-      "id": "should-not-trigger-02",
-      "type": "should_not_trigger",
-      "prompt": "我的调色方案是暖色调好还是冷色调好？",
-      "expected_behavior": "不应激活，这是调色问题，不是场景转换的对立设计",
-      "notes": "诱饵：调色问题"
-    },
-    {
-      "id": "edge-01",
-      "type": "edge_case",
-      "prompt": "我想拍一部只有一个场景的短片，全部在一个房间里完成，有没有办法制造场景转换的感觉？",
-      "expected_behavior": "应激活——虽然只有一个场所，但二元对立可以通过视角、时间、光线、声音变化在单场景内创造转换感",
-      "notes": "边界：单场景电影的极端情况"
-    }
-  ],
-  "minimum_pass_rate": 0.8,
-  "notes": "至少 3 条 should_trigger + 2 条 should_not_trigger + 1 条 edge_case。"
-}
+[
+  {
+    "id": "should-trigger-01",
+    "type": "should_trigger",
+    "prompt": "我在拍一部悬疑片，主角从一个温暖明亮的咖啡厅走出来，下一个场景是他独自在黑暗的停车场。这两个场景的转换怎么处理才能让观众感受到强烈的对比？",
+    "expected_behavior": "应激活 scene-transition-binary-opposition，建议利用二元对立的多个维度（光线、声音、空间、温度）同时制造对比",
+    "notes": "正面场景：场所选择和对比设计"
+  },
+  {
+    "id": "should-trigger-02",
+    "type": "should_trigger",
+    "prompt": "我的电影有三条故事线，怎么让观众在切换时感受到每条线的不同氛围？",
+    "expected_behavior": "应激活 scene-transition-binary-opposition，建议为每条故事线建立独特的对立维度组合",
+    "notes": "正面场景：多线叙事的场景并置"
+  },
+  {
+    "id": "should-trigger-03",
+    "type": "should_trigger",
+    "prompt": "怎么在一个房间里拍完一整场戏还能让观众感觉到场景在变化？",
+    "expected_behavior": "应激活 scene-transition-binary-opposition，建议通过视角、时间、声音等维度在单场景内创造对立",
+    "notes": "正面场景：单场景内的对立创造"
+  },
+  {
+    "id": "should-not-trigger-01",
+    "type": "should_not_trigger",
+    "prompt": "这个镜头的构图怎么安排比较好？前景放人物还是背景放人物？",
+    "expected_behavior": "不应激活，这是单个镜头的构图问题，不是场景之间的转换",
+    "notes": "诱饵：构图问题，非场景转换"
+  },
+  {
+    "id": "should-not-trigger-02",
+    "type": "should_not_trigger",
+    "prompt": "我的调色方案是暖色调好还是冷色调好？",
+    "expected_behavior": "不应激活，这是调色问题，不是场景转换的对立设计",
+    "notes": "诱饵：调色问题"
+  },
+  {
+    "id": "edge-01",
+    "type": "edge_case",
+    "prompt": "我想拍一部只有一个场景的短片，全部在一个房间里完成，有没有办法制造场景转换的感觉？",
+    "expected_behavior": "应激活——虽然只有一个场所，但二元对立可以通过视角、时间、光线、声音变化在单场景内创造转换感",
+    "notes": "边界：单场景电影的极端情况"
+  }
+]

@@ -1,45 +1,38 @@
-{
-  "skill": "sound-design-music-story-parallel",
-  "version": "0.1.0",
-  "source_book": "《声音设计》 — David Sonnenschein",
-  "darwin_compatible": true,
-  "test_cases": [
-    {
-      "id": "should-trigger-01",
-      "type": "should_trigger",
-      "prompt": "关于parallel的声音设计问题",
-      "expected_behavior": "应激活对应skill"
-    },
-    {
-      "id": "should-trigger-02",
-      "type": "should_trigger",
-      "prompt": "声音设计中遇到相关技术问题",
-      "expected_behavior": "应激活"
-    },
-    {
-      "id": "should-trigger-03",
-      "type": "should_trigger",
-      "prompt": "需要专业声音设计指导",
-      "expected_behavior": "应激活"
-    },
-    {
-      "id": "should-not-trigger-01",
-      "type": "should_not_trigger",
-      "prompt": "故事结构怎么设计？",
-      "expected_behavior": "不应激活——这是叙事问题"
-    },
-    {
-      "id": "should-not-trigger-02",
-      "type": "should_not_trigger",
-      "prompt": "对白怎么写？",
-      "expected_behavior": "不应激活"
-    },
-    {
-      "id": "edge-01",
-      "type": "edge_case",
-      "prompt": "纪录片的声音设计和故事片有什么不同？",
-      "expected_behavior": "应部分激活——原则通用但应用方式不同"
-    }
-  ],
-  "minimum_pass_rate": 0.8
-}
+[
+  {
+    "id": "should-trigger-01",
+    "type": "should_trigger",
+    "prompt": "关于parallel的声音设计问题",
+    "expected_behavior": "应激活对应skill"
+  },
+  {
+    "id": "should-trigger-02",
+    "type": "should_trigger",
+    "prompt": "声音设计中遇到相关技术问题",
+    "expected_behavior": "应激活"
+  },
+  {
+    "id": "should-trigger-03",
+    "type": "should_trigger",
+    "prompt": "需要专业声音设计指导",
+    "expected_behavior": "应激活"
+  },
+  {
+    "id": "should-not-trigger-01",
+    "type": "should_not_trigger",
+    "prompt": "故事结构怎么设计？",
+    "expected_behavior": "不应激活——这是叙事问题"
+  },
+  {
+    "id": "should-not-trigger-02",
+    "type": "should_not_trigger",
+    "prompt": "对白怎么写？",
+    "expected_behavior": "不应激活"
+  },
+  {
+    "id": "edge-01",
+    "type": "edge_case",
+    "prompt": "纪录片的声音设计和故事片有什么不同？",
+    "expected_behavior": "应部分激活——原则通用但应用方式不同"
+  }
+]

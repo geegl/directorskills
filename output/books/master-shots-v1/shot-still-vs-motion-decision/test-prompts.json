@@ -1,52 +1,44 @@
-{
-  "skill": "shot-still-vs-motion-decision",
-  "version": "0.1.0",
-  "source_book": "《大师镜头：低成本拍大片的100个高级技巧（第1卷）》 — Christopher Kenworthy",
-  "darwin_compatible": true,
-  "test_cases": [
-    {
-      "id": "should-trigger-01",
-      "type": "should_trigger",
-      "prompt": "角色要做一个重大决定，比如决定离开家乡，怎么用镜头表现这个决定的瞬间？",
-      "expected_behavior": "应激活 shot-still-vs-motion-decision，建议用静止蓄力加运动释放的设计表现决定时刻",
-      "notes": "核心场景：决定性时刻的视觉表现"
-    },
-    {
-      "id": "should-trigger-02",
-      "type": "should_trigger",
-      "prompt": "我想表现角色内心的挣扎，不用对白不用旁白，纯靠画面怎么让观众感受到？",
-      "expected_behavior": "应激活 shot-still-vs-motion-decision，建议用演员静止加背景运动的对比外化内心挣扎",
-      "notes": "心理外化的视觉手段"
-    },
-    {
-      "id": "should-trigger-03",
-      "type": "should_trigger",
-      "prompt": "这场戏是全片的转折点，但拍出来感觉平淡，怎么让观众知道这一刻很重要？",
-      "expected_behavior": "应激活 shot-still-vs-motion-decision，建议用运动状态的突然切换制造转折感",
-      "notes": "转折点的强调技法"
-    },
-    {
-      "id": "should-not-trigger-01",
-      "type": "should_not_trigger",
-      "prompt": "怎么设计一场动作戏的镜头运动？角色一直在打斗。",
-      "expected_behavior": "不应激活此 skill，用户在讨论高运动量的动作场景，没有静止阶段的蓄力空间",
-      "notes": "诱饵：涉及运动设计但场景本身就是高运动量的"
-    },
-    {
-      "id": "should-not-trigger-02",
-      "type": "should_not_trigger",
-      "prompt": "角色整场戏都很悲伤，怎么用镜头表现这种持续的情绪？",
-      "expected_behavior": "不应激活此 skill，用户要表现的是持续情绪状态而非瞬间决定",
-      "notes": "诱饵：涉及心理表现但是持续状态而非决定性时刻"
-    },
-    {
-      "id": "edge-01",
-      "type": "edge_case",
-      "prompt": "角色决定不说出秘密，没有明显的动作，怎么用镜头表现这种消极决定？",
-      "expected_behavior": "边界场景：消极决定没有明显的运动释放。应激活 skill 但建议用微小的身体语言变化作为运动释放的替代",
-      "notes": "边界：消极决定的运动释放设计"
-    }
-  ],
-  "minimum_pass_rate": 0.8,
-  "notes": "至少 3 条 should_trigger + 2 条 should_not_trigger + 1 条 edge_case。"
-}
+[
+  {
+    "id": "should-trigger-01",
+    "type": "should_trigger",
+    "prompt": "角色要做一个重大决定，比如决定离开家乡，怎么用镜头表现这个决定的瞬间？",
+    "expected_behavior": "应激活 shot-still-vs-motion-decision，建议用静止蓄力加运动释放的设计表现决定时刻",
+    "notes": "核心场景：决定性时刻的视觉表现"
+  },
+  {
+    "id": "should-trigger-02",
+    "type": "should_trigger",
+    "prompt": "我想表现角色内心的挣扎，不用对白不用旁白，纯靠画面怎么让观众感受到？",
+    "expected_behavior": "应激活 shot-still-vs-motion-decision，建议用演员静止加背景运动的对比外化内心挣扎",
+    "notes": "心理外化的视觉手段"
+  },
+  {
+    "id": "should-trigger-03",
+    "type": "should_trigger",
+    "prompt": "这场戏是全片的转折点，但拍出来感觉平淡，怎么让观众知道这一刻很重要？",
+    "expected_behavior": "应激活 shot-still-vs-motion-decision，建议用运动状态的突然切换制造转折感",
+    "notes": "转折点的强调技法"
+  },
+  {
+    "id": "should-not-trigger-01",
+    "type": "should_not_trigger",
+    "prompt": "怎么设计一场动作戏的镜头运动？角色一直在打斗。",
+    "expected_behavior": "不应激活此 skill，用户在讨论高运动量的动作场景，没有静止阶段的蓄力空间",
+    "notes": "诱饵：涉及运动设计但场景本身就是高运动量的"
+  },
+  {
+    "id": "should-not-trigger-02",
+    "type": "should_not_trigger",
+    "prompt": "角色整场戏都很悲伤，怎么用镜头表现这种持续的情绪？",
+    "expected_behavior": "不应激活此 skill，用户要表现的是持续情绪状态而非瞬间决定",
+    "notes": "诱饵：涉及心理表现但是持续状态而非决定性时刻"
+  },
+  {
+    "id": "edge-01",
+    "type": "edge_case",
+    "prompt": "角色决定不说出秘密，没有明显的动作，怎么用镜头表现这种消极决定？",
+    "expected_behavior": "边界场景：消极决定没有明显的运动释放。应激活 skill 但建议用微小的身体语言变化作为运动释放的替代",
+    "notes": "边界：消极决定的运动释放设计"
+  }
+]

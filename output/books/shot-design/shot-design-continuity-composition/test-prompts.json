@@ -1,46 +1,38 @@
-{
-  "skill": "shot-design-continuity-composition",
-  "version": "0.1.0",
-  "source_book": "《电影镜头设计》 — Steven D. Katz",
-  "darwin_compatible": true,
-  "test_cases": [
-    {
-      "id": "should-trigger-01",
-      "type": "should_trigger",
-      "prompt": "画面看起来不对劲，构图有问题",
-      "expected_behavior": "应激活，引导用连续性思维检查构图"
-    },
-    {
-      "id": "should-trigger-02",
-      "type": "should_trigger",
-      "prompt": "特写怎么构图？角色放中间吗？",
-      "expected_behavior": "应激活，介绍偏离中心构图"
-    },
-    {
-      "id": "should-trigger-03",
-      "type": "should_trigger",
-      "prompt": "剪辑后画面节奏不对怎么办？",
-      "expected_behavior": "应激活，解释构图的连续性关系"
-    },
-    {
-      "id": "should-not-trigger-01",
-      "type": "should_not_trigger",
-      "prompt": "故事主题怎么表达？",
-      "expected_behavior": "不应激活"
-    },
-    {
-      "id": "should-not-trigger-02",
-      "type": "should_not_trigger",
-      "prompt": "灯光怎么设计？",
-      "expected_behavior": "不应激活"
-    },
-    {
-      "id": "edge-01",
-      "type": "edge_case",
-      "prompt": "韦斯·安德森的对称构图怎么做到的？",
-      "expected_behavior": "应部分激活——对称构图是故意打破连续性原则的风格化选择"
-    }
-  ],
-  "minimum_pass_rate": 0.8,
-  "notes": "至少 3 条 should_trigger + 2 条 should_not_trigger + 1 条 edge_case。"
-}
+[
+  {
+    "id": "should-trigger-01",
+    "type": "should_trigger",
+    "prompt": "画面看起来不对劲，构图有问题",
+    "expected_behavior": "应激活，引导用连续性思维检查构图"
+  },
+  {
+    "id": "should-trigger-02",
+    "type": "should_trigger",
+    "prompt": "特写怎么构图？角色放中间吗？",
+    "expected_behavior": "应激活，介绍偏离中心构图"
+  },
+  {
+    "id": "should-trigger-03",
+    "type": "should_trigger",
+    "prompt": "剪辑后画面节奏不对怎么办？",
+    "expected_behavior": "应激活，解释构图的连续性关系"
+  },
+  {
+    "id": "should-not-trigger-01",
+    "type": "should_not_trigger",
+    "prompt": "故事主题怎么表达？",
+    "expected_behavior": "不应激活"
+  },
+  {
+    "id": "should-not-trigger-02",
+    "type": "should_not_trigger",
+    "prompt": "灯光怎么设计？",
+    "expected_behavior": "不应激活"
+  },
+  {
+    "id": "edge-01",
+    "type": "edge_case",
+    "prompt": "韦斯·安德森的对称构图怎么做到的？",
+    "expected_behavior": "应部分激活——对称构图是故意打破连续性原则的风格化选择"
+  }
+]

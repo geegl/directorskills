@@ -1,46 +1,38 @@
-{
-  "skill": "shot-design-sightline-cut",
-  "version": "0.1.0",
-  "source_book": "《电影镜头设计》 — Steven D. Katz",
-  "darwin_compatible": true,
-  "test_cases": [
-    {
-      "id": "should-trigger-01",
-      "type": "should_trigger",
-      "prompt": "观众搞不清谁在看谁怎么办？",
-      "expected_behavior": "应激活，检查视线方向一致性"
-    },
-    {
-      "id": "should-trigger-02",
-      "type": "should_trigger",
-      "prompt": "主观镜头怎么拍？",
-      "expected_behavior": "应激活，介绍视线剪切建立主观镜头"
-    },
-    {
-      "id": "should-trigger-03",
-      "type": "should_trigger",
-      "prompt": "怎么从一个角色的视角切到另一个？",
-      "expected_behavior": "应激活，解释视线剪切的连续性"
-    },
-    {
-      "id": "should-not-trigger-01",
-      "type": "should_not_trigger",
-      "prompt": "故事结构怎么设计？",
-      "expected_behavior": "不应激活"
-    },
-    {
-      "id": "should-not-trigger-02",
-      "type": "should_not_trigger",
-      "prompt": "音乐怎么配合画面？",
-      "expected_behavior": "不应激活"
-    },
-    {
-      "id": "edge-01",
-      "type": "edge_case",
-      "prompt": "恐怖片怎么用视线制造不安？",
-      "expected_behavior": "应激活——故意打破视线一致性可以制造不安感"
-    }
-  ],
-  "minimum_pass_rate": 0.8,
-  "notes": "至少 3 条 should_trigger + 2 条 should_not_trigger + 1 条 edge_case。"
-}
+[
+  {
+    "id": "should-trigger-01",
+    "type": "should_trigger",
+    "prompt": "观众搞不清谁在看谁怎么办？",
+    "expected_behavior": "应激活，检查视线方向一致性"
+  },
+  {
+    "id": "should-trigger-02",
+    "type": "should_trigger",
+    "prompt": "主观镜头怎么拍？",
+    "expected_behavior": "应激活，介绍视线剪切建立主观镜头"
+  },
+  {
+    "id": "should-trigger-03",
+    "type": "should_trigger",
+    "prompt": "怎么从一个角色的视角切到另一个？",
+    "expected_behavior": "应激活，解释视线剪切的连续性"
+  },
+  {
+    "id": "should-not-trigger-01",
+    "type": "should_not_trigger",
+    "prompt": "故事结构怎么设计？",
+    "expected_behavior": "不应激活"
+  },
+  {
+    "id": "should-not-trigger-02",
+    "type": "should_not_trigger",
+    "prompt": "音乐怎么配合画面？",
+    "expected_behavior": "不应激活"
+  },
+  {
+    "id": "edge-01",
+    "type": "edge_case",
+    "prompt": "恐怖片怎么用视线制造不安？",
+    "expected_behavior": "应激活——故意打破视线一致性可以制造不安感"
+  }
+]

@@ -1,44 +1,37 @@
-{
-  "skill": "scene-transition-weather-contrast",
-  "version": "0.1.0",
-  "source_book": "《大师场景：顶级场景转换术》 — Jeffrey Michael Bays",
-  "darwin_compatible": true,
-  "test_cases": [
-    {
-      "id": "should-trigger-01",
-      "type": "should_trigger",
-      "prompt": "我的悬疑场景放在晴天会不会没有气氛？",
-      "expected_behavior": "应激活，解释晴天悬疑反而更有张力（希区柯克方法）",
-      "notes": "正面场景：天气选择"
-    },
-    {
-      "id": "should-trigger-02",
-      "type": "should_trigger",
-      "prompt": "天气配合情绪是不是太老套了？",
-      "expected_behavior": "应激活，建议用天气对比打破套路",
-      "notes": "正面场景：反套路"
-    },
-    {
-      "id": "should-not-trigger-01",
-      "type": "should_not_trigger",
-      "prompt": "今天天气怎么样？",
-      "expected_behavior": "不应激活，这是日常天气查询",
-      "notes": "诱饵：日常天气"
-    },
-    {
-      "id": "should-not-trigger-02",
-      "type": "should_not_trigger",
-      "prompt": "怎么拍雨景？需要什么设备？",
-      "expected_behavior": "不应激活，这是摄影技术问题",
-      "notes": "诱饵：摄影技术"
-    },
-    {
-      "id": "edge-01",
-      "type": "edge_case",
-      "prompt": "我的灾难片里天气就是主角，这个方法还适用吗？",
-      "expected_behavior": "不太适用——当天气是故事核心元素时，天气配合叙事是必要的",
-      "notes": "边界：天气作为主角"
-    }
-  ],
-  "minimum_pass_rate": 0.8
-}
+[
+  {
+    "id": "should-trigger-01",
+    "type": "should_trigger",
+    "prompt": "我的悬疑场景放在晴天会不会没有气氛？",
+    "expected_behavior": "应激活，解释晴天悬疑反而更有张力（希区柯克方法）",
+    "notes": "正面场景：天气选择"
+  },
+  {
+    "id": "should-trigger-02",
+    "type": "should_trigger",
+    "prompt": "天气配合情绪是不是太老套了？",
+    "expected_behavior": "应激活，建议用天气对比打破套路",
+    "notes": "正面场景：反套路"
+  },
+  {
+    "id": "should-not-trigger-01",
+    "type": "should_not_trigger",
+    "prompt": "今天天气怎么样？",
+    "expected_behavior": "不应激活，这是日常天气查询",
+    "notes": "诱饵：日常天气"
+  },
+  {
+    "id": "should-not-trigger-02",
+    "type": "should_not_trigger",
+    "prompt": "怎么拍雨景？需要什么设备？",
+    "expected_behavior": "不应激活，这是摄影技术问题",
+    "notes": "诱饵：摄影技术"
+  },
+  {
+    "id": "edge-01",
+    "type": "edge_case",
+    "prompt": "我的灾难片里天气就是主角，这个方法还适用吗？",
+    "expected_behavior": "不太适用——当天气是故事核心元素时，天气配合叙事是必要的",
+    "notes": "边界：天气作为主角"
+  }
+]

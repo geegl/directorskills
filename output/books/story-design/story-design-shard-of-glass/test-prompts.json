@@ -1,46 +1,38 @@
-{
-  "skill": "story-design-shard-of-glass",
-  "version": "0.1.0",
-  "source_book": "《救猫咪》 — Blake Snyder",
-  "darwin_compatible": true,
-  "test_cases": [
-    {
-      "id": "should-trigger-01",
-      "type": "should_trigger",
-      "prompt": "我的All Is Lost时刻不够有冲击力，怎么改？",
-      "expected_behavior": "应激活 story-design-shard-of-glass，引导找到主角的碎片"
-    },
-    {
-      "id": "should-trigger-02",
-      "type": "should_trigger",
-      "prompt": "角色弧线怎么设计才有深度？",
-      "expected_behavior": "应激活 story-design-shard-of-glass，用碎片隐喻解释角色变化"
-    },
-    {
-      "id": "should-trigger-03",
-      "type": "should_trigger",
-      "prompt": "故事的情感低谷怎么写才能让观众哭？",
-      "expected_behavior": "应激活 story-design-shard-of-glass，强调碎片暴露和whiff of death"
-    },
-    {
-      "id": "should-not-trigger-01",
-      "type": "should_not_trigger",
-      "prompt": "故事的结局怎么写？",
-      "expected_behavior": "不应激活——这是终局问题，用five-step-finale"
-    },
-    {
-      "id": "should-not-trigger-02",
-      "type": "should_not_trigger",
-      "prompt": "反派的动机怎么设计？",
-      "expected_behavior": "不应激活——这是反派设计问题"
-    },
-    {
-      "id": "edge-01",
-      "type": "edge_case",
-      "prompt": "动作片也需要Shard of Glass吗？",
-      "expected_behavior": "应部分激活——动作片可以有更浅的碎片，但All Is Lost仍然需要情感核心"
-    }
-  ],
-  "minimum_pass_rate": 0.8,
-  "notes": "至少 3 条 should_trigger + 2 条 should_not_trigger + 1 条 edge_case。全部 should_not_trigger 必须通过。"
-}
+[
+  {
+    "id": "should-trigger-01",
+    "type": "should_trigger",
+    "prompt": "我的All Is Lost时刻不够有冲击力，怎么改？",
+    "expected_behavior": "应激活 story-design-shard-of-glass，引导找到主角的碎片"
+  },
+  {
+    "id": "should-trigger-02",
+    "type": "should_trigger",
+    "prompt": "角色弧线怎么设计才有深度？",
+    "expected_behavior": "应激活 story-design-shard-of-glass，用碎片隐喻解释角色变化"
+  },
+  {
+    "id": "should-trigger-03",
+    "type": "should_trigger",
+    "prompt": "故事的情感低谷怎么写才能让观众哭？",
+    "expected_behavior": "应激活 story-design-shard-of-glass，强调碎片暴露和whiff of death"
+  },
+  {
+    "id": "should-not-trigger-01",
+    "type": "should_not_trigger",
+    "prompt": "故事的结局怎么写？",
+    "expected_behavior": "不应激活——这是终局问题，用five-step-finale"
+  },
+  {
+    "id": "should-not-trigger-02",
+    "type": "should_not_trigger",
+    "prompt": "反派的动机怎么设计？",
+    "expected_behavior": "不应激活——这是反派设计问题"
+  },
+  {
+    "id": "edge-01",
+    "type": "edge_case",
+    "prompt": "动作片也需要Shard of Glass吗？",
+    "expected_behavior": "应部分激活——动作片可以有更浅的碎片，但All Is Lost仍然需要情感核心"
+  }
+]

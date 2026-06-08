@@ -1,52 +1,44 @@
-{
-  "skill": "shot-design-axis-of-action",
-  "version": "0.1.0",
-  "source_book": "《电影镜头设计》 — Steven D. Katz",
-  "darwin_compatible": true,
-  "test_cases": [
-    {
-      "id": "should-trigger-01",
-      "type": "should_trigger",
-      "prompt": "180度规则是什么？怎么用？",
-      "expected_behavior": "应激活，解释180度规则和三角机位系统",
-      "notes": "核心知识请求"
-    },
-    {
-      "id": "should-trigger-02",
-      "type": "should_trigger",
-      "prompt": "观众搞不清谁在看谁怎么办",
-      "expected_behavior": "应激活，检查是否违反了轴线规则",
-      "notes": "问题诊断"
-    },
-    {
-      "id": "should-trigger-03",
-      "type": "should_trigger",
-      "prompt": "怎么在对话场景中切换摄影机位置？",
-      "expected_behavior": "应激活，介绍三角机位的6种位置组合",
-      "notes": "操作指导"
-    },
-    {
-      "id": "should-not-trigger-01",
-      "type": "should_not_trigger",
-      "prompt": "故事的结局怎么设计？",
-      "expected_behavior": "不应激活——这是故事结构问题",
-      "notes": "诱饵：叙事vs技术"
-    },
-    {
-      "id": "should-not-trigger-02",
-      "type": "should_not_trigger",
-      "prompt": "主角的性格怎么塑造？",
-      "expected_behavior": "不应激活——这是角色设计问题",
-      "notes": "诱饵：角色vs镜头"
-    },
-    {
-      "id": "edge-01",
-      "type": "edge_case",
-      "prompt": "我想故意打破180度规则制造混乱感",
-      "expected_behavior": "应激活——解释规则的同时说明何时可以打破",
-      "notes": "边界：规则vs打破规则"
-    }
-  ],
-  "minimum_pass_rate": 0.8,
-  "notes": "至少 3 条 should_trigger + 2 条 should_not_trigger + 1 条 edge_case。"
-}
+[
+  {
+    "id": "should-trigger-01",
+    "type": "should_trigger",
+    "prompt": "180度规则是什么？怎么用？",
+    "expected_behavior": "应激活，解释180度规则和三角机位系统",
+    "notes": "核心知识请求"
+  },
+  {
+    "id": "should-trigger-02",
+    "type": "should_trigger",
+    "prompt": "观众搞不清谁在看谁怎么办",
+    "expected_behavior": "应激活，检查是否违反了轴线规则",
+    "notes": "问题诊断"
+  },
+  {
+    "id": "should-trigger-03",
+    "type": "should_trigger",
+    "prompt": "怎么在对话场景中切换摄影机位置？",
+    "expected_behavior": "应激活，介绍三角机位的6种位置组合",
+    "notes": "操作指导"
+  },
+  {
+    "id": "should-not-trigger-01",
+    "type": "should_not_trigger",
+    "prompt": "故事的结局怎么设计？",
+    "expected_behavior": "不应激活——这是故事结构问题",
+    "notes": "诱饵：叙事vs技术"
+  },
+  {
+    "id": "should-not-trigger-02",
+    "type": "should_not_trigger",
+    "prompt": "主角的性格怎么塑造？",
+    "expected_behavior": "不应激活——这是角色设计问题",
+    "notes": "诱饵：角色vs镜头"
+  },
+  {
+    "id": "edge-01",
+    "type": "edge_case",
+    "prompt": "我想故意打破180度规则制造混乱感",
+    "expected_behavior": "应激活——解释规则的同时说明何时可以打破",
+    "notes": "边界：规则vs打破规则"
+  }
+]

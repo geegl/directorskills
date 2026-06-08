@@ -1,46 +1,38 @@
-{
-  "skill": "story-design-five-step-finale",
-  "version": "0.1.0",
-  "source_book": "《救猫咪》 — Blake Snyder",
-  "darwin_compatible": true,
-  "test_cases": [
-    {
-      "id": "should-trigger-01",
-      "type": "should_trigger",
-      "prompt": "我的第三幕总是写得很松散，怎么让高潮更有冲击力？",
-      "expected_behavior": "应激活 story-design-five-step-finale，用五步法结构化终局"
-    },
-    {
-      "id": "should-trigger-02",
-      "type": "should_trigger",
-      "prompt": "结局怎么设计才能让观众感动？",
-      "expected_behavior": "应激活 story-design-five-step-finale，强调Dig Deep Down步骤"
-    },
-    {
-      "id": "should-trigger-03",
-      "type": "should_trigger",
-      "prompt": "高潮部分写不下去了，计划失败后怎么办？",
-      "expected_behavior": "应激活 story-design-five-step-finale，解释High Tower Surprise后的Dig Deep Down"
-    },
-    {
-      "id": "should-not-trigger-01",
-      "type": "should_not_trigger",
-      "prompt": "我的故事开头怎么写？",
-      "expected_behavior": "不应激活——这是第一幕的问题，用beat-sheet"
-    },
-    {
-      "id": "should-not-trigger-02",
-      "type": "should_not_trigger",
-      "prompt": "这个场景的对白怎么改？",
-      "expected_behavior": "不应激活——这是场景层面的修改"
-    },
-    {
-      "id": "edge-01",
-      "type": "edge_case",
-      "prompt": "我想写一个开放式结局，五步法还适用吗？",
-      "expected_behavior": "应部分激活——五步法的前4步仍然适用，最后一步需要调整"
-    }
-  ],
-  "minimum_pass_rate": 0.8,
-  "notes": "至少 3 条 should_trigger + 2 条 should_not_trigger + 1 条 edge_case。全部 should_not_trigger 必须通过。"
-}
+[
+  {
+    "id": "should-trigger-01",
+    "type": "should_trigger",
+    "prompt": "我的第三幕总是写得很松散，怎么让高潮更有冲击力？",
+    "expected_behavior": "应激活 story-design-five-step-finale，用五步法结构化终局"
+  },
+  {
+    "id": "should-trigger-02",
+    "type": "should_trigger",
+    "prompt": "结局怎么设计才能让观众感动？",
+    "expected_behavior": "应激活 story-design-five-step-finale，强调Dig Deep Down步骤"
+  },
+  {
+    "id": "should-trigger-03",
+    "type": "should_trigger",
+    "prompt": "高潮部分写不下去了，计划失败后怎么办？",
+    "expected_behavior": "应激活 story-design-five-step-finale，解释High Tower Surprise后的Dig Deep Down"
+  },
+  {
+    "id": "should-not-trigger-01",
+    "type": "should_not_trigger",
+    "prompt": "我的故事开头怎么写？",
+    "expected_behavior": "不应激活——这是第一幕的问题，用beat-sheet"
+  },
+  {
+    "id": "should-not-trigger-02",
+    "type": "should_not_trigger",
+    "prompt": "这个场景的对白怎么改？",
+    "expected_behavior": "不应激活——这是场景层面的修改"
+  },
+  {
+    "id": "edge-01",
+    "type": "edge_case",
+    "prompt": "我想写一个开放式结局，五步法还适用吗？",
+    "expected_behavior": "应部分激活——五步法的前4步仍然适用，最后一步需要调整"
+  }
+]

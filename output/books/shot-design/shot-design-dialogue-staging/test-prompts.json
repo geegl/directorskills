@@ -1,46 +1,38 @@
-{
-  "skill": "shot-design-dialogue-staging",
-  "version": "0.1.0",
-  "source_book": "《电影镜头设计》 — Steven D. Katz",
-  "darwin_compatible": true,
-  "test_cases": [
-    {
-      "id": "should-trigger-01",
-      "type": "should_trigger",
-      "prompt": "两个人对话怎么安排站位？",
-      "expected_behavior": "应激活，介绍I形态10位置"
-    },
-    {
-      "id": "should-trigger-02",
-      "type": "should_trigger",
-      "prompt": "多人对话场景怎么调度？",
-      "expected_behavior": "应激活，介绍L/A形态扩展"
-    },
-    {
-      "id": "should-trigger-03",
-      "type": "should_trigger",
-      "prompt": "对话场景看起来很单调怎么办？",
-      "expected_behavior": "应激活，引导使用不同调度形态"
-    },
-    {
-      "id": "should-not-trigger-01",
-      "type": "should_not_trigger",
-      "prompt": "对白内容怎么写？",
-      "expected_behavior": "不应激活"
-    },
-    {
-      "id": "should-not-trigger-02",
-      "type": "should_not_trigger",
-      "prompt": "故事结构怎么设计？",
-      "expected_behavior": "不应激活"
-    },
-    {
-      "id": "edge-01",
-      "type": "edge_case",
-      "prompt": "五个人在餐桌旁对话，怎么调度？",
-      "expected_behavior": "应激活——多人对话是A形态的扩展应用"
-    }
-  ],
-  "minimum_pass_rate": 0.8,
-  "notes": "至少 3 条 should_trigger + 2 条 should_not_trigger + 1 条 edge_case。"
-}
+[
+  {
+    "id": "should-trigger-01",
+    "type": "should_trigger",
+    "prompt": "两个人对话怎么安排站位？",
+    "expected_behavior": "应激活，介绍I形态10位置"
+  },
+  {
+    "id": "should-trigger-02",
+    "type": "should_trigger",
+    "prompt": "多人对话场景怎么调度？",
+    "expected_behavior": "应激活，介绍L/A形态扩展"
+  },
+  {
+    "id": "should-trigger-03",
+    "type": "should_trigger",
+    "prompt": "对话场景看起来很单调怎么办？",
+    "expected_behavior": "应激活，引导使用不同调度形态"
+  },
+  {
+    "id": "should-not-trigger-01",
+    "type": "should_not_trigger",
+    "prompt": "对白内容怎么写？",
+    "expected_behavior": "不应激活"
+  },
+  {
+    "id": "should-not-trigger-02",
+    "type": "should_not_trigger",
+    "prompt": "故事结构怎么设计？",
+    "expected_behavior": "不应激活"
+  },
+  {
+    "id": "edge-01",
+    "type": "edge_case",
+    "prompt": "五个人在餐桌旁对话，怎么调度？",
+    "expected_behavior": "应激活——多人对话是A形态的扩展应用"
+  }
+]

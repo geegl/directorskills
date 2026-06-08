@@ -1,44 +1,37 @@
-{
-  "skill": "dialogue-closeup-timing",
-  "version": "0.1.0",
-  "source_book": "《大师镜头 第二卷》 Christopher Kenworthy",
-  "darwin_compatible": true,
-  "test_cases": [
-    {
-      "id": "should-trigger-01",
-      "type": "should_trigger",
-      "prompt": "对话场景拍了好几分钟都是双人全景，感觉节奏有点拖，要不要切特写？",
-      "expected_behavior": "应激活，用三条件框架判断是否满足特写资格",
-      "notes": "正面场景：对话已在全景中进行较久"
-    },
-    {
-      "id": "should-trigger-02",
-      "type": "should_trigger",
-      "prompt": "两个人在吵架，越走越近最后面对面停下了，之前一直是运动镜头，这时候该用什么镜头？",
-      "expected_behavior": "应激活，建议运动停止瞬间切长焦特写制造冲击",
-      "notes": "正面场景：运动停止+需要冲击力"
-    },
-    {
-      "id": "should-not-trigger-01",
-      "type": "should_not_trigger",
-      "prompt": "动作戏里主角被敌人追，需要拍他的表情来表现紧张感",
-      "expected_behavior": "不应激活，动作场景中特写是标准操作",
-      "notes": "诱饵：动作场景"
-    },
-    {
-      "id": "should-not-trigger-02",
-      "type": "should_not_trigger",
-      "prompt": "新闻主播在播报突发新闻，需要切换到现场记者的近景",
-      "expected_behavior": "不应激活，新闻播报有标准切换逻辑",
-      "notes": "诱饵：新闻场景"
-    },
-    {
-      "id": "edge-01",
-      "type": "edge_case",
-      "prompt": "电话场景里角色接到了坏消息，要不要切到他的特写看反应？",
-      "expected_behavior": "不应切特写——Kenworthy明确说打电话时应保留肢体语言而非面部特写",
-      "notes": "边界：电话场景的特写禁忌"
-    }
-  ],
-  "minimum_pass_rate": 0.8
-}
+[
+  {
+    "id": "should-trigger-01",
+    "type": "should_trigger",
+    "prompt": "对话场景拍了好几分钟都是双人全景，感觉节奏有点拖，要不要切特写？",
+    "expected_behavior": "应激活，用三条件框架判断是否满足特写资格",
+    "notes": "正面场景：对话已在全景中进行较久"
+  },
+  {
+    "id": "should-trigger-02",
+    "type": "should_trigger",
+    "prompt": "两个人在吵架，越走越近最后面对面停下了，之前一直是运动镜头，这时候该用什么镜头？",
+    "expected_behavior": "应激活，建议运动停止瞬间切长焦特写制造冲击",
+    "notes": "正面场景：运动停止+需要冲击力"
+  },
+  {
+    "id": "should-not-trigger-01",
+    "type": "should_not_trigger",
+    "prompt": "动作戏里主角被敌人追，需要拍他的表情来表现紧张感",
+    "expected_behavior": "不应激活，动作场景中特写是标准操作",
+    "notes": "诱饵：动作场景"
+  },
+  {
+    "id": "should-not-trigger-02",
+    "type": "should_not_trigger",
+    "prompt": "新闻主播在播报突发新闻，需要切换到现场记者的近景",
+    "expected_behavior": "不应激活，新闻播报有标准切换逻辑",
+    "notes": "诱饵：新闻场景"
+  },
+  {
+    "id": "edge-01",
+    "type": "edge_case",
+    "prompt": "电话场景里角色接到了坏消息，要不要切到他的特写看反应？",
+    "expected_behavior": "不应切特写——Kenworthy明确说打电话时应保留肢体语言而非面部特写",
+    "notes": "边界：电话场景的特写禁忌"
+  }
+]

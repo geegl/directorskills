@@ -2,37 +2,49 @@
   {
     "id": "should-trigger-01",
     "type": "should_trigger",
-    "prompt": "关于colors的问题",
-    "expected_behavior": "应激活对应skill"
+    "prompt": "肤色看起来不对偏黄了，怎么用记忆色彩校正？",
+    "expected_behavior": "应激活此skill"
   },
   {
     "id": "should-trigger-02",
     "type": "should_trigger",
-    "prompt": "调色中遇到相关技术问题",
-    "expected_behavior": "应激活"
+    "prompt": "天空颜色太假了，怎么调回人脑认知中的'正确'蓝色？",
+    "expected_behavior": "应激活此skill"
   },
   {
     "id": "should-trigger-03",
     "type": "should_trigger",
-    "prompt": "需要专业调色指导",
-    "expected_behavior": "应激活"
+    "prompt": "植物的绿色太荧光了，怎么让它看起来自然？",
+    "expected_behavior": "应激活此skill"
+  },
+  {
+    "id": "should-trigger-04",
+    "type": "should_trigger",
+    "prompt": "记忆色彩（memory colors）在调色中的参考价值是什么？",
+    "expected_behavior": "应激活此skill"
   },
   {
     "id": "should-not-trigger-01",
     "type": "should_not_trigger",
-    "prompt": "故事结构怎么设计？",
-    "expected_behavior": "不应激活——这是叙事问题"
+    "prompt": "画面整体色调怎么调？",
+    "expected_behavior": "不应激活——与其他skill相关"
   },
   {
     "id": "should-not-trigger-02",
     "type": "should_not_trigger",
-    "prompt": "对白怎么写？",
-    "expected_behavior": "不应激活"
+    "prompt": "黑白照片怎么上色？",
+    "expected_behavior": "不应激活——与其他skill相关"
+  },
+  {
+    "id": "should-not-trigger-03",
+    "type": "should_not_trigger",
+    "prompt": "色彩理论怎么学？",
+    "expected_behavior": "不应激活——与其他skill相关"
   },
   {
     "id": "edge-01",
     "type": "edge_case",
-    "prompt": "在非专业监视器上调色可以吗？",
-    "expected_behavior": "应部分激活——可以工作但需要了解限制"
+    "prompt": "科幻片中外星球的植物颜色完全是想象的，没有记忆色彩参考怎么办？",
+    "expected_behavior": "应部分激活"
   }
 ]

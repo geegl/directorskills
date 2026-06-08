@@ -2,37 +2,49 @@
   {
     "id": "should-trigger-01",
     "type": "should_trigger",
-    "prompt": "关于nonlinear的问题",
-    "expected_behavior": "应激活对应skill"
+    "prompt": "怎么在数字调色中模拟Pro-Mist柔光滤镜的效果？",
+    "expected_behavior": "应激活此skill"
   },
   {
     "id": "should-trigger-02",
     "type": "should_trigger",
-    "prompt": "调色中遇到相关技术问题",
-    "expected_behavior": "应激活"
+    "prompt": "光学滤镜的非线性特征和数字处理有什么区别？",
+    "expected_behavior": "应激活此skill"
   },
   {
     "id": "should-trigger-03",
     "type": "should_trigger",
-    "prompt": "需要专业调色指导",
-    "expected_behavior": "应激活"
+    "prompt": "模拟电影胶片的halation（光晕）效果怎么做？",
+    "expected_behavior": "应激活此skill"
+  },
+  {
+    "id": "should-trigger-04",
+    "type": "should_trigger",
+    "prompt": "数字滤镜能做到和实体光学滤镜一样的效果吗？局限在哪？",
+    "expected_behavior": "应激活此skill"
   },
   {
     "id": "should-not-trigger-01",
     "type": "should_not_trigger",
-    "prompt": "故事结构怎么设计？",
-    "expected_behavior": "不应激活——这是叙事问题"
+    "prompt": "Instagram滤镜怎么用？",
+    "expected_behavior": "不应激活——与其他skill相关"
   },
   {
     "id": "should-not-trigger-02",
     "type": "should_not_trigger",
-    "prompt": "对白怎么写？",
-    "expected_behavior": "不应激活"
+    "prompt": "照片后期怎么加滤镜？",
+    "expected_behavior": "不应激活——与其他skill相关"
+  },
+  {
+    "id": "should-not-trigger-03",
+    "type": "should_not_trigger",
+    "prompt": "视频转场特效怎么做？",
+    "expected_behavior": "不应激活——与其他skill相关"
   },
   {
     "id": "edge-01",
     "type": "edge_case",
-    "prompt": "在非专业监视器上调色可以吗？",
-    "expected_behavior": "应部分激活——可以工作但需要了解限制"
+    "prompt": "虚拟制作（LED Volume）中还需要光学滤镜吗？",
+    "expected_behavior": "应部分激活"
   }
 ]

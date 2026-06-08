@@ -2,37 +2,49 @@
   {
     "id": "should-trigger-01",
     "type": "should_trigger",
-    "prompt": "关于model的声音设计问题",
-    "expected_behavior": "应激活对应skill"
+    "prompt": "纪录片的声音应该保持客观真实还是可以做主观化处理？",
+    "expected_behavior": "应激活此skill"
   },
   {
     "id": "should-trigger-02",
     "type": "should_trigger",
-    "prompt": "声音设计中遇到相关技术问题",
-    "expected_behavior": "应激活"
+    "prompt": "混录中对白和音效冲突，怎么用能量模型判断优先级？",
+    "expected_behavior": "应激活此skill"
   },
   {
     "id": "should-trigger-03",
     "type": "should_trigger",
-    "prompt": "需要专业声音设计指导",
-    "expected_behavior": "应激活"
+    "prompt": "为一个有道德困境的角色设计声音主题，声音应该让人同情还是反感？",
+    "expected_behavior": "应激活此skill"
+  },
+  {
+    "id": "should-trigger-04",
+    "type": "should_trigger",
+    "prompt": "声音的能量高低怎么和叙事的情感弧线匹配？",
+    "expected_behavior": "应激活此skill"
   },
   {
     "id": "should-not-trigger-01",
     "type": "should_not_trigger",
-    "prompt": "故事结构怎么设计？",
-    "expected_behavior": "不应激活——这是叙事问题"
+    "prompt": "画面的色彩能量怎么控制？",
+    "expected_behavior": "不应激活——与其他skill相关"
   },
   {
     "id": "should-not-trigger-02",
     "type": "should_not_trigger",
-    "prompt": "对白怎么写？",
-    "expected_behavior": "不应激活"
+    "prompt": "演员的表演能量怎么指导？",
+    "expected_behavior": "不应激活——与其他skill相关"
+  },
+  {
+    "id": "should-not-trigger-03",
+    "type": "should_not_trigger",
+    "prompt": "音乐的音量大小怎么调？",
+    "expected_behavior": "不应激活——与其他skill相关"
   },
   {
     "id": "edge-01",
     "type": "edge_case",
-    "prompt": "纪录片的声音设计和故事片有什么不同？",
-    "expected_behavior": "应部分激活——原则通用但应用方式不同"
+    "prompt": "动画片中夸张的声音设计还需要遵循能量模型的真实性原则吗？",
+    "expected_behavior": "应部分激活"
   }
 ]

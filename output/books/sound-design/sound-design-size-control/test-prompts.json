@@ -2,37 +2,49 @@
   {
     "id": "should-trigger-01",
     "type": "should_trigger",
-    "prompt": "关于control的声音设计问题",
-    "expected_behavior": "应激活对应skill"
+    "prompt": "一个巨大怪兽的吼叫声怎么设计才能听起来真的很大？",
+    "expected_behavior": "应激活此skill"
   },
   {
     "id": "should-trigger-02",
     "type": "should_trigger",
-    "prompt": "声音设计中遇到相关技术问题",
-    "expected_behavior": "应激活"
+    "prompt": "微小物体（比如昆虫）的声音怎么让它听起来小而不是普通？",
+    "expected_behavior": "应激活此skill"
   },
   {
     "id": "should-trigger-03",
     "type": "should_trigger",
-    "prompt": "需要专业声音设计指导",
-    "expected_behavior": "应激活"
+    "prompt": "降速处理后声音和画面不同步了，怎么保持大小感的同时修正同步？",
+    "expected_behavior": "应激活此skill"
+  },
+  {
+    "id": "should-trigger-04",
+    "type": "should_trigger",
+    "prompt": "低频和高频的比例怎么影响观众对物体大小的感知？",
+    "expected_behavior": "应激活此skill"
   },
   {
     "id": "should-not-trigger-01",
     "type": "should_not_trigger",
-    "prompt": "故事结构怎么设计？",
-    "expected_behavior": "不应激活——这是叙事问题"
+    "prompt": "镜头角度怎么让物体看起来更大？",
+    "expected_behavior": "不应激活——与其他skill相关"
   },
   {
     "id": "should-not-trigger-02",
     "type": "should_not_trigger",
-    "prompt": "对白怎么写？",
-    "expected_behavior": "不应激活"
+    "prompt": "微距摄影怎么拍？",
+    "expected_behavior": "不应激活——与其他skill相关"
+  },
+  {
+    "id": "should-not-trigger-03",
+    "type": "should_not_trigger",
+    "prompt": "视觉特效怎么做比例感？",
+    "expected_behavior": "不应激活——与其他skill相关"
   },
   {
     "id": "edge-01",
     "type": "edge_case",
-    "prompt": "纪录片的声音设计和故事片有什么不同？",
-    "expected_behavior": "应部分激活——原则通用但应用方式不同"
+    "prompt": "微观纪录片中细菌的'声音'完全是想象的，大小感怎么建立？",
+    "expected_behavior": "应部分激活"
   }
 ]

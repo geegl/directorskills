@@ -2,37 +2,49 @@
   {
     "id": "should-trigger-01",
     "type": "should_trigger",
-    "prompt": "关于consistency的声音设计问题",
-    "expected_behavior": "应激活对应skill"
+    "prompt": "上一集里这个角色的关门声是木门声，这一集换成了金属门声，观众会不会注意到？",
+    "expected_behavior": "应激活此skill"
   },
   {
     "id": "should-trigger-02",
     "type": "should_trigger",
-    "prompt": "声音设计中遇到相关技术问题",
-    "expected_behavior": "应激活"
+    "prompt": "系列片中同一辆车在不同集里引擎声不一样，怎么保持一致？",
+    "expected_behavior": "应激活此skill"
   },
   {
     "id": "should-trigger-03",
     "type": "should_trigger",
-    "prompt": "需要专业声音设计指导",
-    "expected_behavior": "应激活"
+    "prompt": "声音库里有好几个类似的爆炸声，选哪个作为我们片子的标准爆炸声？",
+    "expected_behavior": "应激活此skill"
+  },
+  {
+    "id": "should-trigger-04",
+    "type": "should_trigger",
+    "prompt": "需要替换一个已经建立的声音标识，但又不能让观众觉得突兀，怎么做？",
+    "expected_behavior": "应激活此skill"
   },
   {
     "id": "should-not-trigger-01",
     "type": "should_not_trigger",
-    "prompt": "故事结构怎么设计？",
-    "expected_behavior": "不应激活——这是叙事问题"
+    "prompt": "画面色调怎么保持一致性？",
+    "expected_behavior": "不应激活——与其他skill相关"
   },
   {
     "id": "should-not-trigger-02",
     "type": "should_not_trigger",
-    "prompt": "对白怎么写？",
-    "expected_behavior": "不应激活"
+    "prompt": "这个角色的服装在不同场景中怎么统一？",
+    "expected_behavior": "不应激活——与其他skill相关"
+  },
+  {
+    "id": "should-not-trigger-03",
+    "type": "should_not_trigger",
+    "prompt": "叙事结构怎么前后呼应？",
+    "expected_behavior": "不应激活——与其他skill相关"
   },
   {
     "id": "edge-01",
     "type": "edge_case",
-    "prompt": "纪录片的声音设计和故事片有什么不同？",
-    "expected_behavior": "应部分激活——原则通用但应用方式不同"
+    "prompt": "续集电影要不要沿用前作的声音设计，还是重新设计？",
+    "expected_behavior": "应部分激活"
   }
 ]

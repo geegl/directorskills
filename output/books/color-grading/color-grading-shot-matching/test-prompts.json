@@ -2,37 +2,49 @@
   {
     "id": "should-trigger-01",
     "type": "should_trigger",
-    "prompt": "关于matching的问题",
-    "expected_behavior": "应激活对应skill"
+    "prompt": "同一场景不同镜头色彩跳动严重，怎么匹配？",
+    "expected_behavior": "应激活此skill"
   },
   {
     "id": "should-trigger-02",
     "type": "should_trigger",
-    "prompt": "调色中遇到相关技术问题",
-    "expected_behavior": "应激活"
+    "prompt": "正反打镜头的天空颜色差很多，怎么让它们看起来一致？",
+    "expected_behavior": "应激活此skill"
   },
   {
     "id": "should-trigger-03",
     "type": "should_trigger",
-    "prompt": "需要专业调色指导",
-    "expected_behavior": "应激活"
+    "prompt": "多机位拍摄的素材颜色不统一，匹配的优先级是什么？",
+    "expected_behavior": "应激活此skill"
+  },
+  {
+    "id": "should-trigger-04",
+    "type": "should_trigger",
+    "prompt": "镜头匹配应该在风格化调色之前还是之后做？",
+    "expected_behavior": "应激活此skill"
   },
   {
     "id": "should-not-trigger-01",
     "type": "should_not_trigger",
-    "prompt": "故事结构怎么设计？",
-    "expected_behavior": "不应激活——这是叙事问题"
+    "prompt": "不同场景之间的色调怎么统一？",
+    "expected_behavior": "不应激活——与其他skill相关"
   },
   {
     "id": "should-not-trigger-02",
     "type": "should_not_trigger",
-    "prompt": "对白怎么写？",
-    "expected_behavior": "不应激活"
+    "prompt": "剪辑中镜头怎么衔接？",
+    "expected_behavior": "不应激活——与其他skill相关"
+  },
+  {
+    "id": "should-not-trigger-03",
+    "type": "should_not_trigger",
+    "prompt": "多机位拍摄怎么同步？",
+    "expected_behavior": "不应激活——与其他skill相关"
   },
   {
     "id": "edge-01",
     "type": "edge_case",
-    "prompt": "在非专业监视器上调色可以吗？",
-    "expected_behavior": "应部分激活——可以工作但需要了解限制"
+    "prompt": "日拍夜的素材和真实夜景素材怎么匹配？",
+    "expected_behavior": "应部分激活"
   }
 ]

@@ -2,37 +2,49 @@
   {
     "id": "should-trigger-01",
     "type": "should_trigger",
-    "prompt": "关于workflow的问题",
-    "expected_behavior": "应激活对应skill"
+    "prompt": "拿到RED Log3G10素材，画面灰灰的，调色流程应该怎么走？",
+    "expected_behavior": "应激活此skill"
   },
   {
     "id": "should-trigger-02",
     "type": "should_trigger",
-    "prompt": "调色中遇到相关技术问题",
-    "expected_behavior": "应激活"
+    "prompt": "ARRI Log-C素材需要套LUT，应该在调色流程的哪个环节套？",
+    "expected_behavior": "应激活此skill"
   },
   {
     "id": "should-trigger-03",
     "type": "should_trigger",
-    "prompt": "需要专业调色指导",
-    "expected_behavior": "应激活"
+    "prompt": "RAW素材反拜耳后看起来严重过曝，怎么找回高光细节？",
+    "expected_behavior": "应激活此skill"
+  },
+  {
+    "id": "should-trigger-04",
+    "type": "should_trigger",
+    "prompt": "Log编码的素材看起来低对比度，这是正常的吗？怎么正确监看？",
+    "expected_behavior": "应激活此skill"
   },
   {
     "id": "should-not-trigger-01",
     "type": "should_not_trigger",
-    "prompt": "故事结构怎么设计？",
-    "expected_behavior": "不应激活——这是叙事问题"
+    "prompt": "JPEG照片怎么调色？",
+    "expected_behavior": "不应激活——与其他skill相关"
   },
   {
     "id": "should-not-trigger-02",
     "type": "should_not_trigger",
-    "prompt": "对白怎么写？",
-    "expected_behavior": "不应激活"
+    "prompt": "视频压缩格式怎么选？",
+    "expected_behavior": "不应激活——与其他skill相关"
+  },
+  {
+    "id": "should-not-trigger-03",
+    "type": "should_not_trigger",
+    "prompt": "摄影机怎么设置Log模式？",
+    "expected_behavior": "不应激活——与其他skill相关"
   },
   {
     "id": "edge-01",
     "type": "edge_case",
-    "prompt": "在非专业监视器上调色可以吗？",
-    "expected_behavior": "应部分激活——可以工作但需要了解限制"
+    "prompt": "混合了Log和Rec.709素材的项目，调色工作流怎么统一？",
+    "expected_behavior": "应部分激活"
   }
 ]

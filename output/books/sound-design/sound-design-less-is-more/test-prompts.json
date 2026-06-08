@@ -2,37 +2,49 @@
   {
     "id": "should-trigger-01",
     "type": "should_trigger",
-    "prompt": "关于more的声音设计问题",
-    "expected_behavior": "应激活对应skill"
+    "prompt": "场景声音设计感觉太满了，删掉哪些能反而更有力量？",
+    "expected_behavior": "应激活此skill"
   },
   {
     "id": "should-trigger-02",
     "type": "should_trigger",
-    "prompt": "声音设计中遇到相关技术问题",
-    "expected_behavior": "应激活"
+    "prompt": "设计一个反派角色的声音，是不是越少越神秘？",
+    "expected_behavior": "应激活此skill"
   },
   {
     "id": "should-trigger-03",
     "type": "should_trigger",
-    "prompt": "需要专业声音设计指导",
-    "expected_behavior": "应激活"
+    "prompt": "恐怖场景中怎么用极少的声音制造最大的恐惧感？",
+    "expected_behavior": "应激活此skill"
+  },
+  {
+    "id": "should-trigger-04",
+    "type": "should_trigger",
+    "prompt": "主角独自在空房间里，只保留一个声音应该选什么？",
+    "expected_behavior": "应激活此skill"
   },
   {
     "id": "should-not-trigger-01",
     "type": "should_not_trigger",
-    "prompt": "故事结构怎么设计？",
-    "expected_behavior": "不应激活——这是叙事问题"
+    "prompt": "画面构图怎么做到简洁？",
+    "expected_behavior": "不应激活——与其他skill相关"
   },
   {
     "id": "should-not-trigger-02",
     "type": "should_not_trigger",
-    "prompt": "对白怎么写？",
-    "expected_behavior": "不应激活"
+    "prompt": "对白怎么精简？",
+    "expected_behavior": "不应激活——与其他skill相关"
+  },
+  {
+    "id": "should-not-trigger-03",
+    "type": "should_not_trigger",
+    "prompt": "剪辑中怎么删减不必要的镜头？",
+    "expected_behavior": "不应激活——与其他skill相关"
   },
   {
     "id": "edge-01",
     "type": "edge_case",
-    "prompt": "纪录片的声音设计和故事片有什么不同？",
-    "expected_behavior": "应部分激活——原则通用但应用方式不同"
+    "prompt": "科幻大片的混录中怎么做到'少即是多'而不显得廉价？",
+    "expected_behavior": "应部分激活"
   }
 ]

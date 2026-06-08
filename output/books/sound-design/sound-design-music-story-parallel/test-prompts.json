@@ -2,37 +2,49 @@
   {
     "id": "should-trigger-01",
     "type": "should_trigger",
-    "prompt": "关于parallel的声音设计问题",
-    "expected_behavior": "应激活对应skill"
+    "prompt": "整部电影的声音'调性'应该是什么？怎么定义？",
+    "expected_behavior": "应激活此skill"
   },
   {
     "id": "should-trigger-02",
     "type": "should_trigger",
-    "prompt": "声音设计中遇到相关技术问题",
-    "expected_behavior": "应激活"
+    "prompt": "多个角色需要各自的声音标识，怎么设计不冲突？",
+    "expected_behavior": "应激活此skill"
   },
   {
     "id": "should-trigger-03",
     "type": "should_trigger",
-    "prompt": "需要专业声音设计指导",
-    "expected_behavior": "应激活"
+    "prompt": "音乐和音效在同一个场景中打架了，怎么协调？",
+    "expected_behavior": "应激活此skill"
+  },
+  {
+    "id": "should-trigger-04",
+    "type": "should_trigger",
+    "prompt": "声音弧线怎么和故事的三幕结构对应？",
+    "expected_behavior": "应激活此skill"
   },
   {
     "id": "should-not-trigger-01",
     "type": "should_not_trigger",
-    "prompt": "故事结构怎么设计？",
-    "expected_behavior": "不应激活——这是叙事问题"
+    "prompt": "剧本的叙事结构怎么设计？",
+    "expected_behavior": "不应激活——与其他skill相关"
   },
   {
     "id": "should-not-trigger-02",
     "type": "should_not_trigger",
-    "prompt": "对白怎么写？",
-    "expected_behavior": "不应激活"
+    "prompt": "角色的视觉造型怎么区分？",
+    "expected_behavior": "不应激活——与其他skill相关"
+  },
+  {
+    "id": "should-not-trigger-03",
+    "type": "should_not_trigger",
+    "prompt": "配乐的旋律怎么写？",
+    "expected_behavior": "不应激活——与其他skill相关"
   },
   {
     "id": "edge-01",
     "type": "edge_case",
-    "prompt": "纪录片的声音设计和故事片有什么不同？",
-    "expected_behavior": "应部分激活——原则通用但应用方式不同"
+    "prompt": "纪录片用现成音乐而不是原创配乐，怎么和叙事建立平行关系？",
+    "expected_behavior": "应部分激活"
   }
 ]

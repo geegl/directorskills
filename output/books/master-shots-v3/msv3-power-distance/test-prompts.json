@@ -2,26 +2,31 @@
   {
     "id": "pd-01",
     "prompt": "I'm shooting a scene where a boss is firing an employee. The boss is sitting behind a desk. How do I use camera position to show the power dynamic?",
-    "expected_behavior": "Should recommend camera above the seated boss (9.10 Love Actually technique) to make them look vulnerable despite their positional authority. Should mention that the employee standing creates a height reversal. Should suggest the employee closer to camera if they're gaining power."
+    "expected_behavior": "Should recommend camera above the seated boss (9.10 Love Actually technique) to make them look vulnerable despite their positional authority. Should mention that the employee standing creates a height reversal. Should suggest the employee closer to camera if they're gaining power.",
+    "type": "should_trigger"
   },
   {
     "id": "pd-02",
     "prompt": "In my thriller, the villain needs to take control of a scene from the hero mid-conversation. No dialogue about power — just visual. How do I stage this?",
-    "expected_behavior": "Should reference the 'camera theft' technique (5.5 Book of Eli): villain physically approaches camera while dolly retreats, then cut maintains proximity to villain. Should emphasize that the cut must keep camera near the new power holder."
+    "expected_behavior": "Should reference the 'camera theft' technique (5.5 Book of Eli): villain physically approaches camera while dolly retreats, then cut maintains proximity to villain. Should emphasize that the cut must keep camera near the new power holder.",
+    "type": "should_trigger"
   },
   {
     "id": "pd-03",
     "prompt": "I have a high-angle shot of my antagonist walking toward the camera. He's supposed to feel overwhelming, but the high angle makes him look weak. What am I doing wrong?",
-    "expected_behavior": "Should reference the Leon technique (5.4): high angle + actor NOT looking up + forward stride = overwhelming presence. The problem is likely the actor is looking up at the camera. Should recommend having the actor look forward, not up."
+    "expected_behavior": "Should reference the Leon technique (5.4): high angle + actor NOT looking up + forward stride = overwhelming presence. The problem is likely the actor is looking up at the camera. Should recommend having the actor look forward, not up.",
+    "type": "should_trigger"
   },
   {
     "id": "pd-04",
     "prompt": "I'm directing a scene where two characters are negotiating a deal. I want the audience to feel that one character has the upper hand, but they're both sitting at the same table. How do I create this visually?",
-    "expected_behavior": "Should recommend placing the dominant character closer to camera, using minimal height differences (9.10), and possibly having the dominant character lean forward while the other leans back. Should mention that even small camera adjustments create subliminal power imbalance."
+    "expected_behavior": "Should recommend placing the dominant character closer to camera, using minimal height differences (9.10), and possibly having the dominant character lean forward while the other leans back. Should mention that even small camera adjustments create subliminal power imbalance.",
+    "type": "should_trigger"
   },
   {
     "id": "pd-05",
     "prompt": "My scene has a general addressing troops from a raised platform. The camera is below looking up, but he still doesn't feel commanding. Why?",
-    "expected_behavior": "Should ask about the actor's performance — are they looking down at the troops? The low angle alone isn't enough; the actor needs to maintain forward posture and not break the power frame by looking down. Should also check if the framing is too wide, losing the intimacy of power."
+    "expected_behavior": "Should ask about the actor's performance — are they looking down at the troops? The low angle alone isn't enough; the actor needs to maintain forward posture and not break the power frame by looking down. Should also check if the framing is too wide, losing the intimacy of power.",
+    "type": "should_trigger"
   }
 ]

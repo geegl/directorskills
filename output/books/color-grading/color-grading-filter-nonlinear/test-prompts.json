@@ -26,14 +26,15 @@
   {
     "id": "should-not-trigger-01",
     "type": "should_not_trigger",
-    "prompt": "Instagram滤镜怎么用？",
-    "expected_behavior": "不应激活——与其他skill相关"
+    "prompt": "美图秀秀的磨皮效果和抖音的美颜有什么技术区别？",
+    "expected_behavior": "不应激活——这是手机应用滤镜，不是电影级光学/数字滤镜",
+    "expected": "不应激活——用户在问手机美颜App的区别，不是电影级光学/数字滤镜模拟"
   },
   {
     "id": "should-not-trigger-02",
     "type": "should_not_trigger",
-    "prompt": "照片后期怎么加滤镜？",
-    "expected_behavior": "不应激活——与其他skill相关"
+    "prompt": "Lightroom里怎么给RAW照片添加颗粒质感？",
+    "expected_behavior": "不应激活——这是照片后期处理，不是电影调色中的滤镜模拟"
   },
   {
     "id": "should-not-trigger-03",

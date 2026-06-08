@@ -1,7 +1,7 @@
 ---
 name: scene-transition-binary-opposition
 description: |
-  当用户需要通过场景对比制造戏剧张力时调用。核心 trigger：用户提到"场景对比"、"二元对立"、"场所选择"、"场景并置"、"对比产生张力"。不调用的情况：用户只是在讨论单个场景的内部构图，或在讨论色彩搭配。
+  用户提到场景对比、二元对立、场所选择、场景并置、对比产生张力
 source_book: 《大师场景：顶级场景转换术》 Jeffrey Michael Bays
 source_chapter: 第2章, 第5章, 第3章
 tags: [场景转换, 二元对立, 场所选择, 对比, 叙事]

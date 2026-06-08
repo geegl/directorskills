@@ -38,8 +38,8 @@
   {
     "id": "should-not-trigger-03",
     "type": "should_not_trigger",
-    "prompt": "摄影风格怎么定义？",
-    "expected_behavior": "不应激活——与其他skill相关"
+    "prompt": "怎么用DaVinci Resolve建立项目级色彩管理？",
+    "expected_behavior": "不应激活——这是软件技术设置，不是创意Look开发"
   },
   {
     "id": "edge-01",

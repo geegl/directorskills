@@ -1,7 +1,7 @@
 ---
 name: scene-transition-synch-node
 description: |
-  当用户需要在多线叙事中连接不同故事线时调用。核心 trigger：用户提到"多线叙事"、"故事线怎么交汇"、"同步节点"、"多情节连接"。不调用的情况：用户在讨论单线叙事或角色之间的对话。
+  用户提到多线叙事、故事线怎么交汇、同步节点、多情节连接
 source_book: 《大师场景：顶级场景转换术》 Jeffrey Michael Bays
 source_chapter: 第3章, 第7章
 tags: [场景转换, 多线叙事, 同步节点, 交叉剪辑, 网络叙事]

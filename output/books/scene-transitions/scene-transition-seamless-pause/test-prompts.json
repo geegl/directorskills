@@ -16,16 +16,18 @@
   {
     "id": "should-not-trigger-01",
     "type": "should_not_trigger",
-    "prompt": "电视剧的广告间歇怎么设计？",
+    "prompt": "视频平台的广告插播点应该选在哪里？怎么让广告不打断用户观看体验？",
     "expected_behavior": "不应激活，这是电视广告间歇，不是电影的无间歇欺骗",
-    "notes": "诱饵：电视广告"
+    "notes": "诱饵：电视广告",
+    "expected": "不应激活——用户在做平台广告策略，不涉及叙事层面的无缝过渡设计"
   },
   {
     "id": "should-not-trigger-02",
     "type": "should_not_trigger",
-    "prompt": "舞台剧的幕间休息多长时间合适？",
+    "prompt": "百老汇音乐剧的幕间休息一般多长时间？需要安排中场酒水服务吗？",
     "expected_behavior": "不应激活，这是舞台剧的幕间休息",
-    "notes": "诱饵：舞台剧"
+    "notes": "诱饵：舞台剧",
+    "expected": "不应激活——用户在问剧场运营实务，不涉及电影叙事中的低潮设计"
   },
   {
     "id": "edge-01",

@@ -1,7 +1,7 @@
 ---
 name: scene-transition-low-point-no-plot
 description: |
-  当用户需要在场景转换中给观众喘息空间时调用。核心 trigger：用户提到"场景太紧张"、"观众需要休息"、"低潮"、"节奏太快"、"审美疲劳"。不调用的情况：用户在讨论单个场景内部的节奏。
+  用户提到场景太紧张、观众需要休息、低潮、节奏太快、审美疲劳
 source_book: 《大师场景：顶级场景转换术》 Jeffrey Michael Bays
 source_chapter: 第5章, 第4章
 tags: [场景转换, 低潮, 节奏, 舒缓, 景物]

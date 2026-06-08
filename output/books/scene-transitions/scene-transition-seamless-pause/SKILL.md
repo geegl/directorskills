@@ -1,7 +1,7 @@
 ---
 name: scene-transition-seamless-pause
 description: |
-  当用户需要在电影中创造"看似没有间歇但实际上有间歇"的效果时调用。核心 trigger：用户提到"没有间歇"、"观众不知道在休息"、"无缝过渡"、"欺骗观众"。不调用的情况：用户在讨论广告间歇或幕间休息。
+  用户提到没有间歇、观众不知道在休息、无缝过渡、欺骗观众
 source_book: 《大师场景：顶级场景转换术》 Jeffrey Michael Bays
 source_chapter: 第5章, 第1章
 tags: [场景转换, 间歇, 欺骗, 节奏, 电影特性]

@@ -1,10 +1,10 @@
 ---
 name: msv3-body-performance
 description: |
-  当用户需要情感戏怎么拍时调用。核心 trigger：肢体表演, 特写, 全景。不适用于：用户讨论整体故事结构。
+  肢体表演, 特写, 全景
 source_book: 《大师镜头 第三卷》Christopher Kenworthy
 source_chapter: 第8.2节、第2.7节
-tags: [cinematography, camera-movement, visual-storytelling, shot-design]
+tags: [肢体表演, 身体语言, 情感戏, 景别选择, 面部表情, 演员指导]
 related_skills:
   - composes-with: msv3-speed-conveyance — 速度传达与镜头情绪相关
   - composes-with: msv3-power-distance — 权力距离与象征性调度相关

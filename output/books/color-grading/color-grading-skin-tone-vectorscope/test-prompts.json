@@ -26,8 +26,9 @@
   {
     "id": "should-not-trigger-01",
     "type": "should_not_trigger",
-    "prompt": "波形示波器（waveform）怎么读？",
-    "expected_behavior": "不应激活——与其他skill相关"
+    "prompt": "Premiere Pro里的Lumetri Scopes面板怎么设置显示范围？",
+    "expected_behavior": "不应激活——与其他skill相关",
+    "expected": "不应激活——用户在问软件界面设置，不涉及用肤色矢量示波器做色彩平衡"
   },
   {
     "id": "should-not-trigger-02",

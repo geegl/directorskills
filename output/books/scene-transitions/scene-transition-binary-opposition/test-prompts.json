@@ -9,9 +9,10 @@
   {
     "id": "should-trigger-02",
     "type": "should_trigger",
-    "prompt": "我的电影有三条故事线，怎么让观众在切换时感受到每条线的不同氛围？",
+    "prompt": "我的电影有两条故事线，一条阳光一条阴暗，怎么让观众在切换时通过场景对比感受到二元对立？",
     "expected_behavior": "应激活 scene-transition-binary-opposition，建议为每条故事线建立独特的对立维度组合",
-    "notes": "正面场景：多线叙事的场景并置"
+    "notes": "正面场景：多线叙事的场景并置",
+    "expected": "应激活——用户需要用场景的二元对立（阳光vs阴暗）来制造转换张力"
   },
   {
     "id": "should-trigger-03",

@@ -1,7 +1,7 @@
 ---
 name: color-grading-contrast-saturation
 description: |
-  当用户调整对比度后发现色彩变化、诊断'调完对比度颜色不对了'、或理解RGB处理的副作用时调用。核心 trigger：用户提到'对比度调完颜色变了'、'饱和度'、'RGB处理'。不适用于：用户讨论整体工作流（用 primary-workflow）。
+  用户提到对比度调完颜色变了、饱和度、RGB处理
 source_book: 《调色师手册》Alexis Van Hurkman
 source_chapter: 第3章、第4章、第9章
 tags: [color-grading, color-correction, post-production, visual-storytelling]

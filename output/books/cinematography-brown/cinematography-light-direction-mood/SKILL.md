@@ -1,7 +1,7 @@
 ---
 name: cinematography-light-direction-mood
 description: |
-  当用户需要为特定情绪选择灯光方向、决定"主光放哪里"、或理解"为什么这个画面看起来这么有戏剧感"时调用。核心trigger：用户提到"灯光方向"、"侧光"、"背光"、"主光位置"、"想要戏剧性/神秘感"。
+  用户提到灯光方向、侧光、背光、主光位置、想要戏剧性/神秘感
 source_book: 《电影摄影：理论与实践》 Blain Brown
 source_chapter: 第7章 布光基础
 tags: [灯光方向, 情绪映射, 布光原则, 后场打光]

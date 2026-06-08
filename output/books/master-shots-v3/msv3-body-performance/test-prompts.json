@@ -1,32 +1,33 @@
 [
   {
     "id": "bp-01",
-    "prompt": "My actor keeps asking for close-ups in an emotional scene where the character is hesitant about approaching someone. Should I give in?",
-    "expected_behavior": "Should recommend against close-ups for this type of scene (8.2). Hesitation and physical tension are body-language states. Should suggest wider shots and telling the actor to invest in physical performance. Should reference the principle that some actors try to keep their face on screen, which ruins body-language scenes (2.7).",
+    "prompt": "演员一直要求在情感戏里用特写，但这是一场角色犹豫着要不要靠近另一个人的戏。我该不该给特写？",
+    "expected_behavior": "应该建议不要用特写（8.2）。犹豫和肢体紧张是肢体表演状态。建议用更全景的镜头，告诉演员把注意力放在肢体表演上。应引用原则：有些演员试图保持脸部在画面中，但这会毁掉肢体表演场景（2.7）。",
     "type": "should_trigger"
   },
   {
     "id": "bp-02",
-    "prompt": "I'm shooting a scene where two characters are having an intense but unspoken confrontation at a dinner table. How do I capture the tension?",
-    "expected_behavior": "Should recommend medium or medium-wide shots that capture posture, lean angle, hand positioning. Should suggest telling actors the shot choice upfront so they invest in physical performance. Should mention that the tension of 'wanting to speak but holding back' is a physical state.",
-    "type": "should_trigger"
+    "prompt": "我在拍一场两个角色在餐桌上无声对峙的戏。两人有话想说但忍着。应该用特写拍面部还是用中全景捕捉肢体表演？怎么让演员投入身体语言？",
+    "expected_behavior": "应该推荐中景或中全景来捕捉姿势、倾斜角度、手的位置。建议提前告诉演员用什么景别，让他们全力投入肢体表演。应提到'想说但忍住'是一种肢体状态。",
+    "type": "should_trigger",
+    "expected": "应激活——用户需要在特写和肢体表演之间做景别选择"
   },
   {
     "id": "bp-03",
-    "prompt": "The scene has a character trying to appear casual while hiding distress. My close-ups aren't showing the internal conflict. What should I try?",
-    "expected_behavior": "Should diagnose that the emotion is physical, not facial. Should recommend switching to wider shots that capture the forced casualness in their posture — the too-relaxed slouch, the deliberate hand gestures, the avoidance of turning toward the other character. Should reference the Leon example (8.2).",
+    "prompt": "这场戏里角色表面上装作若无其事，实际上内心很痛苦。特写拍不出这种内心冲突。我该怎么拍？",
+    "expected_behavior": "应该诊断出这是肢体层面的情绪，不是脸部的。建议换用更全景的镜头来捕捉假装轻松的姿态——过分松弛的坐姿、刻意的手势、回避转向对方的动作。应引用里昂的例子（8.2）。",
     "type": "should_trigger"
   },
   {
     "id": "bp-04",
-    "prompt": "I'm directing a scene where a character is secretly watching someone they're attracted to. How do I show the attraction without dialogue?",
-    "expected_behavior": "Should recommend body-language approach: lean angle, head tilt, the way they position their body relative to the person. Should suggest medium shots that capture the full posture. Should mention that attraction often manifests physically before facially.",
+    "prompt": "我在导一场角色偷偷观察心仪对象的戏。不用台词怎么表现这种吸引力？",
+    "expected_behavior": "应该推荐肢体表演的方法：身体倾斜角度、头部朝向、身体相对于对方的位置。建议用中景捕捉完整的身体姿态。应提到吸引力往往先通过肢体表现，再通过面部。",
     "type": "should_trigger"
   },
   {
     "id": "bp-05",
-    "prompt": "My actor is performing brilliantly with facial expressions but the scene still feels emotionally flat on screen. What's wrong?",
-    "expected_behavior": "Should diagnose that the shot choice may be wrong for the emotional type. If the scene involves hesitation, discomfort, or physical tension, the emotion is in the body, not the face. Should recommend trying wider shots and communicating with the actor about shot choice.",
+    "prompt": "演员的面部表情表演非常精彩，但这场戏在银幕上看着还是情感平淡。问题出在哪里？",
+    "expected_behavior": "应该诊断出景别选择可能不适合这种情绪类型。如果场景涉及犹豫、不适或肢体紧张，情绪在身体里，不在脸上。建议尝试更全景的镜头，并与演员沟通景别选择。",
     "type": "should_trigger"
   }
 ]

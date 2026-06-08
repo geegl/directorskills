@@ -1,7 +1,7 @@
 ---
 name: shot-design-sightline-cut
 description: |
-  当用户需要设计场景的空间连续性、决定从哪个角色的视角切入、或诊断'观众搞不清谁在看谁'时调用。核心 trigger：用户提到'视线方向'、'怎么切镜头'、'空间关系'、'主观镜头'。不适用于：用户讨论整体故事结构（用 beat-sheet）。
+  用户提到视线方向、怎么切镜头、空间关系、主观镜头
 source_book: 《电影镜头设计》Steven D. Katz
 source_chapter: 第6章、第16章
 tags: [cinematography, shot-design, sightline, spatial-continuity]

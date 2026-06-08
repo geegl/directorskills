@@ -1,7 +1,7 @@
 ---
 name: cinematography-180-degree-rule
 description: |
-  当用户需要判断摄影机应该放在哪一侧、遇到画面方向混乱问题、或设计多机位对话场景时调用。核心trigger：用户提到"180度法则"、"轴线"、"画面方向"、"分割线"、"摄影机放哪边"。
+  用户提到180度法则、轴线、画面方向、分割线、摄影机放哪边
 source_book: 《电影摄影：理论与实践》 Blain Brown
 source_chapter: 第6章 电影连续性
 tags: [180度法则, 连续性, 轴线, 画面方向, 覆盖策略]

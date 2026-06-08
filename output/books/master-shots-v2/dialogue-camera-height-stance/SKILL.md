@@ -1,7 +1,7 @@
 ---
 name: dialogue-camera-height-stance
 description: |
-  当用户需要怎么让观众站在某一方、摄影机高度怎么选、拍对话时摄影机放多高时调用。核心 trigger：摄影机高度、观众立场、仰拍俯拍。
+  摄影机高度、观众立场、仰拍俯拍
 source_book: 《大师镜头 第二卷》Christopher Kenworthy
 source_chapter: 第2.8节"高度对比"
 tags: [dialogue, cinematography, visual-storytelling]

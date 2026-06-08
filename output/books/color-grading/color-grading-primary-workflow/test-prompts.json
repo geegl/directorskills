@@ -26,8 +26,8 @@
   {
     "id": "should-not-trigger-01",
     "type": "should_not_trigger",
-    "prompt": "二级调色怎么做局部调整？",
-    "expected_behavior": "不应激活——与其他skill相关"
+    "prompt": "怎么用Power Window给天空单独加蓝色？",
+    "expected_behavior": "不应激活——这是二级调色局部操作，不是一级校色工作流"
   },
   {
     "id": "should-not-trigger-02",

@@ -1,7 +1,7 @@
 ---
 name: scene-transition-loyalty-transfer
 description: |
-  当用户需要让观众的支持对象从一个角色转移到另一个角色时调用。核心 trigger：用户提到"观众认同谁"、"角色转换"、"忠诚转移"、"配角戏份"。不调用的情况：用户在讨论角色塑造或剧本结构。
+  用户提到观众认同谁、角色转换、忠诚转移、配角戏份
 source_book: 《大师场景：顶级场景转换术》 Jeffrey Michael Bays
 source_chapter: 第4章
 tags: [场景转换, 角色, 认同, 忠诚, 配角]

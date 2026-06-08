@@ -1,7 +1,7 @@
 ---
 name: cinematography-master-scene
 description: |
-  当用户需要规划对话场景的拍摄顺序、决定"先拍什么镜头"、或设计多机位覆盖策略时调用。核心trigger：用户提到"主场景法"、"先拍什么"、"镜头顺序"、"覆盖策略"、"备选镜头"。
+  用户提到主场景法、先拍什么、镜头顺序、覆盖策略、备选镜头
 source_book: 《电影摄影：理论与实践》 Blain Brown
 source_chapter: 第2章 摄影技法
 tags: [拍摄技法, 主场景法, 连续性, 覆盖策略, 镜头规划]

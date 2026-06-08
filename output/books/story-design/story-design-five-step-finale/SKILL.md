@@ -1,7 +1,7 @@
 ---
 name: story-design-five-step-finale
 description: |
-  当用户需要设计故事高潮、诊断第三幕松散、或构建有冲击力的结局时调用。核心 trigger：用户提到'结局怎么写'、'第三幕怎么设计'、'高潮'、'finale'。不适用于：用户还在构思第一幕（用 beat-sheet）。
+  用户提到结局怎么写、第三幕怎么设计、高潮、finale
 source_book: 《救猫咪》Blake Snyder
 source_chapter: 第6章 Structure
 tags: [screenwriting, story-structure, beat-sheet, blake-snyder]

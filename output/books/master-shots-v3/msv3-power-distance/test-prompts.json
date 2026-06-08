@@ -1,32 +1,32 @@
 [
   {
     "id": "pd-01",
-    "prompt": "I'm shooting a scene where a boss is firing an employee. The boss is sitting behind a desk. How do I use camera position to show the power dynamic?",
-    "expected_behavior": "Should recommend camera above the seated boss (9.10 Love Actually technique) to make them look vulnerable despite their positional authority. Should mention that the employee standing creates a height reversal. Should suggest the employee closer to camera if they're gaining power.",
+    "prompt": "老板在办公桌后面开除员工。怎么用摄影机位置来表现权力关系？",
+    "expected_behavior": "应推荐摄影机在坐着的老板上方（9.10真爱至上的技巧）让他看起来脆弱。应提到站着的员工制造了高度反转。建议如果员工在获得权力，让他更靠近摄影机。",
     "type": "should_trigger"
   },
   {
     "id": "pd-02",
-    "prompt": "In my thriller, the villain needs to take control of a scene from the hero mid-conversation. No dialogue about power — just visual. How do I stage this?",
-    "expected_behavior": "Should reference the 'camera theft' technique (5.5 Book of Eli): villain physically approaches camera while dolly retreats, then cut maintains proximity to villain. Should emphasize that the cut must keep camera near the new power holder.",
+    "prompt": "在惊悚片里，反派需要在对话中途从主角手中夺取控制权。没有台词提到权力——纯靠视觉。怎么调度？",
+    "expected_behavior": "应引用'摄影机盗窃'技巧（5.5 Book of Eli）：反派向摄影机靠近，同时摄影车后退，然后切镜头保持反派与摄影机的近距离。应强调切镜头后摄影机必须留在新的权力持有者旁边。",
     "type": "should_trigger"
   },
   {
     "id": "pd-03",
-    "prompt": "I have a high-angle shot of my antagonist walking toward the camera. He's supposed to feel overwhelming, but the high angle makes him look weak. What am I doing wrong?",
-    "expected_behavior": "Should reference the Leon technique (5.4): high angle + actor NOT looking up + forward stride = overwhelming presence. The problem is likely the actor is looking up at the camera. Should recommend having the actor look forward, not up.",
+    "prompt": "我有一个俯拍镜头，反派走向摄影机。他应该是压倒性的，但俯角让他看起来很弱。我哪里做错了？",
+    "expected_behavior": "应引用里昂的技巧（5.4）：俯角+演员不抬头+大步向前=压倒性存在感。问题很可能是演员在抬头看摄影机。建议让演员平视前方而不是抬头。",
     "type": "should_trigger"
   },
   {
     "id": "pd-04",
-    "prompt": "I'm directing a scene where two characters are negotiating a deal. I want the audience to feel that one character has the upper hand, but they're both sitting at the same table. How do I create this visually?",
-    "expected_behavior": "Should recommend placing the dominant character closer to camera, using minimal height differences (9.10), and possibly having the dominant character lean forward while the other leans back. Should mention that even small camera adjustments create subliminal power imbalance.",
+    "prompt": "两个角色在谈判。想让观众感觉其中一个占上风，但他们坐在同一张桌子旁边。怎么用视觉来创造这种差距？",
+    "expected_behavior": "应推荐把占主导地位的角色放在更靠近摄影机的位置，利用微妙的高度差异（9.10），可能让主导角色身体前倾而另一个后靠。应提到即使很小的摄影机调整也能制造潜意识中的权力不平衡。",
     "type": "should_trigger"
   },
   {
     "id": "pd-05",
-    "prompt": "My scene has a general addressing troops from a raised platform. The camera is below looking up, but he still doesn't feel commanding. Why?",
-    "expected_behavior": "Should ask about the actor's performance — are they looking down at the troops? The low angle alone isn't enough; the actor needs to maintain forward posture and not break the power frame by looking down. Should also check if the framing is too wide, losing the intimacy of power.",
+    "prompt": "将军站在高台上对部队讲话。摄影机在下方仰拍，但他看起来还是没有威严感。为什么？",
+    "expected_behavior": "应该询问演员的表演——他在低头看部队吗？单靠仰角不够；演员需要保持前倾的姿态，不能因为低头看而打破权力框架。还应该检查画面是否太宽，失去了权力的亲密感。",
     "type": "should_trigger"
   }
 ]

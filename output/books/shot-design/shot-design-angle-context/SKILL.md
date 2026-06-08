@@ -1,10 +1,10 @@
 ---
 name: shot-design-angle-context
 description: |
-  当用户需要选择摄影角度、诊断'低角度拍出来不对'、或理解角度与叙事语境的关系时调用。核心 trigger：用户提到'摄影角度'、'仰拍俯拍'、'低角度怎么用'、'画面感觉不对'。不适用于：用户讨论整体镜头语言（用 pov-spectrum）。
+  用户提到摄影角度、仰拍俯拍、低角度怎么用、画面感觉不对
 source_book: 《电影镜头设计》Steven D. Katz
 source_chapter: 第14章
-tags: [cinematography, shot-design, camera-angle, visual-storytelling]
+tags: [摄影角度, 景别选择, 上下角度, 主观镜头]
 related_skills:
   - depends-on: shot-design-axis-of-action — 轴线规则是空间连续性的基础
   - composes-with: shot-design-pov-spectrum — 角度选择影响观众认同度

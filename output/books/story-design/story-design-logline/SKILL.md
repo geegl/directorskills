@@ -1,7 +1,7 @@
 ---
 name: story-design-logline
 description: |
-  当用户需要提炼故事概念、评估创意是否可行、或写一句话简介时调用。核心 trigger：用户提到'logline'、'一句话简介'、'故事概念'、'这个创意怎么样'。不适用于：用户已在写具体场景（用 beat-sheet）。
+  用户提到logline、一句话简介、故事概念、这个创意怎么样
 source_book: 《救猫咪》Blake Snyder
 source_chapter: 第3章 Titles and Loglines
 tags: [screenwriting, story-structure, beat-sheet, blake-snyder]

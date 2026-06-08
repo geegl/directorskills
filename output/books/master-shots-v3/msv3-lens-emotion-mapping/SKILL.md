@@ -1,7 +1,7 @@
 ---
 name: msv3-lens-emotion-mapping
 description: |
-  当用户需要这场戏需要亲密感但我不想用特写时调用。核心 trigger：焦距选择, 镜头情感, 长焦广角。不适用于：用户讨论整体故事结构。
+  焦距选择, 镜头情感, 长焦广角
 source_book: 《大师镜头 第三卷》Christopher Kenworthy
 source_chapter: 第1章 (1.1–1.10)
 tags: [cinematography, camera-movement, visual-storytelling, shot-design]

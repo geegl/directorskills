@@ -8,8 +8,9 @@
   {
     "id": "should-trigger-02",
     "type": "should_trigger",
-    "prompt": "角色戴着耳机听音乐，观众应该听到他听的内容还是环境声？",
-    "expected_behavior": "应激活此skill"
+    "prompt": "角色戴着耳机听摇滚乐，观众应该听到耳机里的diegetic音乐还是背景的non-diegetic配乐？这两种声音来源怎么选择？",
+    "expected_behavior": "应激活此skill",
+    "expected": "应激活——用户在做画内音vs画外音的分类选择"
   },
   {
     "id": "should-trigger-03",
@@ -20,14 +21,16 @@
   {
     "id": "should-trigger-04",
     "type": "should_trigger",
-    "prompt": "场景内音乐（diegetic）和场景外配乐（non-diegetic）的边界怎么处理？",
-    "expected_behavior": "应激活此skill"
+    "prompt": "这部电影里有些配乐是角色能听到的场景内音乐（diegetic），有些是只有观众能听到的画外配乐（non-diegetic），这两者的边界和转换规则是什么？",
+    "expected_behavior": "应激活此skill",
+    "expected": "应激活——用户在讨论画内/画外声音分类的边界规则"
   },
   {
     "id": "should-not-trigger-01",
     "type": "should_not_trigger",
-    "prompt": "剧本中画外音旁白怎么写？",
-    "expected_behavior": "不应激活——与其他skill相关"
+    "prompt": "纪录片解说词的撰写技巧是什么？怎么让旁白和画面配合？",
+    "expected_behavior": "不应激活——与其他skill相关",
+    "expected": "不应激活——用户在问解说词写作技巧，不是声音空间分类学"
   },
   {
     "id": "should-not-trigger-02",

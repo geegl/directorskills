@@ -26,8 +26,8 @@
   {
     "id": "should-not-trigger-01",
     "type": "should_not_trigger",
-    "prompt": "画面整体色调怎么调？",
-    "expected_behavior": "不应激活——与其他skill相关"
+    "prompt": "用示波器看整体亮度分布怎么读？",
+    "expected_behavior": "不应激活——这是示波器技术问题，不涉及记忆色彩校正"
   },
   {
     "id": "should-not-trigger-02",

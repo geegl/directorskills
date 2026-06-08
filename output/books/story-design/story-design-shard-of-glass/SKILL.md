@@ -1,7 +1,7 @@
 ---
 name: story-design-shard-of-glass
 description: |
-  当用户需要设计故事的情感低谷、诊断 All Is Lost 缺乏冲击力、或让角色弧线更有深度时调用。核心 trigger：用户提到'情感低谷'、'All Is Lost 怎么写'、'角色怎么变化'。不适用于：用户讨论故事开场（用 beat-sheet 的 Opening Image）。
+  用户提到情感低谷、All Is Lost 怎么写、角色怎么变化
 source_book: 《救猫咪》Blake Snyder
 source_chapter: 第5章 Heroes
 tags: [screenwriting, story-structure, beat-sheet, blake-snyder]

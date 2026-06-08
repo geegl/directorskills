@@ -1,7 +1,7 @@
 ---
 name: scene-transition-music-quadrant
 description: |
-  当用户需要为场景转换选择音乐/静默策略时调用。核心 trigger：用户提到"场景转换用什么音乐"、"静默还是配乐"、"音乐怎么过渡"、"转换的音频策略"。不调用的情况：用户在讨论单个场景内的配乐，或在讨论音乐版权。
+  用户提到场景转换用什么音乐、静默还是配乐、音乐怎么过渡、转换的音频策略
 source_book: 《大师场景：顶级场景转换术》 Jeffrey Michael Bays
 source_chapter: 第6章
 tags: [场景转换, 音乐, 静默, 配乐, 音频策略]

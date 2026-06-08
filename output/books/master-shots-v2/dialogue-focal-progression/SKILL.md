@@ -1,7 +1,7 @@
 ---
 name: dialogue-focal-progression
 description: |
-  当用户需要让走近的过程更有仪式感、两个人靠近怎么拍更好、焦距怎么配合演员走位时调用。核心 trigger：焦距变化、走近、缩近距离。
+  焦距变化、走近、缩近距离
 source_book: 《大师镜头 第二卷》Christopher Kenworthy
 source_chapter: 第2.2节"缩近距离"
 tags: [dialogue, cinematography, visual-storytelling]

@@ -1,32 +1,32 @@
 [
   {
     "id": "ur-01",
-    "prompt": "I want to create a subtle sense of unease in a scene where a character is sneaking through a house. How do I use the camera to make the audience feel something is wrong?",
-    "expected_behavior": "Should recommend the POV destruction technique (3.4): establish what appears to be the character's POV moving through the house, then have the character walk into the shot. This destroys the voyeuristic identification and creates unease. Should mention the timing — the POV must be established for 2-4 seconds before the break.",
+    "prompt": "想在一个角色偷偷摸摸穿过房子的场景里制造悬念和不安。怎么用摄影机做出意料之外的揭示，让观众感觉不对劲？",
+    "expected_behavior": "应推荐POV摧毁技巧（3.4）：先建立看起来像角色主观视角的镜头穿过房子，然后让角色走进画面。这会摧毁窥视认同并制造不安感。应提到时间控制——POV必须先建立2-4秒再打破。",
     "type": "should_trigger"
   },
   {
     "id": "ur-02",
-    "prompt": "I'm shooting a scene where the camera pulls back from a window to reveal the exterior. How do I make this reveal surprising?",
-    "expected_behavior": "Should recommend the movement misdirection technique (3.5): the audience expects to see the exterior, but the camera stops on an unexpected subject — perhaps a character who wasn't expected to be there. Should reference the Harry Potter example where the pull-back reveals Rupert Grint.",
+    "prompt": "镜头从窗户向后拉来揭示室外。怎么让这个揭示出人意料？",
+    "expected_behavior": "应推荐运动误导技巧（3.5）：观众期待看到室外，但摄影机停在一个意外的对象上——也许是一个不该出现在那里的角色。应引用哈利波特的例子，后拉镜头揭示了鲁伯特·格林特。",
     "type": "should_trigger"
   },
   {
     "id": "ur-03",
-    "prompt": "My character gestures toward something off-screen. I want the reveal to feel tense and unexpected. What camera movement should I use?",
-    "expected_behavior": "Should recommend the tilt-reveal technique (4.6): use pan/tilt to follow the gesture and gradually reveal the full context — often something surprising like hidden threats. Should reference the Leon example where the tilt reveals armed men waiting.",
+    "prompt": "角色指向画面外的某个东西。我想让揭示感觉紧张且出乎意料。该用什么摄影机运动？",
+    "expected_behavior": "应推荐倾斜-揭示技巧（4.6）：用摇/俯仰跟随手势并逐渐揭示全貌——通常是出人意料的东西比如隐藏的威胁。应引用里昂的例子，倾斜镜头揭示了等待的武装人员。",
     "type": "should_trigger"
   },
   {
     "id": "ur-04",
-    "prompt": "I've established a POV shot of my character looking around a room. Now I want to break the audience's sense of safety. What's the most effective way?",
-    "expected_behavior": "Should recommend having the character walk into their own POV shot (3.4). This subconsciously signals that the rules of the scene have changed. Should emphasize that the POV must be convincingly established first — if it's not, the break won't work.",
+    "prompt": "已经建立了一个角色环顾房间的主观镜头。现在想用一个意外揭示来打破观众的安全感。最有效的方式是什么？",
+    "expected_behavior": "应推荐让角色走进自己的主观镜头（3.4）。这在潜意识层面暗示场景的规则已经改变。应强调主观镜头必须先足够有说服力——如果不成立，打破就不会有效果。",
     "type": "should_trigger"
   },
   {
     "id": "ur-05",
-    "prompt": "I'm shooting a thriller where the audience thinks the camera is revealing a safe room, but I want to show it's actually dangerous. How do I structure the reveal?",
-    "expected_behavior": "Should recommend establishing the camera movement as a standard room reveal (pull-back or pan), then stopping on an unexpected element that signals danger — a weapon, an unexpected person, a changed detail. Should mention that the audience must commit to their assumption before the break (2-4 seconds).",
+    "prompt": "惊悚片里观众以为摄影机在揭示一个安全的房间，但实际上它是危险的。怎么构建这个揭示？",
+    "expected_behavior": "应推荐先建立标准的房间揭示摄影机运动（后拉或摇镜头），然后停在一个暗示危险的意外元素上——武器、不速之客、变化的细节。应提到观众必须先认同自己的假设再打破（2-4秒）。",
     "type": "should_trigger"
   }
 ]

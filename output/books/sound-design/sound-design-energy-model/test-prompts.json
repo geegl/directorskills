@@ -20,8 +20,9 @@
   {
     "id": "should-trigger-04",
     "type": "should_trigger",
-    "prompt": "声音的能量高低怎么和叙事的情感弧线匹配？",
-    "expected_behavior": "应激活此skill"
+    "prompt": "声音的物理能量（音量）、情感能量（紧张度）和叙事能量（戏剧张力）这四个层面怎么和故事的情感弧线匹配？",
+    "expected_behavior": "应激活此skill",
+    "expected": "应激活——用户在讨论声音四层能量模型与叙事弧线的匹配"
   },
   {
     "id": "should-not-trigger-01",

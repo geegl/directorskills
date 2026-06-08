@@ -1,7 +1,7 @@
 ---
 name: cinematography-three-point-lighting
 description: |
-  当用户需要为人物或场景设计灯光、询问"怎么打光"、或需要将AI生成画面的灯光描述从模糊变精确时调用。核心trigger：用户提到"布光"、"灯光设置"、"三点照明"、"灯光比"、"主光/补光/背光"。不调用的情况：用户已经知道三点布光且在讨论更高级技法（用back-lighting），或用户在讨论色彩而非灯光。
+  用户提到布光、灯光设置、三点照明、灯光比、主光/补光/背光
 source_book: 《电影摄影：理论与实践》 Blain Brown
 source_chapter: 第7章 布光基础
 tags: [布光, 三点照明, 灯光比, 基础框架, AI提示词]

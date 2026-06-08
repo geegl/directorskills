@@ -1,0 +1,71 @@
+{
+  "total": 617,
+  "passed": 617,
+  "failed": 0,
+  "skipped": 42,
+  "should_trigger": {
+    "total": 323,
+    "passed": 323
+  },
+  "should_not_trigger": {
+    "total": 204,
+    "passed": 204
+  },
+  "edge_case": {
+    "total": 90,
+    "passed": 90
+  },
+  "by_book": {
+    "cinematography-brown": {
+      "total": 42,
+      "passed": 42,
+      "failed": 0
+    },
+    "color-grading": {
+      "total": 88,
+      "passed": 88,
+      "failed": 0
+    },
+    "directing-masterclass": {
+      "total": 150,
+      "passed": 150,
+      "failed": 0
+    },
+    "master-shots-v1": {
+      "total": 38,
+      "passed": 38,
+      "failed": 0
+    },
+    "master-shots-v2": {
+      "total": 20,
+      "passed": 20,
+      "failed": 0
+    },
+    "master-shots-v3": {
+      "total": 30,
+      "passed": 30,
+      "failed": 0
+    },
+    "scene-transitions": {
+      "total": 49,
+      "passed": 49,
+      "failed": 0
+    },
+    "shot-design": {
+      "total": 48,
+      "passed": 48,
+      "failed": 0
+    },
+    "sound-design": {
+      "total": 104,
+      "passed": 104,
+      "failed": 0
+    },
+    "story-design": {
+      "total": 48,
+      "passed": 48,
+      "failed": 0
+    }
+  },
+  "failures": []
+}

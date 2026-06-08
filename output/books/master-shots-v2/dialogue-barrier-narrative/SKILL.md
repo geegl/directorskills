@@ -1,7 +1,7 @@
 ---
 name: dialogue-barrier-narrative
 description: |
-  当用户需要怎么用场景道具表现角色关系、两个人吵架怎么拍才有张力、不靠台词表现隔阂时调用。核心 trigger：障碍物、物理隔离、隔窗对峙。
+  障碍物、物理隔离、隔窗对峙
 source_book: 《大师镜头 第二卷》Christopher Kenworthy
 source_chapter: 第1.5节"障碍物"
 tags: [dialogue, cinematography, visual-storytelling]

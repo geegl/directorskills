@@ -1,7 +1,7 @@
 ---
 name: dialogue-task-overload
 description: |
-  当演员表演不自然/太僵硬、演员说走位不对但说不出原因、需要给演员找事做时调用。核心 trigger：任务过载、本能表演、演员反对、洗碗/泡咖啡/摆道具。
+  任务过载、本能表演、演员反对、洗碗/泡咖啡/摆道具
 source_book: 《大师镜头 第二卷》 Christopher Kenworthy
 source_chapter: 结语 / 第6.9节
 tags: [dialogue, acting, direction, performance, actor-management]

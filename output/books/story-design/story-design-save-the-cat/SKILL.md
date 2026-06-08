@@ -1,7 +1,7 @@
 ---
 name: story-design-save-the-cat
 description: |
-  当用户需要让主角更讨人喜欢、诊断观众不关心主角的问题、或设计主角首次出场时调用。核心 trigger：用户提到'观众不喜欢主角'、'怎么让主角讨人喜欢'、'第一次出场'、'Save the Cat'。不适用于：用户讨论反派设计（反派不需要讨人喜欢）。
+  用户提到观众不喜欢主角、怎么让主角讨人喜欢、第一次出场、Save the Cat
 source_book: 《救猫咪》Blake Snyder
 source_chapter: 第5章 Heroes
 tags: [screenwriting, story-structure, beat-sheet, blake-snyder]

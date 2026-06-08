@@ -9,9 +9,10 @@
   {
     "id": "should-trigger-02",
     "type": "should_trigger",
-    "prompt": "观众搞不清谁在看谁怎么办",
+    "prompt": "对话戏里观众搞不清谁在看谁，画面方向混乱了，是不是摄影机跳轴了？",
     "expected_behavior": "应激活，检查是否违反了轴线规则",
-    "notes": "问题诊断"
+    "notes": "问题诊断",
+    "expected": "应激活——用户遇到了跳轴/180度法则问题导致空间关系混乱"
   },
   {
     "id": "should-trigger-03",

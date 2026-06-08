@@ -1,7 +1,7 @@
 ---
 name: shot-design-continuity-composition
 description: |
-  当用户需要设计对话场景的构图、诊断'画面看起来不对劲'、或理解剪辑风格时调用。核心 trigger：用户提到'构图'、'画面不对'、'特写怎么构图'、'剪辑节奏'。不适用于：用户讨论摄影机运动（用 dramatic-range）。
+  用户提到构图、画面不对、特写怎么构图、剪辑节奏
 source_book: 《电影镜头设计》Steven D. Katz
 source_chapter: 第6章
 tags: [cinematography, shot-design, camera-angle, visual-storytelling]

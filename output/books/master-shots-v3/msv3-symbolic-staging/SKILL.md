@@ -1,7 +1,7 @@
 ---
 name: msv3-symbolic-staging
 description: |
-  当用户需要怎么用镜头讲故事而不是用台词时调用。核心 trigger：象征性, 镜头叙事, 权力关系。不适用于：用户讨论整体故事结构。
+  象征性, 镜头叙事, 权力关系
 source_book: 《大师镜头 第三卷》Christopher Kenworthy
 source_chapter: 第5章 (5.1–5.8)
 tags: [cinematography, camera-movement, visual-storytelling, shot-design]

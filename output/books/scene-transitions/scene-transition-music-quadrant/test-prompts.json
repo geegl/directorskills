@@ -23,9 +23,10 @@
   {
     "id": "should-not-trigger-01",
     "type": "should_not_trigger",
-    "prompt": "这段配乐的版权问题怎么解决？",
+    "prompt": "我想在短视频里用一段经典交响乐，版权授权的流程是什么？",
     "expected_behavior": "不应激活，这是版权问题，不是音频策略",
-    "notes": "诱饵：版权问题"
+    "notes": "诱饵：版权问题",
+    "expected": "不应激活——用户在问版权法律问题，不涉及场景转换中的音乐策略选择"
   },
   {
     "id": "should-not-trigger-02",

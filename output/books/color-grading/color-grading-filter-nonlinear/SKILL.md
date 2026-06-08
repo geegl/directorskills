@@ -1,7 +1,7 @@
 ---
 name: color-grading-filter-nonlinear
 description: |
-  当用户需要用数字调色模拟光学滤镜效果、或理解滤镜着色的物理机制时调用。核心 trigger：用户提到'滤镜效果'、'模拟光学'、'数字滤镜'。不适用于：用户讨论整体创意风格（用 look-development）。
+  用户提到滤镜效果、模拟光学、数字滤镜
 source_book: 《调色师手册》Alexis Van Hurkman
 source_chapter: 第11章、第3章
 tags: [color-grading, color-correction, post-production, visual-storytelling]

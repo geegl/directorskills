@@ -1,7 +1,7 @@
 ---
 name: dialogue-telephoto-claustrophobia
 description: |
-  当需要让观众感受到角色接收到坏消息/冲击性信息时的心理压迫感时调用。核心 trigger：(1)角色听到无法承受的消息；(2)需要让观众"直视"角色的眼睛；(3)需要制造窒息感/幽闭感。不调用的情况：日常对话、需要展示环境的全景场景。
+  (1)角色听到无法承受的消息；(2)需要让观众直视角色的眼睛；(3)需要制造窒息感/幽闭感
 source_book: 《大师镜头 第二卷》 Christopher Kenworthy
 source_chapter: 第2章, 第5章
 tags: [长焦, 心理压迫, 特写, 情感冲击]

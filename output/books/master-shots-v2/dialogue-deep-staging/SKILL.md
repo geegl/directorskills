@@ -1,7 +1,7 @@
 ---
 name: dialogue-deep-staging
 description: |
-  当用户需要在室内对话场景中制造空间纵深感、小房间怎么拍出大片感、前景背景怎么安排时调用。核心 trigger：深布景、三层空间、前景/中景/背景、摄影机靠墙。
+  深布景、三层空间、前景/中景/背景、摄影机靠墙
 source_book: 《大师镜头 第二卷》 Christopher Kenworthy
 source_chapter: 第1.9节"深布景"
 tags: [dialogue, staging, depth, production-design, spatial-storytelling]

@@ -1,32 +1,32 @@
 [
   {
     "id": "lm-01",
-    "prompt": "I'm shooting a dialogue scene where two characters are having an intense argument in a small room. I want the audience to feel the claustrophobia and urgency. What lens should I use and how should the camera move?",
-    "expected_behavior": "Should recommend wide-angle lens near actors (1.6), small camera movement with large actor movement to create urgency. Should warn against telephoto in this context. Should mention that wide-angle exaggerates the room's smallness.",
+    "prompt": "我在拍一场两个角色在小房间里激烈争吵的对话戏。想让观众感受到窒息感和紧迫感。该用什么焦距的镜头？摄影机怎么动？",
+    "expected_behavior": "应该推荐广角镜头贴近演员（1.6），摄影机小幅度运动配合演员大幅度运动来制造紧迫感。应警告不要在这种情境下用长焦。应提到广角会夸大房间的狭小感。",
     "type": "should_trigger"
   },
   {
     "id": "lm-02",
-    "prompt": "I need to shoot a scene where a character realizes they're being watched from across a crowded street. I want to isolate them emotionally from the crowd. What's the lens approach?",
-    "expected_behavior": "Should recommend telephoto lens from distance (1.1/1.4), which compresses the crowd into a blur behind the isolated subject. Should mention that foreground people crossing the frame will appear to move fast while the subject appears slow and trapped.",
+    "prompt": "角色在一条拥挤的街道上意识到有人在远处盯着他。我想在镜头中让他在情感上与人群隔离开来。该选什么焦距？",
+    "expected_behavior": "应该推荐长焦镜头从远处拍摄（1.1/1.4），把人群压缩成被隔离主体身后的模糊背景。应提到前景中穿过画面的人看起来移动很快，而主体看起来缓慢且被困住。",
     "type": "should_trigger"
   },
   {
     "id": "lm-03",
-    "prompt": "My Steadicam operator wants to use a 85mm lens for a following shot through corridors. Is this a good idea?",
-    "expected_behavior": "Should warn against telephoto + Steadicam combination (1.4). Every camera shake will be exaggerated. Should recommend switching to wide-angle for handheld/Steadicam movement work.",
+    "prompt": "斯坦尼康操作员想用85mm镜头拍一场跟拍主角穿过走廊的戏。这个方案好不好？",
+    "expected_behavior": "应该警告不要用长焦加斯坦尼康的组合（1.4）。任何摄影机抖动都会被放大。建议切换到广角镜头来配合手持/斯坦尼康运动拍摄。",
     "type": "should_trigger"
   },
   {
     "id": "lm-04",
-    "prompt": "I want to create a Spielberg-style single-take scene where two actors move around a room and we see multiple compositions without cutting. How do I set this up?",
-    "expected_behavior": "Should reference the Schindler's List technique (1.7): static wide-angle camera near ground level, find 6-7 best compositions in the space, then choreograph actors to hit those marks naturally. Every movement must be motivated.",
+    "prompt": "我想拍一个斯皮尔伯格式的单镜头场景，两个演员在房间里走动，不切镜头就能看到多种构图。该怎么设置？",
+    "expected_behavior": "应该参考辛德勒名单的技术（1.7）：固定广角镜头靠近地面，在空间中找到6-7个最佳构图位置，然后编排演员自然地走到那些位置。每个动作都必须有动机。",
     "type": "should_trigger"
   },
   {
     "id": "lm-05",
-    "prompt": "I'm shooting a chase scene but the wide-angle lens makes the lead actor's face look distorted in close-ups. How do I fix this?",
-    "expected_behavior": "Should recommend shooting from slightly above to mitigate wide-angle facial distortion (1.6). The slight high angle reduces the enlarged-nose effect while preserving the urgency of the wide lens.",
+    "prompt": "我在拍一场追逐戏，但广角镜头让主角的脸在特写中变形了。怎么解决？",
+    "expected_behavior": "建议从稍高的角度拍摄来缓解广角的脸部变形（1.6）。微俯角度可以减少鼻子放大的效果，同时保留广角镜头的紧迫感。",
     "type": "should_trigger"
   }
 ]

@@ -1,7 +1,7 @@
 ---
 name: dialogue-delayed-reveal
 description: |
-  当用户需要延迟揭示角色身份制造悬念、先让观众听到声音再看到人、角色出场怎么有戏剧感时调用。核心 trigger：延迟揭示、角色出场、悬念、背影。
+  延迟揭示、角色出场、悬念、背影
 source_book: 《大师镜头 第二卷》 Christopher Kenworthy
 source_chapter: 第4.6节"延迟揭示"
 tags: [dialogue, suspense, character-introduction, audience-psychology, reveal]

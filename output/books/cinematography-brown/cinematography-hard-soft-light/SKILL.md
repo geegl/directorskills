@@ -1,7 +1,7 @@
 ---
 name: cinematography-hard-soft-light
 description: |
-  当用户需要判断应该用硬光还是软光、理解"为什么这个画面看起来不一样"、或为AI生成画面选择灯光品质时调用。核心trigger：用户提到"硬光"、"软光"、"柔光"、"阴影清晰/模糊"、"光源大小"。
+  用户提到硬光、软光、柔光、阴影清晰/模糊、光源大小
 source_book: 《电影摄影：理论与实践》 Blain Brown
 source_chapter: 第7章 布光基础
 tags: [灯光品质, 硬光, 软光, 光源大小, 布光基础]

@@ -20,8 +20,9 @@
   {
     "id": "should-trigger-04",
     "type": "should_trigger",
-    "prompt": "反转揭示场景的声音怎么配合叙事转折？",
-    "expected_behavior": "应激活此skill"
+    "prompt": "反转揭示的瞬间，声音设计怎么通过先建立观众的听觉期待再打破它来配合叙事转折？",
+    "expected_behavior": "应激活此skill",
+    "expected": "应激活——用户需要通过声音期待的建立与违反来配合叙事转折"
   },
   {
     "id": "should-not-trigger-01",
@@ -32,8 +33,9 @@
   {
     "id": "should-not-trigger-02",
     "type": "should_not_trigger",
-    "prompt": "镜头的预期与打破怎么做？",
-    "expected_behavior": "不应激活——与其他skill相关"
+    "prompt": "摄影机运动中怎么制造意外感？比如推镜头突然停住或改变方向？",
+    "expected_behavior": "不应激活——与其他skill相关",
+    "expected": "不应激活——用户在问镜头运动技法，不涉及声音期待与违反的设计"
   },
   {
     "id": "should-not-trigger-03",

@@ -26,8 +26,8 @@
   {
     "id": "should-not-trigger-01",
     "type": "should_not_trigger",
-    "prompt": "欠曝的素材怎么提亮？",
-    "expected_behavior": "不应激活——与其他skill相关"
+    "prompt": "暗部噪点怎么在降噪软件里处理？",
+    "expected_behavior": "不应激活——这是降噪处理，不是过曝通道恢复"
   },
   {
     "id": "should-not-trigger-02",

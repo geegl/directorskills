@@ -16,9 +16,10 @@
   {
     "id": "should-not-trigger-01",
     "type": "should_not_trigger",
-    "prompt": "今天天气怎么样？",
+    "prompt": "航拍无人机在什么风力等级下不能起飞？小雨中飞行需要什么防护措施？",
     "expected_behavior": "不应激活，这是日常天气查询",
-    "notes": "诱饵：日常天气"
+    "notes": "诱饵：日常天气",
+    "expected": "不应激活——用户在问航拍设备安全操作规范，不涉及用天气对比进行叙事转换"
   },
   {
     "id": "should-not-trigger-02",

@@ -2,7 +2,7 @@
   {
     "id": "should-trigger-01",
     "type": "should_trigger",
-    "prompt": "整部电影的声音弧线怎么设计？开头和结尾的声音应该有什么呼应？",
+    "prompt": "怎么用奏鸣曲式来设计电影声音的戏剧结构？呈示、发展、再现怎么对应？",
     "expected_behavior": "应激活此skill"
   },
   {
@@ -38,8 +38,9 @@
   {
     "id": "should-not-trigger-03",
     "type": "should_not_trigger",
-    "prompt": "音乐的奏鸣曲式怎么作曲？",
-    "expected_behavior": "不应激活——与其他skill相关"
+    "prompt": "我正在写一首钢琴奏鸣曲，呈示部的主题该怎么发展？属调转调的规则是什么？",
+    "expected_behavior": "不应激活——与其他skill相关",
+    "expected": "不应激活——用户在做纯器乐作曲，不是用奏鸣曲式映射电影戏剧结构"
   },
   {
     "id": "edge-01",

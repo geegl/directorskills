@@ -1,10 +1,10 @@
 ---
 name: msv3-power-distance
 description: |
-  当用户需要怎么表现谁更有权力时调用。核心 trigger：权力, 距离, 谁更有力量。不适用于：用户讨论整体故事结构。
+  权力, 距离, 谁更有力量
 source_book: 《大师镜头 第三卷》Christopher Kenworthy
 source_chapter: 第5.5节、第5.4节、第9.10节
-tags: [cinematography, camera-movement, visual-storytelling, shot-design]
+tags: [权力距离, 权力关系, 高低角度, 摄影机位置, 人物力量对比]
 related_skills:
   - composes-with: msv3-speed-conveyance — 速度传达与镜头情绪相关
 ---

@@ -1,7 +1,7 @@
 ---
 name: scene-transition-caboose-diagnosis
 description: |
-  当用户需要判断场景是否多余、诊断"这个场景要不要删"、或识别拖沓的过渡场景时调用。核心 trigger：用户提到"场景多余"、"要不要删"、"节奏拖沓"、"末节场景"。不适用于：用户讨论场景之间的转场技巧（用其他 scene-transition skill）。
+  用户提到场景多余、要不要删、节奏拖沓、末节场景
 source_book: 《大师场景》Jeffrey Michael Bays
 source_chapter: 术语表、第8章
 tags: [场景转换, 诊断, 反模式, 节奏控制, 剪辑]

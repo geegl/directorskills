@@ -38,8 +38,9 @@
   {
     "id": "should-not-trigger-03",
     "type": "should_not_trigger",
-    "prompt": "配乐的旋律怎么写？",
-    "expected_behavior": "不应激活——与其他skill相关"
+    "prompt": "影视配乐作曲时，旋律动机怎么设计才能让观众记住？和声进行有什么套路？",
+    "expected_behavior": "不应激活——与其他skill相关",
+    "expected": "不应激活——用户在问作曲技法，不涉及音乐与叙事的平行结构设计"
   },
   {
     "id": "edge-01",

@@ -1,7 +1,7 @@
 ---
 name: shot-design-dialogue-staging
 description: |
-  当用户需要设计对话场景的镜头调度、安排多人对话的摄影机位置、或不知道对话戏怎么拍时调用。核心trigger：用户提到"对话场景"、"对话怎么拍"、"两人/三人/多人对话"、"调度"、"staging"。不调用的情况：用户在设计动作戏（非对话主导），或用户只是在写对白文字。
+  用户提到对话场景、对话怎么拍、两人/三人/多人对话、调度、staging
 source_book: 《电影镜头设计：从构思到银幕》 Steven D. Katz
 source_chapter: 第九章、第十章、第十一章
 tags: [对话调度, 场面调度, 几何形态, I/L/A形态, 过肩镜头]

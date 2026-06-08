@@ -1,7 +1,7 @@
 ---
 name: scene-transition-weather-contrast
 description: |
-  当用户需要利用天气变化增强场景转换效果时调用。核心 trigger：用户提到"天气"、"场景天气"、"天气配合情绪"、"天气对比"。不调用的情况：用户在讨论天气预报或天气摄影技术。
+  用户提到天气、场景天气、天气配合情绪、天气对比
 source_book: 《大师场景：顶级场景转换术》 Jeffrey Michael Bays
 source_chapter: 第5章, 第2章
 tags: [场景转换, 天气, 对比, 反直觉, 场所]

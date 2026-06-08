@@ -1,7 +1,7 @@
 ---
 name: dialogue-position-swap
 description: |
-  当用户需要表现权力关系变化、角色地位反转、或对话中谁占上风时调用。核心 trigger：位置交换、权力转移、主导地位。
+  位置交换、权力转移、主导地位
 source_book: 《大师镜头 第二卷》Christopher Kenworthy
 source_chapter: 第3.3节"位置调换"
 tags: [dialogue, blocking, power-dynamics, spatial-narrative, wide-shot]

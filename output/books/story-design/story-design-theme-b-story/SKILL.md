@@ -1,7 +1,7 @@
 ---
 name: story-design-theme-b-story
 description: |
-  当用户需要处理故事主题、诊断'故事说了但不知道在说什么'、或设计 B Story 时调用。核心 trigger：用户提到'主题怎么表达'、'B Story 怎么写'、'故事在说什么'。不适用于：用户讨论具体场景结构（用 beat-sheet）。
+  用户提到主题怎么表达、B Story 怎么写、故事在说什么
 source_book: 《救猫咪》Blake Snyder
 source_chapter: 第2章 Themes
 tags: [screenwriting, story-structure, beat-sheet, blake-snyder]

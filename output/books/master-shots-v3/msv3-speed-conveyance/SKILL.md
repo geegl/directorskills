@@ -1,10 +1,10 @@
 ---
 name: msv3-speed-conveyance
 description: |
-  当用户需要追逐戏感觉慢时调用。核心 trigger：速度感, 紧迫感, 追逐。不适用于：用户讨论整体故事结构。
+  速度感, 紧迫感, 追逐
 source_book: 《大师镜头 第三卷》Christopher Kenworthy
 source_chapter: 第2章、第7.7节
-tags: [cinematography, camera-movement, visual-storytelling, shot-design]
+tags: [速度传达, 追逐戏, 紧迫感, 广角镜头, 摄影机运动]
 related_skills:
   - composes-with: msv3-power-distance — 权力距离与象征性调度相关
 ---

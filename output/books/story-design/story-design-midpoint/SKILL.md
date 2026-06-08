@@ -1,7 +1,7 @@
 ---
 name: story-design-midpoint
 description: |
-  当用户需要设计故事中点、诊断第二幕松散、或控制观众情绪节奏时调用。核心 trigger：用户提到'第二幕怎么写'、'中点'、'midpoint'、'故事到中间就散了'。不适用于：用户讨论故事结尾（用 five-step-finale）。
+  用户提到第二幕怎么写、中点、midpoint、故事到中间就散了
 source_book: 《救猫咪》Blake Snyder
 source_chapter: 第6章 Structure
 tags: [screenwriting, story-structure, beat-sheet, blake-snyder]

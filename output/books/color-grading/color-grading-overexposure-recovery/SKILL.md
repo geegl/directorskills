@@ -1,7 +1,7 @@
 ---
 name: color-grading-overexposure-recovery
 description: |
-  处理严重过曝素材的专项技术。当某个RGB通道被不可挽回裁切时，用RGB Mixer从未裁切通道混合数据重建缺失信息，再用HSL亮度限定器限制混合范围。这是"最后一搏"的修复方法。
+  最后一搏
 source_book: 《调色师手册》第2版 Alexis Van Hurkman
 source_chapter: 第3章
 tags: [过曝修复, 通道混合器, RGB Mixer, 素材修复, 紧急修复]

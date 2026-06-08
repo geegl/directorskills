@@ -1,7 +1,7 @@
 ---
 name: msv3-unexpected-reveal
 description: |
-  当用户需要怎么让揭示更有冲击力时调用。核心 trigger：揭示, 意外, 悬念。不适用于：用户讨论整体故事结构。
+  揭示, 意外, 悬念
 source_book: 《大师镜头 第三卷》Christopher Kenworthy
 source_chapter: 第4章、第6章
 tags: [cinematography, camera-movement, visual-storytelling, shot-design]

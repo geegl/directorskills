@@ -1,7 +1,7 @@
 ---
 name: story-design-genres
 description: |
-  当用户需要确定自己的故事属于什么类型、检查类型片必有元素、或诊断'故事类型不清晰'时调用。核心 trigger：用户提到'这是什么类型的故事'、'恐怖片怎么写'、'爱情片套路'、'故事类型'。不适用于：用户已在分析具体场景结构（用 beat-sheet）。
+  用户提到这是什么类型的故事、恐怖片怎么写、爱情片套路、故事类型
 source_book: 《救猫咪》Blake Snyder
 source_chapter: 第4章 Genres
 tags: [screenwriting, story-structure, beat-sheet, blake-snyder]

@@ -1,7 +1,7 @@
 ---
 name: color-grading-color-temperature
 description: |
-  当用户需要处理混合色温场景、诊断'画面偏色'、或理解色温对调色的影响时调用。核心 trigger：用户提到'色温'、'偏色'、'冷暖'、'混合光源'。不适用于：用户讨论创意风格（用 look-development）。
+  用户提到色温、偏色、冷暖、混合光源
 source_book: 《调色师手册》Alexis Van Hurkman
 source_chapter: 第4章、第8章
 tags: [color-grading, color-correction, post-production, visual-storytelling]

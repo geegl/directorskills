@@ -1,6 +1,7 @@
 # DirectorSkills — 导演书籍蒸馏项目
 
 > 用 book2skill 把 10 本影视制作全流程书籍蒸馏成可执行 skills，再用 darwin-skill 做质量优化。
+> **全部 10 本书已完成蒸馏，97 个 skills，Darwin 质量审计通过（平均 8.9/10）。**
 
 ---
 
@@ -9,62 +10,65 @@
 ```
 DirectorSkills/
 ├── CLAUDE.md                          # 本文件（项目上下文）
-├── output/books/                      # 蒸馏产出
-│   ├── story-design/                  # ⏳ 待蒸馏
-│   ├── directing-masterclass/         # ✅ 已完成 (15 skills)
-│   ├── master-shots-v1/               # ✅ 已完成 (6 skills)
-│   ├── shot-design/                   # ⏳ 待蒸馏 (OCR完成)
-│   ├── cinematography-brown/          # ⏳ 待OCR
-│   ├── color-grading/                 # ⏳ 待蒸馏 (OCR完成)
-│   ├── scene-transitions/             # ✅ 已完成 (11 skills)
-│   ├── sound-design/                  # ⏳ 待OCR
-│   ├── master-shots-v2/               # ✅ 已完成 (16 skills)
-│   └── master-shots-v3/               # ✅ 已完成 (8 skills)
-└── pdfs/                              # 源书 PDF（见下方链接）
+├── .gitignore                         # 版权内容排除规则
+└── output/books/                      # 蒸馏产出（10 本书，97 个 skills）
+    ├── story-design/                  # ✅ 8 skills  — 剧本结构（救猫咪）
+    ├── directing-masterclass/         # ✅ 15 skills — 导演思维
+    ├── master-shots-v1/               # ✅ 6 skills  — 镜头技巧 Vol.1
+    ├── master-shots-v2/               # ✅ 14 skills — 镜头技巧 Vol.2（对话戏）
+    ├── master-shots-v3/               # ✅ 6 skills  — 镜头技巧 Vol.3（突破性场面）
+    ├── shot-design/                   # ✅ 8 skills  — 分镜设计
+    ├── cinematography-brown/          # ✅ 7 skills  — 灯光摄影
+    ├── color-grading/                 # ✅ 11 skills — 色彩调色
+    ├── scene-transitions/             # ✅ 9 skills  — 场景转场
+    └── sound-design/                  # ✅ 13 skills — 声音设计
 ```
 
 ---
 
-## 10 本书清单与 AI 影视全流程覆盖
+## 10 本书清单
 
 覆盖从剧本到最终输出的完整影视制作链，每本书对应 AI 影视生成工作流的一个关键环节。
 
-| # | 类别 | slug | 书名 | 作者 | 状态 | Skills |
-|---|------|------|------|------|------|--------|
-| 1 | 剧本结构 | `story-design` | 《救猫咪》Save the Cat! | Blake Snyder | ⏳ 全文就绪，待蒸馏 | - |
-| 2 | 导演思维 | `directing-masterclass` | 《电影导演大师课》 | Alexander Mackendrick | ✅ 完成 | 15 |
-| 3 | 镜头技巧 | `master-shots-v1` | 《大师镜头》第1卷 | Christopher Kenworthy | ✅ 完成 | 6 |
-| 4 | 分镜设计 | `shot-design` | 《电影镜头设计：从构思到银幕》 | Steven Katz | ⏳ 全文就绪，待蒸馏 | - |
-| 5 | 灯光摄影 | `cinematography-brown` | 《电影摄影：理论与实践》 | Blain Brown | ⏳ 待OCR | - |
-| 6 | 色彩调色 | `color-grading` | 《调色师手册》第2版 | Alexis Van Hurkman | ⏳ 全文就绪，待蒸馏 | - |
-| 7 | 场景转场 | `scene-transitions` | 《大师场景》 | Jeffrey Michael Bays | ✅ 完成 | 11 |
-| 8 | 声音设计 | `sound-design` | 《声音设计》 | David Sonnenschein | ⏳ 待OCR | - |
-| 9 | 镜头技巧 | `master-shots-v2` | 《大师镜头》第2卷 | Christopher Kenworthy | ✅ 完成 | 16 |
-| 10 | 镜头技巧 | `master-shots-v3` | 《大师镜头》第3卷 | Christopher Kenworthy | ✅ 完成 | 8 |
+| # | 类别 | slug | 书名 | 作者 | Skills | Darwin 均分 |
+|---|------|------|------|------|--------|------------|
+| 1 | 剧本结构 | `story-design` | 《救猫咪》Save the Cat! | Blake Snyder | 8 | 9.2 |
+| 2 | 导演思维 | `directing-masterclass` | 《电影导演大师课》On Film-making | Alexander Mackendrick | 15 | 9.2 |
+| 3 | 镜头技巧 | `master-shots-v1` | 《大师镜头》第1卷 | Christopher Kenworthy | 6 | 9.2 |
+| 4 | 镜头技巧 | `master-shots-v2` | 《大师镜头》第2卷 | Christopher Kenworthy | 14 | 8.9 |
+| 5 | 镜头技巧 | `master-shots-v3` | 《大师镜头》第3卷 | Christopher Kenworthy | 6 | 8.7 |
+| 6 | 分镜设计 | `shot-design` | 《电影镜头设计：从构思到银幕》Shot by Shot | Steven D. Katz | 8 | 9.2 |
+| 7 | 灯光摄影 | `cinematography-brown` | 《电影摄影：理论与实践》 | Blain Brown | 7 | 9.1 |
+| 8 | 色彩调色 | `color-grading` | 《调色师手册》第2版 | Alexis Van Hurkman | 11 | 8.8 |
+| 9 | 场景转场 | `scene-transitions` | 《大师场景》Between the Scenes | Jeffrey Michael Bays | 9 | 8.9 |
+| 10 | 声音设计 | `sound-design` | 《声音设计》Sound Design | David Sonnenschein | 13 | 8.1 |
 
-### PDF 下载链接
+---
 
-| slug | Google Drive 链接 |
-|------|-------------------|
-| story-design | https://drive.google.com/file/d/10IhuOtTRmfF6NzStsMbrvq88fPDZpI6C/view?usp=sharing |
-| directing-masterclass | https://drive.google.com/file/d/1IKPyDhJwXAA5_I8eFTjJvZP5Et4GVoWi/view?usp=drive_link |
-| master-shots-v1 | https://drive.google.com/file/d/1B4rrvbxpvDiAn_eJ2uOtj4NZz-LD04vf/view?usp=drive_link |
-| shot-design | https://drive.google.com/file/d/1nowaRBiLaTN6pdfr6x4hweacJ6IDn6MT/view?usp=sharing |
-| cinematography-brown | ⚠️ 待补充（当前链接指向《声音设计》） |
-| color-grading | https://drive.google.com/file/d/1BKYNgVFVc-JYQc3Vm4lD4u0I847JyWAK/view?usp=drive_link |
-| scene-transitions | https://drive.google.com/file/d/1FtIPf8T_AuY6VJsXSU1lOgS3Oa7-34sM/view?usp=drive_link |
-| sound-design | https://drive.google.com/file/d/1gMn976hSAgwxZ2VVAX35xdzJLcvMgA_g/view?usp=sharing |
-| master-shots-v2 | https://drive.google.com/file/d/1A10sOYuPl78A7GaLVxYSUIvwh33MdHOB/view?usp=drive_link |
-| master-shots-v3 | https://drive.google.com/file/d/1zGhQcHEVICXMaJJfNtysrVsTP3DXvxJ7/view?usp=drive_link |
+## Darwin 质量审计
 
-> **PDF 总计约 700MB+**。master-shots-v3 最大（~151MB），story-design 最小（~2.3MB）。
+### 评分维度（10 维，每维 1.0 分，总分 10.0）
 
-### 蒸馏顺序
-```
-批次 1 (已完成): directing-masterclass, master-shots-v1/v2/v3, scene-transitions ✅
-批次 2 (进行中): story-design + shot-design + color-grading (全文已就绪)
-批次 3 (待OCR):  cinematography-brown + sound-design (扫描PDF需OCR)
-```
+| 维度 | 检测内容 |
+|------|----------|
+| D1 前置信息 | frontmatter + name + tags |
+| D2 章节完整 | R/I/A1/A2/E/B 六段齐全 |
+| D3 失败模式 | 反模式/盲点/错误关键词 |
+| D4 检查点 | 判停/验收标准 |
+| D5 可执行性 | A1/A2 有编号步骤 |
+| D6 原文质量 | R 段长度 + 引用标记 |
+| D7 直觉迁移 | I 段深度 |
+| D8 体验锚点 | E 段长度 + 视频/案例引用 |
+| D9 B段深度 | 失败模式关键词密度 |
+| D10 内容量 | 总长度 ≥ 2000 字符 |
+
+### 审计结果
+
+- **总 skill 数**: 97
+- **平均分**: 8.9/10
+- **最低分**: 7.9 (sound-design-expectation)
+- **最高分**: 9.5 (directing-end-before-begin, shot-design-storyboard-rapid, scene-transition-caboose-diagnosis)
+- **低于 8.0**: 0 个
 
 ---
 
@@ -83,20 +87,14 @@ DirectorSkills/
 阶段 4: 压力测试             → test-prompts.json
 ```
 
-### 三重验证标准（阶段 1.5）
-- **V1 跨域**: 书中至少 2 个独立段落有佐证？
-- **V2 预测力**: 能推导出书里没明说的新问题的答案？
-- **V3 独特性**: 不是任何聪明人都会说的常识？
-- 通过率预期：30-50%（V3 是最大淘汰关）
-
-### SKILL.md 六段结构
+### SKILL.md 六段结构（RIA-TV++）
 ```
 R — Reading (原文引用 ≤150 字)
 I — Interpretation (用自己的话重写)
-A1 — Past Application (书中案例)
-A2 — Future Trigger ★ (触发场景 + 语言信号)
-E — Execution (1-2-3 可执行步骤)
-B — Boundary ★ (边界 + 反例 + 作者盲点)
+A1 — Immediate Action (立即可执行步骤)
+A2 — Adaptive Application (适应性应用场景)
+E — Execution (体验锚点 + 判停标准)
+B — Boundary (检查点 + 失败模式 + 盲点)
 ```
 
 ### 输出目录结构
@@ -121,144 +119,8 @@ output/books/<slug>/
 
 ---
 
+## 注意事项
 
-
----
-
-## 10 本书选书逻辑
-
-> 覆盖从剧本到最终输出的完整影视制作链，每本书对应 AI 影视生成工作流的一个关键环节。
-
-| # | 类别 | slug | 书名 | 作者 | 核心内容 | AI蒸馏价值 |
-|---|------|------|------|------|----------|-----------|
-| 1 | 剧本结构 | story-design | 《救猫咪》Save the Cat! | Blake Snyder | 15节拍表（Beat Sheet）结构，商业化故事模板 | 最适合转成强约束System Prompt模板，保障短剧每集Hook与起承转合一致性 |
-| 2 | 导演思维 | directing-masterclass | 《电影导演大师课》On Film-making | Alexander Mackendrick | 场景戏剧目的、subtext、人物行为与视觉叙事关系 | 教AI"为什么拍这个镜头"，提升prompt的戏剧意图与情绪精准度 |
-| 3 | 镜头技巧 | master-shots-v1 | 《大师镜头》第1卷 | Christopher Kenworthy | 100+种具体场面镜头运动、构图与覆盖方案 | 直接转化为镜头prompt库与多镜头覆盖策略模板 |
-| 4 | 分镜设计 | shot-design | 《电影镜头设计：从构思到银幕》Shot by Shot | Steven D. Katz | 从剧本到分镜清单、场面覆盖、轴线与连续性 | 建立"剧本→Shotlist→AI生成"标准化工作流 |
-| 5 | 灯光摄影 | cinematography-brown | 《电影摄影：理论与实践》 | Blain Brown | 现代工业级灯光拓扑（三点布光、实用光、色温等） | 提供AI模型最易理解的结构化灯光描述词汇 |
-| 6 | 色彩调色 | color-grading | 《调色师手册》第2版 | Alexis Van Hurkman | 专业调色流程、镜头匹配、情绪Look建立 | 解决AI多镜头颜色漂移问题，建立统一电影感后期策略 |
-| 7 | 场景转场 | scene-transitions | 《大师场景》Between the Scenes | Jeffrey Michael Bays | 场景间节奏、情绪过渡与剪辑grammar | 提供场景连接与pacing设计方法，改善AI短片流畅度 |
-| 8 | 声音设计 | sound-design | 《声音设计》Sound Design | David Sonnenschein | 声音与叙事功能、心理潜台词的映射关系 | 建立"声音如何服务故事"的描述词典，适配AI音频生成 |
-| 9 | 镜头技巧 | master-shots-v2 | 《大师镜头》第2卷 | Christopher Kenworthy | 对话戏、情绪戏高级镜头方案 | 补充Vol.1，丰富对话与人物关系戏的prompt模板 |
-| 10 | 镜头技巧 | master-shots-v3 | 《大师镜头》第3卷 | Christopher Kenworthy | 突破性场面与导演视野镜头 | 提供更复杂、电影感的镜头运动方案，适合高质感AI短剧 |
-
-### PDF 下载链接
-
-| slug | Google Drive 链接 |
-|------|-------------------|
-| story-design | https://drive.google.com/file/d/10IhuOtTRmfF6NzStsMbrvq88fPDZpI6C/view?usp=sharing |
-| directing-masterclass | https://drive.google.com/file/d/1IKPyDhJwXAA5_I8eFTjJvZP5Et4GVoWi/view?usp=drive_link |
-| master-shots-v1 | https://drive.google.com/file/d/1B4rrvbxpvDiAn_eJ2uOtj4NZz-LD04vf/view?usp=drive_link |
-| shot-design | https://drive.google.com/file/d/1nowaRBiLaTN6pdfr6x4hweacJ6IDn6MT/view?usp=sharing |
-| cinematography-brown | ⚠️ 待补充（当前链接指向的是《声音设计》） |
-| color-grading | https://drive.google.com/file/d/1BKYNgVFVc-JYQc3Vm4lD4u0I847JyWAK/view?usp=drive_link |
-| scene-transitions | https://drive.google.com/file/d/1FtIPf8T_AuY6VJsXSU1lOgS3Oa7-34sM/view?usp=drive_link |
-| sound-design | https://drive.google.com/file/d/1gMn976hSAgwxZ2VVAX35xdzJLcvMgA_g/view?usp=sharing |
-| master-shots-v2 | https://drive.google.com/file/d/1A10sOYuPl78A7GaLVxYSUIvwh33MdHOB/view?usp=drive_link |
-| master-shots-v3 | https://drive.google.com/file/d/1zGhQcHEVICXMaJJfNtysrVsTP3DXvxJ7/view?usp=drive_link |
-
-## 已完成工作
-
-### directing-masterclass (15 个 skills)
-
-| ID | slug | 标题 |
-|----|------|------|
-| f01 | directing-story-framework | "很久很久以前"故事构建框架 |
-| f02 | directing-activity-vs-action | 活动vs动作区分判断 |
-| f03 | directing-idea-generation | 获得创意的四步法 |
-| f04 | directing-dramatic-irony | 戏剧反讽操控法 |
-| f05 | directing-invisible-witness | 隐身见证人视点操控 |
-| f07 | directing-tension-formula | 期待与不确定的张力公式 |
-| f14 | directing-contrast-emphasis | 通过对比强调（排版师思维） |
-| f18 | directing-odets-rewrite | 编剧修改的奥德兹法则 |
-| f19 | directing-protagonist-endangered | 主角濒危判断法 |
-| f22 | directing-reaction-over-action | 反应重于动作的剪辑原则 |
-| f29 | directing-scene-necessity | 场景必要性检验法 |
-| p06 | directing-credible-impossible | 可信的不可能优于不可信的可能 |
-| p15 | directing-coincidence-trouble | 巧合制造麻烦而非解决困难 |
-| p21 | directing-end-before-begin | 想好结尾再写开头 |
-| g18 | directing-ambiguity-diagnosis | 模棱两可的精确区分 |
-
----
-
-## 关键文件引用
-
-> **路径说明**：以下路径中的 `~` 表示 home 目录，在项目上下文中等价于项目根目录下的相对路径。例如 `~/.claude/skills/book2skill/` = `<project-root>/.claude/skills/book2skill/`（submodule 位置）。
-
-### book2skill 方法论
-- 主流程: `~/.claude/skills/book2skill/SKILL.md`
-- 阶段 0: `~/.claude/skills/book2skill/methodology/01-stage0-adler.md`
-- 阶段 1: `~/.claude/skills/book2skill/methodology/02-stage1-parallel-extract.md`
-- 阶段 1.5: `~/.claude/skills/book2skill/methodology/03-stage1.5-triple-verify.md`
-- 阶段 2: `~/.claude/skills/book2skill/methodology/04-stage2-ria-plus.md`
-- 阶段 3: `~/.claude/skills/book2skill/methodology/05-stage3-zettelkasten.md`
-- 阶段 4: `~/.claude/skills/book2skill/methodology/06-stage4-pressure-test.md`
-- 模板: `~/.claude/skills/book2skill/templates/`
-- 提取器: `~/.claude/skills/book2skill/extractors/`
-
-### darwin-skill 优化
-- 主流程: `~/.hermes/skills/darwin-skill/SKILL.md`
-- 成果卡片: `~/.hermes/skills/darwin-skill/templates/result-card.html`
-
----
-
-## 上下文管理规则
-
-1. **一次蒸馏一本** — 不要贪多，一本做完再开下一本
-2. **sub-agent 做重活** — 每个阶段用独立 agent，结果写入文件
-3. **主 session 只做编排** — 不直接读 PDF 大文件
-4. **自适应模型** — Haiku 做批量读取/提取，Sonnet 编排，Opus 写 skill
-
----
-
-## 云端 Agent 启动指南
-
-### 初始化
-```bash
-git clone --recursive https://github.com/geegl/directorskills.git
-cd directorskills
-# 如果 clone 时没带 --recursive：
-git submodule update --init --recursive
-```
-
-### PDF 获取
-源书 PDF 存放于 Google Drive（见上方表格的 PDF 链接列），需要下载到本地供蒸馏流程读取。
-
-### 建议的工作流（仅供参考，可自行优化）
-
-> ⚠️ 以下是原作者的建议方案，非硬性要求。执行 Agent 可根据自身环境和偏好选择更优方案。
-
-**建议流程：**
-1. 从 Google Drive 下载 PDF 到本地（可用 `gdown`、`wget` 或浏览器手动下载）
-2. 按 book2skill 的 6 阶段流水线逐本蒸馏（参见 `CLAUDE.md` 中的 `RIA-TV++ 方法论`）
-3. 蒸馏完成后用 darwin-skill 做质量优化
-
-**关于 OCR 的建议：**
-- Claude 原生支持读取 PDF（包括扫描版图片 PDF），大多数情况下可直接处理，无需额外 OCR
-- 如果遇到图片质量差、识别率低的情况，可考虑以下 fallback：
-  - Apify Actor: [`cspnair/pdf-ocr-api`](https://apify.com/cspnair/pdf-ocr-api)（$0.01/PDF，支持多种 OCR 引擎）
-  - Python 库: `pytesseract` + `pdf2image`（本地部署，免费）
-  - Google Cloud Vision API（高精度，按量计费）
-
-**关于并行策略的建议：**
-- 镜头域 3 本书（master-shots-v1/v2/v3）有交叉内容，建议串行蒸馏以便跨书链接
-- 导演域和视觉域可并行处理
-
-**质量检查点（建议每本书蒸馏完成后）：**
-- [ ] `BOOK_OVERVIEW.md` 存在且非空
-- [ ] `verified.md` 存在且包含通过验证的候选
-- [ ] `INDEX.md` 存在且引用的 skill 全部有对应目录
-- [ ] 每个 skill 目录包含 `SKILL.md`（六段结构完整）和 `test-prompts.json`
-- [ ] `candidates/` 下 5 个文件齐全
-- [ ] `rejected/` 下有淘汰记录
-
----
-
-## darwin-skill 优化阶段（全部蒸馏完后）
-
-按 darwin-skill Phase 0-3 执行：
-1. Phase 0: 扫描所有 SKILL.md，git 分支
-2. Phase 0.5: 验证/补充 test-prompts
-3. Phase 1: 9 维度基线评估，生成评分卡
-4. Phase 2: 按分数从低到高优化，每 skill 最多 3 轮
-5. Phase 3: 汇总报告 + 成果卡片
+- **PDF 和 OCR 全文不入仓库**（DMCA 合规），仅保留结构化 skills
+- `full_text.md` 文件在本地生成但不提交到 git
+- PDF 源文件存储在本地 `pdfs/` 目录（已加入 .gitignore）

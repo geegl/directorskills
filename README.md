@@ -1,6 +1,6 @@
 # DirectorSkills
 
-> 11 本影视制作全流程书籍 → 98 个可执行 AI skills
+> 10 本影视制作全流程书籍 + 1 个跨书参考库 → 98 个可执行 AI skills
 
 ---
 
@@ -21,9 +21,9 @@ DirectorSkills 把经典电影教材的核心方法论蒸馏成**结构化、可
 
 ---
 
-## 为什么选这 11 本书
+## 为什么选这 10 本书
 
-选书标准：**每一本都是该领域公认的方法论标杆**，而非泛泛的入门读物。11 本书覆盖从剧本到成片的完整制作链路，每本书对应 AI 影视生成工作流的一个关键环节。
+选书标准：**每一本都是该领域公认的方法论标杆**，而非泛泛的入门读物。10 本书覆盖从剧本到成片的完整制作链路，每本书对应 AI 影视生成工作流的一个关键环节。
 
 | 环节 | 为什么需要 | 选的书 | 为什么选这本 |
 |------|-----------|--------|------------|
@@ -86,9 +86,10 @@ cd directorskills
 | 6 | 色彩调色 | 《调色师手册》第 2 版 | Alexis Van Hurkman | 11 |
 | 7 | 场景转场 | 《大师场景》Between the Scenes | Jeffrey Michael Bays | 9 |
 | 8 | 声音设计 | 《声音设计》Sound Design | David Sonnenschein | 13 |
-| 9 | 设备参考 | 跨书综合 + 行业实践 | 多源 | 1 |
 
-**总计 98 个 skills**
+> **附录：** [camera-lens-anchoring](output/books/camera-reference/camera-lens-anchoring/SKILL.md) — 专业影视摄影机镜头锚定库（跨书综合 + 行业实践，1 skill）
+
+**总计 98 个 skills（97 书蒸馏 + 1 跨书参考）**
 
 ---
 

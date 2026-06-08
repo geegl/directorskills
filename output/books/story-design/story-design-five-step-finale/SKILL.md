@@ -15,7 +15,7 @@ related_skills:
 
 > 我把它叫做"终幕五步法"，我一直用这个方法。如果你想知道怎么结束你的故事、第三幕需要做什么，试试这个：把每个终幕想象成"攻占城堡"。第一步：英雄和团队制定计划；第二步：执行计划；第三步：高塔惊喜——计划出了岔子；第四步：挖掘深挖——英雄找到内在力量；第五步：英雄执行新计划。
 
-> — Blake Snyder, Save the Cat! Strikes Back
+> — Blake Snyder, Save the Cat! Strikes Back, ~p.141
 
 ## I — 方法论骨架 (Interpretation)
 

@@ -15,7 +15,7 @@ related_skills:
 
 > 那就是"玻璃碎片"——那个锋利的事件、恶劣的行为、残酷的真相或被吞下的错误，英雄很久以前就把它吞下去了。皮肤已经长过了它坚硬的棱角，但它一直在那里。当"跌入谷底"到来时，碎片被暴露出来，英雄必须面对它，才能在终幕中获得真正的胜利。
 
-> — Blake Snyder, Save the Cat! Strikes Back
+> — Blake Snyder, Save the Cat! Strikes Back, ~p.92
 
 ## I — 方法论骨架 (Interpretation)
 

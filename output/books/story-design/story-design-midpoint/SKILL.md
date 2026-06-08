@@ -15,7 +15,7 @@ related_skills:
 
 > 中点是"假胜利"或"假失败"。在印第安纳·琼斯发现约柜的下落、同时发现凯伦·艾伦还活着时，这就是经典中点的一记组合拳——假胜利和假失败同时发生。"六十分钟的性爱！"——这是中点的另一个名字。
 
-> — Blake Snyder, Save the Cat! Strikes Back
+> — Blake Snyder, Save the Cat! Strikes Back, ~p.49
 
 ## I — 方法论骨架 (Interpretation)
 

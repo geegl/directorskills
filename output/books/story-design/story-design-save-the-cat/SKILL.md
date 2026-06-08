@@ -15,7 +15,7 @@ related_skills:
 
 > "救猫咪"是指主角在首次出场时做一件让观众喜欢的事。他救了一只猫，帮助了一个弱者，做了一件让我们站在他这边的事。如果你不给我们一个理由去关心他，我们为什么要花两个小时跟着他？
 
-> — Blake Snyder, Save the Cat!
+> — Blake Snyder, Save the Cat!, ~p.1
 
 ## I — 方法论骨架 (Interpretation)
 

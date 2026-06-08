@@ -15,7 +15,7 @@ related_skills:
 
 > 就像节拍表和它那些好用的"把手"（比如"游戏时间"和"跌入谷底"），这 10 种类型让我们可以按类型来引用故事。当你说"哦，这基本上是金色旅程加一点伙伴爱"，我就完全明白你的意思了。
 
-> — Blake Snyder, Save the Cat! Strikes Back
+> — Blake Snyder, Save the Cat! Strikes Back, ~p.56
 
 ## I — 方法论骨架 (Interpretation)
 

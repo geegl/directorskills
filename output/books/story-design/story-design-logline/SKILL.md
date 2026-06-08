@@ -15,7 +15,7 @@ related_skills:
 
 > 检查你的概念，确保它真的满足《救猫咪》中概述的成功 logline 的四个要素。一个 logline 必须包含：(1) 一个形容词描述主角；(2) 一个动词描述主角做什么；(3) 一个"坏人"或对手。如果你的 logline 缺少这些，它就不会引起共鸣。
 
-> — Blake Snyder, Save the Cat! Strikes Back
+> — Blake Snyder, Save the Cat! Strikes Back, ~p.12
 
 ## I — 方法论骨架 (Interpretation)
 

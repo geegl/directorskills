@@ -15,7 +15,7 @@ related_skills:
 
 > 把你的信息埋进 B Story 里。不要在 A Story 中宣扬你的好意——把它微妙而有力地埋在"辅助故事"的表面之下，这个故事帮助英雄、也帮助我们学到教训。在 A Story 中竖起广告牌是无聊的，但在 B Story 中做同样的事，观众会说"这部电影真有深度"。
 
-> — Blake Snyder, Save the Cat!
+> — Blake Snyder, Save the Cat!, ~p.4
 
 ## I — 方法论骨架 (Interpretation)
 

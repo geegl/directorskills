@@ -16,7 +16,7 @@ related_skills:
 
 > 把一个新想法分解成布莱克·斯奈德节拍表的 15 个节拍，再在周末白板会议上把这 15 个节拍展开成一般故事中 40 个关键场景。在课堂上，我们总会找到那个"试金石场景"——它代表了整个故事的核心。
 
-> — Blake Snyder, Save the Cat! Strikes Back
+> — Blake Snyder, Save the Cat! Strikes Back, ~p.45
 
 ## I — 方法论骨架 (Interpretation)
 

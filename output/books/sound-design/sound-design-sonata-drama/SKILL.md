@@ -15,6 +15,8 @@ related_skills: [sound-design-music-story-parallel, sound-design-expectation, so
 
 > "奏鸣曲形式：呈示部（两个主题）→展开部（主题变换/对立）→再现部（回归/解决），与英雄之旅结构相对应。"
 
+> — David Sonnenschein, 第5章, p.g_0028
+
 ## I — 方法论骨架 (Interpretation)
 
 古典奏鸣曲的三段式结构与经典戏剧三幕结构直接对应：

@@ -1,11 +1,11 @@
-1|---
-     2|id: v05
-     3|title: 位置交换象征权力转移
-     4|source: 大师镜头 第二卷
-     5|author: Christopher Kenworthy
-     6|type: framework
-     7|tags: [dialogue, blocking, power-dynamics, spatial-narrative, wide-shot]
-     8|---
+---
+name: dialogue-position-swap
+description: |
+  当用户需要表现权力关系变化、角色地位反转、或对话中谁占上风时调用。核心 trigger：位置交换、权力转移、主导地位。
+source_book: 《大师镜头 第二卷》Christopher Kenworthy
+source_chapter: 第3.3节"位置调换"
+tags: [dialogue, blocking, power-dynamics, spatial-narrative, wide-shot]
+---
      9|
     10|## R — 原文 (Reading)
     11|

@@ -70,7 +70,7 @@ output/books/<slug>/
 
 ### 审计结果
 
-- **总 skill 数**: 97
+- **总 skill 数**: 98
 - **平均分**: 8.9/10
 - **最低分**: 7.9 (sound-design-expectation)
 - **最高分**: 9.5 (directing-end-before-begin, shot-design-storyboard-rapid, scene-transition-caboose-diagnosis)

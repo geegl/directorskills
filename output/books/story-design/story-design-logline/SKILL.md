@@ -11,6 +11,12 @@ related_skills:
   - contrasts-with: story-design-theme-b-story — logline是'故事说什么'，主题是'故事在说什么'
 ---
 
+## R — 原文 (Reading)
+
+> 检查你的概念，确保它真的满足《救猫咪》中概述的成功 logline 的四个要素。一个 logline 必须包含：(1) 一个形容词描述主角；(2) 一个动词描述主角做什么；(3) 一个"坏人"或对手。如果你的 logline 缺少这些，它就不会引起共鸣。
+
+> — Blake Snyder, Save the Cat! Strikes Back
+
 ## I — 方法论骨架 (Interpretation)
 
 Logline 是故事的'电梯演讲'——一句话说清你的故事是什么。Blake Snyder 的 logline 公式是：[形容词] + [主角] + [ ironic situation ]。核心要求是'irony'（反讽）——主角的处境必须与预期相反，这种反差就是故事的'hook'。
@@ -26,7 +32,7 @@ Logline 是故事的'电梯演讲'——一句话说清你的故事是什么。B
 ### 案例 1
 - **问题**: 如何在商业故事中应用此方法论
 - **方法论的使用**: Evan Almighty 的 logline 问题：'Modern-day politician builds an ark'——概念有趣但缺乏足够反讽。Bruce Almighty 的 logline 更强：'God gives His powers to a regular guy'——'regular guy'和'God's powers'形成强烈反讽。Blake 认为这个概念差异可能决定了两部电影的成败。
-- **结论**: 此框架提供了可操作的工具，将抽象的故事问题转化为具体的结构决策
+- **结论**: 一个 logline 如果不能在 10 秒内让人产生兴趣，说明概念本身有问题——不是表达问题，是想法问题
 - **结果**: 故事获得了清晰的结构和情感弧线
 
 ### 案例 2: 《盗梦空间》的logline测试

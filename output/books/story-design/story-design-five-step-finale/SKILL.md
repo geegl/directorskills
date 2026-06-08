@@ -11,6 +11,12 @@ related_skills:
   - composes-with: story-design-logline — logline的承诺必须在终幕中兑现
 ---
 
+## R — 原文 (Reading)
+
+> 我把它叫做"终幕五步法"，我一直用这个方法。如果你想知道怎么结束你的故事、第三幕需要做什么，试试这个：把每个终幕想象成"攻占城堡"。第一步：英雄和团队制定计划；第二步：执行计划；第三步：高塔惊喜——计划出了岔子；第四步：挖掘深挖——英雄找到内在力量；第五步：英雄执行新计划。
+
+> — Blake Snyder, Save the Cat! Strikes Back
+
 ## I — 方法论骨架 (Interpretation)
 
 五步终局法将故事高潮分解为5个可操作的步骤，避免第三幕变成'一锅粥'式的混乱。Gather the team（召集团队），Execute the plan（执行计划），High tower surprise（高塔意外——计划失败），Dig deep down（挖掘内心——找到真正力量），Execution of the new plan（用新方案终局）。
@@ -24,7 +30,7 @@ related_skills:
 ### 案例 1
 - **问题**: 如何在商业故事中应用此方法论
 - **方法论的使用**: 《Slumdog Millionaire》的终局是经典五步：Jamal 和 Latika 在节目现场重聚（Gather），Jamal 继续答题（Execute），最后一题他不知道答案（High Tower Surprise），他选择求助 Latika 而非作弊（Dig Deep Down——他终于理解了'爱情比金钱更重要'的主题），最终两人在车站相拥（Execution of new plan）。
-- **结论**: 此框架提供了可操作的工具，将抽象的故事问题转化为具体的结构决策
+- **结论**: 终幕五步的顺序不能乱——挖掘深挖必须在执行新计划之前，否则英雄的胜利缺乏内在成长的支撑
 - **结果**: 故事获得了清晰的结构和情感弧线
 
 ### 案例 2: 《黑暗骑士》的五步终局

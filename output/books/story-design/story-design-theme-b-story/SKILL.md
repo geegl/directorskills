@@ -11,6 +11,12 @@ related_skills:
   - contrasts-with: story-design-logline — 主题是潜台词，logline是明线
 ---
 
+## R — 原文 (Reading)
+
+> 把你的信息埋进 B Story 里。不要在 A Story 中宣扬你的好意——把它微妙而有力地埋在"辅助故事"的表面之下，这个故事帮助英雄、也帮助我们学到教训。在 A Story 中竖起广告牌是无聊的，但在 B Story 中做同样的事，观众会说"这部电影真有深度"。
+
+> — Blake Snyder, Save the Cat!
+
 ## I — 方法论骨架 (Interpretation)
 
 主题不是通过主角的台词说出来的，而是通过 B Story 来讨论的。Theme Stated（主题陈述）在故事早期埋下种子——通常是配角说的一句看似无关的话。然后 B Story（辅助故事线）成为主题的'讨论场'——B Story 的角色和情节让主角（和观众）逐渐理解主题。
@@ -26,7 +32,7 @@ related_skills:
 ### 案例 1
 - **问题**: 如何在商业故事中应用此方法论
 - **方法论的使用**: 《Black Stallion》的 Theme Stated 出现在第7分钟：男孩的父亲讲述 Alexander 驯服野马 Bucephalus 的故事，说'If you can ride that horse, you can have that horse'。B Story 是 Mickey Rooney 饰演的退休骑师——他教男孩骑马，他们的关系就是'doing the impossible'这个主题的讨论场。最终赛马不只是赢比赛，而是关于'做不可能的事'。
-- **结论**: 此框架提供了可操作的工具，将抽象的故事问题转化为具体的结构决策
+- **结论**: 主题不是说教——它是潜台词。让配角在 B Story 中间接表达，观众反而会主动思考
 - **结果**: 故事获得了清晰的结构和情感弧线
 
 ### 案例 2: 《料理鼠王》的主题与B Story

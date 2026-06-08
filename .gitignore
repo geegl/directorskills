@@ -1,13 +1,22 @@
 # Copyright content — DO NOT commit
 pdfs/
-marker_input/
 *.pdf
 *.epub
 *.mobi
 full_text.md
 
-# OCR working files
-scripts/ocr_*.py
+# OCR / development working files
+scripts/
+grids/
+pages/
+render_grids.py
+retry_results.md
+marker_input/
+marker_output/
+*_results.md
+
+# Development prompts
+CONTINUE_PROMPT.md
 
 # OS files
 .DS_Store
@@ -17,9 +26,3 @@ Thumbs.db
 __pycache__/
 *.pyc
 .venv/
-
-# OCR grid images and page renders
-grids/
-pages/
-render_grids.py
-retry_results.md

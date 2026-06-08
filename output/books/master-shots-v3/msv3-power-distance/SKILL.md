@@ -1,87 +1,90 @@
 ---
-id: msv3-power-distance
-title: 权力-距离框架
-source: "大师镜头 第三卷 — Christopher Kenworthy"
-chapter: 5.5, 5.4, 9.10
-type: framework
-tags: [power, distance, camera-proximity, staging, blocking, authority]
-cross-refs: [msv3-symbolic-staging, msv3-body-performance]
+name: msv3-power-distance
+description: |
+  当用户需要怎么表现谁更有权力时调用。核心 trigger：权力, 距离, 谁更有力量。不适用于：用户讨论整体故事结构。
+source_book: 《大师镜头 第三卷》Christopher Kenworthy
+source_chapter: 第5.5节、第5.4节、第9.10节
+tags: [cinematography, camera-movement, visual-storytelling, shot-design]
+related_skills:
+  - composes-with: msv3-speed-conveyance — 速度传达与镜头情绪相关
+  - composes-with: msv3-power-distance — 权力距离与象征性调度相关
 ---
 
-# Power-Distance Framework (权力-距离框架)
+# 权力-距离框架
 
-## R — Reading
+## R — 原文 (Reading)
 
-> "谁离摄影机更近，我们就会认为谁控制着状况。" — 5.5
+> 摄影机接近演员的位置帮助我们对他产生认同——离摄影机更近的角色在观众感知中拥有更多权力。
+>
+> — Kenworthy, 第5.5节、第5.4节、第9.10节
 
-> "摄影机放置的位置对于表现场景里谁掌控着权力平衡有着巨大的影响。" — 5.5
+---
 
-> "将摄影机放在低处，能让人显得更强势，但出乎意料的是，只要演员不往上望，将摄影机放在演员上方也有同样的效果。" — 5.4
+## I — 方法论骨架 (Interpretation)
 
-## I — Interpretation
+谁离摄影机更近，谁就拥有感知上的权力。用广角镜头让靠近的动作更有冲击力；让权力较低的角色远离摄影机或背对摄影机；通过焦点转移来切换观众认同。
 
-Whoever is closer to the camera holds perceived power in the audience's mind. This is not just about framing — it's about the **physical position of actors relative to the camera lens**.
+---
 
-The framework has three layers:
+## A1 — 书中的应用 (Past Application)
 
-1. **Proximity = Identification**: The actor nearest the camera becomes the audience's proxy. We identify with them and perceive them as controlling the situation (5.5).
-2. **Camera Theft**: When one actor physically approaches the camera while the dolly retreats, the approaching actor "takes over" the scene. After a cut, if the camera stays near the new actor, the power transfer is complete (5.5, Book of Eli).
-3. **Height Modulation**: Low angle = power (standard). But high angle can also = power if the actor doesn't look up and maintains forward movement (5.4, Leon). Camera above a seated actor = vulnerability despite their position (9.10, Love Actually).
+### 案例 1
+- **问题**: 如何在视觉叙事中应用此框架
+- **方法论的使用**: 《这个杀手不太冷》中，Frank Senger 在摄影机上方，推轨后拉的同时他大步向前。尽管是高角度，他的向前运动+不向上看=压倒性的存在感。
+- **结论**: 此框架提供了超越常识的专业视觉叙事工具
+- **结果**: 视觉叙事获得了与故事语境一致的效果
 
-The key insight: power is not just about camera angle (low/high) but about the **dynamic relationship** between actor position and camera position over time.
+---
 
-## A1 — Past Application
+## A2 — 触发场景 (Future Trigger) ★
 
-| Film | Technique | Effect |
-|------|-----------|--------|
-| 《艾利之书》(Book of Eli) | Oldman approaches camera, dolly retreats; cut maintains proximity to Oldman (5.5) | Oldman "steals" camera from Washington = power takeover |
-| 《这个杀手不太冷》(Leon) | High angle + forward stride + no upward gaze (5.4) | Overwhelming presence despite high camera position |
-| 《真爱至上》(Love Actually) | Camera above seated PM, he looks up at visitor (9.10) | Authority figure looks nervous/vulnerable |
-| 《别让我走》(Never Let Me Go) | Minimal height/angle change between teacher and child (9.10) | Subtle power imbalance through tiny camera adjustments |
+### 用户会在什么情境下需要这个 skill?
 
-## A2 — Future Trigger
+1. 怎么表现谁更有权力
+2. 对话场景中谁占上风怎么拍
+3. 两个角色的权力关系怎么用镜头表达
 
-**Trigger scenarios:**
-- "I want to show a power shift mid-scene without dialogue" → Have the gaining actor approach the camera while the losing actor recedes, then cut to maintain proximity to the new power holder.
-- "How do I make a seated authority figure look vulnerable?" → Camera above, looking down, while they look up at the other character (9.10).
-- "The villain needs to feel overwhelming even though the camera is high" → High angle + actor doesn't look up + forward stride (5.4 Leon technique).
-- "Two characters are negotiating — who should feel more powerful?" → Place the dominant character closer to camera.
+### 语言信号 (用户的话里出现这些就应激活)
 
-**Language signals:**
-- "who's in control," "power dynamic," "who has the upper hand"
-- "make them look weak/strong despite their position"
-- "shift the balance," "takeover moment"
+- "权力"
+- "距离"
+- "谁更有力量"
+- "占上风"
 
-## E — Execution
+### 与相邻 skill 的区分
 
-### Step 1: Map the Power Dynamic
-Before blocking, ask: Who holds power at the START of the scene? Who holds power at the END? If it shifts, when does the turning point occur?
+- 与 `msv3-speed-conveyance` 的区别: speed-conveyance 处理速度感知，本 skill 处理权力-距
+- 与 `msv3-power-distance` 的区别: power-distance 处理权力关系，本 skill 处理更广泛的视觉叙事
 
-### Step 2: Position Camera for Proximity
-- Power holder → closer to camera
-- Less powerful → further from camera
-- For a **power transfer**: choreograph one actor approaching camera while dolly retreats, then cut to maintain new proximity (5.5)
+---
 
-### Step 3: Modulate with Height
-- **Low angle** → standard power signifier
-- **High angle + actor not looking up + forward movement** → overwhelming presence (5.4)
-- **Camera above seated actor** → vulnerability despite positional authority (9.10)
-- **Minimal height differences** → subtle, almost subliminal power imbalance (9.10 Never Let Me Go)
+## E — 可执行步骤 (Execution)
 
-### Step 4: Plan the Cut
-After a proximity-based power shift, the next cut must maintain the new camera-actor relationship. If you cut back to the original proximity, you undo the transfer (5.5).
+当 skill 被激活后, agent 应按以下步骤执行:
 
-## B — Boundary
+1. **确定权力关系**
+   - 完成标准: 问自己：谁在这场戏中拥有权力？完成标准：明确权力在哪个角色
 
-### When NOT to Use
-- **Comedy**: Power-distance manipulation can feel heavy-handed in comedic contexts
-- **When actors are equals and should remain so**: If the scene is about partnership, don't artificially create hierarchy
-- **Fast action sequences**: The technique requires sustained shots for the audience to register proximity changes
+2. **用摄影机距离表达**
+   - 完成标准: 权力方靠近摄影机，从属方远离摄影机。完成标准：观众感知的权力关系与设计一致
 
-### Author Blind Spots
-- Kenworthy's examples are all from dramatic/thriller genres. The technique may not translate to all genres equally.
-- The framework assumes controlled blocking. In documentary or improvised scenes, precise proximity manipulation is difficult.
-- No discussion of how **lens choice** interacts with proximity (telephoto compresses distance, which may undermine the effect).
+3. **用焦点强化**
+   - 完成标准: 焦点在谁身上，观众就认同谁。完成标准：焦点选择与权力关系匹配
 
-### Counter-Example
-If the power-holder is too close to the camera for too long, the shot can feel claustrophobic rather than powerful. Balance proximity with adequate framing to read body language (8.2).
+
+---
+
+## B — 边界 (Boundary) ★
+
+### 不要在以下情况使用此 skill
+
+- 不要忽略摄影机距离对权力的影响
+- 不要在权力转移时跳切
+
+### 作者在书中警告的失败模式
+
+- 高角度+不向上看=仍然压倒性——不要以为高角度总是弱势
+
+### 作者的盲点
+
+作者假设权力关系总是明确的，但某些昦昗场景可能需要故意模糊权力关系。

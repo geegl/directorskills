@@ -1,84 +1,93 @@
 ---
-id: msv3-symbolic-staging
-title: 象征性场景调度框架
-source: "大师镜头 第三卷 — Christopher Kenworthy"
-chapter: 5 (5.1–5.8)
-type: framework
-tags: [staging, symbolism, camera-movement, directing, subtext]
-cross-refs: [msv3-power-distance]
+name: msv3-symbolic-staging
+description: |
+  当用户需要怎么用镜头讲故事而不是用台词时调用。核心 trigger：象征性, 镜头叙事, 权力关系。不适用于：用户讨论整体故事结构。
+source_book: 《大师镜头 第三卷》Christopher Kenworthy
+source_chapter: 第5章 (5.1–5.8)
+tags: [cinematography, camera-movement, visual-storytelling, shot-design]
+related_skills:
+  - composes-with: msv3-speed-conveyance — 速度传达与镜头情绪相关
+  - composes-with: msv3-power-distance — 权力距离与象征性调度相关
 ---
 
-# Symbolic Staging Framework (象征性场景调度框架)
+# 象征性场景调度框架
 
-## R — Reading
+## R — 原文 (Reading)
 
-> "每个镜头都应该揭示演员、传达故事，但技术运用最熟练的导演会力图在机位设置中传达象征性意义。" — 5.1
+> 每个镜头都应该揭示演员、传达故事，但技术运用最熟练的导演会力图在机位设置中传达象征性意义。
+>
+> — Kenworthy, 第5章 (5.1–5.8)
 
-> "谁离摄影机更近，我们就会认为谁控制着状况。" — 5.5
+---
 
-## I — Interpretation
+## I — 方法论骨架 (Interpretation)
 
-Beyond simply covering a scene, you can encode narrative meaning through camera position and movement. This is a vocabulary of visual metaphor:
+通过摄影机位置和运动编码叙事意义，而非依赖台词。双重推近=吸引力；摄影机位置转换=权力交换；景深中断=亲密感被打断；演员重新定位=群体瓦解。
 
-| Camera Technique | Symbolic Meaning |
-|-----------------|------------------|
-| **Double push-in** toward both actors (alternating OTS) | Mutual attraction (5.1) |
-| **Camera proximity shift** — one actor takes the camera from another | Power takeover (5.5) |
-| **Focus pull** between actors during intimacy | Relationship interruption (5.3) |
-| **Actor repositioning** from tight group to individual frames | Group dissolution (5.8) |
-| **Camera retreat** while actor approaches | Actor's dominance despite spatial retreat (5.4) |
+核心思想：最优秀的导演不仅用镜头‘拍’故事，更用镜头‘讲’故事——每个摄影机决策都有象征性含义。
 
-The key insight: these techniques work *subconsciously* on the audience. They don't think "oh, the camera moved closer to that actor" — they *feel* that actor has taken control.
+---
 
-## A1 — Past Application
+## A1 — 书中的应用 (Past Application)
 
-| Film | Technique | Symbolic Effect |
-|------|-----------|-----------------|
-| 《罪孽天使》(Heavenly Creatures) | Double push-in toward both actors (5.1) | Visualizes mutual attraction without dialogue |
-| 《艾利之书》(Book of Eli) | Oldman approaches camera, dolly retreats (5.5) | Oldman "steals" the camera from Washington = power takeover |
-| 《别让我走》(Never Let Me Go) | Focus pull between actors (5.3) | Brief out-of-focus = momentary separation in intimacy |
-| 《别让我走》(Never Let Me Go) | Actor passes another during repositioning (5.8) | Group breaks apart naturally |
-| 《这个杀手不太冷》(Leon) | High angle + forward stride + no upward gaze (5.4) | Overwhelming presence despite high camera |
+### 案例 1
+- **问题**: 如何在视觉叙事中应用此框架
+- **方法论的使用**: 《银翼杀手》中，Rutger Hauer 和 Joe Turkel 对岞。摄影机绕 Hauer 弧线运动，同时 Hauer 绕 Turkel 弧线运动——相反的弧线将 Turkel 困在空间中，象征性地表达了压迫。
+- **结论**: 此框架提供了超越常识的专业视觉叙事工具
+- **结果**: 视觉叙事获得了与故事语境一致的效果
 
-## A2 — Future Trigger
+---
 
-**Trigger scenarios:**
-- "I need to show two characters are attracted without dialogue" → Double push-in technique
-- "How do I show a power shift in a confrontation?" → Camera proximity transfer
-- "The group is falling apart — how do I visualize that?" → Actor repositioning from group to individual frames
-- "I want the audience to feel someone is being 'robbed' of control" → One actor physically approaches and takes camera proximity
+## A2 — 触发场景 (Future Trigger) ★
 
-**Language signals:**
-- "subtext," "unspoken," "without saying it"
-- "power dynamic," "who's in control"
-- "attracting/repelling," "coming together/falling apart"
+### 用户会在什么情境下需要这个 skill?
 
-## E — Execution
+1. 怎么用镜头讲故事而不是用台词
+2. 怎么表现角色之间的权力关系
+3. 场景调度怎么有深意
 
-### Step 1: Identify the Subtext
-What is the scene *really* about beneath the dialogue?
-- Attraction → Double push
-- Power transfer → Camera proximity shift
-- Intimacy disruption → Focus pull
-- Group fracture → Physical repositioning
+### 语言信号 (用户的话里出现这些就应激活)
 
-### Step 2: Choose the Camera Metaphor
-Match the subtext to the technique from the vocabulary table above. The camera movement should *mirror* the emotional dynamic, not just cover the action.
+- "象征性"
+- "镜头叙事"
+- "权力关系"
+- "调度深意"
 
-### Step 3: Execute Without Drawing Attention
-These techniques work because they're subconscious. If the audience notices the camera movement, it's too much. Keep movements slow and motivated by actor action. The audience should feel the effect without knowing why.
+### 与相邻 skill 的区分
 
-## B — Boundary
+- 与 `msv3-speed-conveyance` 的区别: speed-conveyance 处理速度感知，本 skill 处理象征性场
+- 与 `msv3-power-distance` 的区别: power-distance 处理权力关系，本 skill 处理更广泛的视觉叙事
 
-### When NOT to Use
-- **Comedy scenes**: Symbolic camera movement can feel heavy-handed in comedic contexts
-- **Action sequences**: Too slow; action needs kinetic energy, not metaphor
-- **When actors are already delivering strong subtext through performance**: Don't double-encode; let the actors work
+---
 
-### Author Blind Spots
-- Kenworthy's examples are all from dramatic/art-house films. The techniques may feel overwrought in genre filmmaking (horror, action comedy).
-- The framework assumes the director has significant control over actor blocking. In improvised or documentary-style shoots, precise symbolic staging is difficult.
+## E — 可执行步骤 (Execution)
 
-### Counter-Examples
-- **Push-in too fast** (2.6): When pushing toward an actor from distance, if you push too fast and lose the motivating actor movement, the result risks comic effect rather than dramatic.
-- **Unmotivated axis crossing** (4.1): Crossing the 180° line without story justification confuses rather than enlightens.
+当 skill 被激活后, agent 应按以下步骤执行:
+
+1. **确定叙事意义**
+   - 完成标准: 问自己：这场戏的潜台词是什么？完成标准：能用一句话说清镜头要传达的象征意义
+
+2. **选择象征性技术**
+   - 完成标准: 权力交换=摄影机位置转换，吸引力=双重推近，压迫=弧线困住。完成标准：技术选择与象征意义匹配
+
+3. **执行时保持自然**
+   - 完成标准: 象征性必须隐藏在自然的镜头运动中。完成标准：观众感受到情绪但没有意识到技术
+
+
+---
+
+## B — 边界 (Boundary) ★
+
+### 不要在以下情况使用此 skill
+
+- 不要让象征性压过故事
+- 不要把演员当移动道具
+
+### 作者在书中警告的失败模式
+
+- 无动机移动=假（CE3）
+- 跟拍长镜头过度使用（CE4）
+
+### 作者的盲点
+
+作者假设导演能准确将叙事意义编码为镜头语言，但过度追求象征性可能导致技术压过表演。

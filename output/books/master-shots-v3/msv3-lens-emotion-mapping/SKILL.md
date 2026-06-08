@@ -1,86 +1,96 @@
 ---
-id: msv3-lens-emotion-mapping
-title: 镜头-情绪映射框架
-source: "大师镜头 第三卷 — Christopher Kenworthy"
-chapter: 1 (1.1–1.10)
-type: framework
-tags: [lens, focal-length, emotion, cinematography, camera-movement]
-cross-refs: [msv3-speed-conveyance]
+name: msv3-lens-emotion-mapping
+description: |
+  当用户需要这场戏需要亲密感但我不想用特写时调用。核心 trigger：焦距选择, 镜头情感, 长焦广角。不适用于：用户讨论整体故事结构。
+source_book: 《大师镜头 第三卷》Christopher Kenworthy
+source_chapter: 第1章 (1.1–1.10)
+tags: [cinematography, camera-movement, visual-storytelling, shot-design]
+related_skills:
+  - composes-with: msv3-speed-conveyance — 速度传达与镜头情绪相关
+  - composes-with: msv3-power-distance — 权力距离与象征性调度相关
 ---
 
-# Lens-Emotion Mapping Framework (镜头-情绪映射框架)
+# 镜头-情绪映射框架
 
-## R — Reading
+## R — 原文 (Reading)
 
-> "长焦镜头能够让背景虚化变得更容易，让演员与画面相分离。这种效果非常适合于戏剧化瞬间或揭示场面。" — 1.4
+> 长焦镜头能够让背景虚化变得更容易，让演员与画面相分离。这种效果非常适合于戏剧化瞬间或揭示场面。
+>
+> — Kenworthy, 第1章 (1.1–1.10)
 
-> "广角镜头夸大了距离，因此摄影机运动显得更迅速。小幅度的摄影机运动加上大幅度的演员运动，制造出一种紧迫感。" — 1.6
+---
 
-## I — Interpretation
+## I — 方法论骨架 (Interpretation)
 
-Each focal length creates a distinct emotional contract with the audience. **Telephoto** compresses space, isolates the subject, and creates intimacy or dramatic tension. **Wide-angle** expands space, exaggerates movement, and creates urgency or disorientation. **Medium** is neutral and observational — the "invisible" lens.
+每种焦距都与观众签订不同的情感契约。长焦压缩空间、隔离主体、创造亲密感或戏剧张力；广角扩展空间、夸大运动、创造紧迫感或迷失感；中焦中性客观。
 
-The framework becomes powerful when you combine lens choice with camera movement:
-- **Telephoto + dolly** = amplified isolation approaching the subject
-- **Wide-angle + tracking** = exaggerated speed and spatial distortion
-- **Wide-angle + static** = actor choreography creates 7+ compositions in one take (1.7)
-- **Telephoto + pan** = extreme speed perception from a single position (1.4)
+框架的核心在于镜头+运动的复合效果：长焦+推轨=放大的隔离感逼近；广角+跟拍=夸大的速度与空间扭曲；广角+固定=演员调度在一个镜头中创造7+构图；长焦+摇摄=从固定位置获得极端速度感。
 
-The lens choice should be driven by the *emotional effect* you want, not by convention ("use wide for establishing, telephoto for close-ups").
+镜头选择应由你想要的情感效果驱动，而非惯例。
 
-## A1 — Past Application
+---
 
-| Film | Technique | Effect |
-|------|-----------|--------|
-| 《盗梦空间》(Inception) | Wide-angle near actors (1.6) | Small camera movement + large actor movement = urgency |
-| 《辛德勒的名单》(Schindler's List) | Static wide-angle (1.7) | 7 compositions in one take through actor choreography |
-| 《水果硬糖》(Hard Candy) | Telephoto + long dolly (1.4) | Amplified isolation, background vanishes |
-| 《命运规划局》(Adjustment Bureau) | Telephoto + fast pan (1.4) | Extreme speed from a static position |
-| 《漫长的婚约》(Very Long Engagement) | Wide-angle near object (1.6) | Rifle appears larger, movements exaggerated |
+## A1 — 书中的应用 (Past Application)
 
-## A2 — Future Trigger
+### 案例 1
+- **问题**: 如何在视觉叙事中应用此框架
+- **方法论的使用**: 《盗梦空间》中，广角镜头近拍演员，小幅度摄影机运动+大幅度演员运动=紧迫感。《辛德勒的名单》中，固定广角长镜头通过演员调度在一个镜头中创造7种构图。《水果硬糖》中，长焦+长距离推轨=放大的隔离感，背景消失。
+- **结论**: 此框架提供了超越常识的专业视觉叙事工具
+- **结果**: 视觉叙事获得了与故事语境一致的效果
 
-**Trigger scenarios:**
-- "This scene needs to feel intimate but I don't want a close-up" → Telephoto from distance
-- "The chase feels slow despite fast editing" → Wide-angle near actor + foreground objects
-- "I want to show the character is trapped/isolated" → Telephoto to separate from background
-- "The room feels too small/boring" → Wide-angle to exaggerate space
-- "I need urgency without cutting fast" → Wide-angle + small camera movement + large actor movement
+---
 
-**Language signals:**
-- "I want the audience to feel [emotion]" → Lens choice
-- "The scene feels flat/boring" → Consider lens-movement mismatch
-- "How do I make this look faster/slower?" → Lens + movement combination
+## A2 — 触发场景 (Future Trigger) ★
 
-## E — Execution
+### 用户会在什么情境下需要这个 skill?
 
-### Step 1: Identify the Primary Emotion
-Ask: What should the audience *feel* in this shot?
-- Isolation/intimacy → Telephoto
-- Urgency/disorientation → Wide-angle
-- Neutrality/observation → Medium
+1. 这场戏需要亲密感但我不想用特写
+2. 追逐戏感觉慢尽管剪辑很快
+3. 怎么表现角色被孤立/被困
 
-### Step 2: Choose Movement-Lens Combination
-- Need amplified approach? → Telephoto + dolly (dolly must cover 10+ feet for visible effect)
-- Need speed perception? → Wide-angle + tracking near actor + foreground objects
-- Need rich single-take composition? → Static wide-angle + choreograph 6-7 actor positions
-- Need extreme speed from one position? → Telephoto + fast pan following actor
+### 语言信号 (用户的话里出现这些就应激活)
 
-### Step 3: Mitigate Lens Weaknesses
-- Wide-angle close-up distorts faces → Shoot from slightly above (1.6)
-- Telephoto exaggerates all camera shake → Avoid handheld/Steadicam with telephoto (1.4)
-- Telephoto dolly needs long track → Plan for 10+ feet of track (1.4)
+- "焦距选择"
+- "镜头情感"
+- "长焦广角"
+- "亲密感"
+- "紧迫感"
 
-## B — Boundary
+### 与相邻 skill 的区分
 
-### When NOT to Use
-- **Telephoto + Steadicam/handheld**: "即使只是轻微的摇晃，摄影机所有的侧向运动都会导致夸张的效果。这意味着在可能有大量运动镜头诸如斯坦尼康镜头或手持摄影的场景中，都不宜使用长焦镜头" (1.4)
-- **Wide-angle too close to face**: Creates unflattering nose enlargement. Mitigate with slight high angle.
-- **Medium lens for dramatic moments**: Will feel flat and uninspired. Use medium only when you want the audience to observe without emotional manipulation.
+- 与 `msv3-speed-conveyance` 的区别: speed-conveyance 处理速度感知，本 skill 处理镜头-情
+- 与 `msv3-power-distance` 的区别: power-distance 处理权力关系，本 skill 处理更广泛的视觉叙事
 
-### Author Blind Spots
-- Kenworthy assumes controlled environments (tracks, cranes). Low-budget filmmakers may not have 10+ feet of dolly track for telephoto work.
-- The framework doesn't address anamorphic vs. spherical lens characteristics, which significantly affect the emotional register.
+---
 
-### Counter-Example
-Push-in too fast from distance with telephoto loses the motivating actor movement and risks comic effect (2.6): "如果我们推得太快，失去了这个演员的移动，就会有意外的喜剧性风险"
+## E — 可执行步骤 (Execution)
+
+当 skill 被激活后, agent 应按以下步骤执行:
+
+1. **确定想要的情感效果**
+   - 完成标准: 问自己：这场戏的核心情感是什么？亲密/紧迫/中性/迷失？完成标准：能用一个词说清核心情感
+
+2. **选择匹配的焦距**
+   - 完成标准: 亲密=长焦，紧迫=广角，中性=中焦。完成标准：焦距选择与情感目标一致
+
+3. **叠加运动效果**
+   - 完成标准: 长焦+推轨=隔离逼近，广角+跟拍=速度扭曲。完成标准：运动+焦距的复合效果服务于情感目标
+
+
+---
+
+## B — 边界 (Boundary) ★
+
+### 不要在以下情况使用此 skill
+
+- 不要用惯例选择焦距
+- 不要在长焦镜头上使用斯坦尼康
+
+### 作者在书中警告的失败模式
+
+- 推进过快产生喜剧效果（CE1）
+- 长焦+斯坦尼康=灾难（CE2）
+
+### 作者的盲点
+
+作者假设所有镜头选择都应基于情感效果，但某些类型片可能受限于设备条件。

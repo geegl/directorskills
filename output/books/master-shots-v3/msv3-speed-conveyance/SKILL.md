@@ -1,92 +1,93 @@
 ---
-id: msv3-speed-conveyance
-title: 速度传达框架
-source: "大师镜头 第三卷 — Christopher Kenworthy"
-chapter: 7.7, 2.2, 7.1, 7.6
-type: framework
-tags: [speed, chase, action, camera-angle, wide-angle, foreground, movement]
-cross-refs: [msv3-lens-emotion-mapping]
+name: msv3-speed-conveyance
+description: |
+  当用户需要追逐戏感觉慢时调用。核心 trigger：速度感, 紧迫感, 追逐。不适用于：用户讨论整体故事结构。
+source_book: 《大师镜头 第三卷》Christopher Kenworthy
+source_chapter: 第2章、第7.7节
+tags: [cinematography, camera-movement, visual-storytelling, shot-design]
+related_skills:
+  - composes-with: msv3-speed-conveyance — 速度传达与镜头情绪相关
+  - composes-with: msv3-power-distance — 权力距离与象征性调度相关
 ---
 
-# Speed Conveyance Framework (速度传达框架)
+# 速度传达框架
 
-## R — Reading
+## R — 原文 (Reading)
 
-> "以几乎相对的角度进行拍摄，一个短镜头能比一堆快速剪辑创造出更多的速度感。" — 7.7
+> 广角镜头夸大了距离，因此摄影机运动显得更迅速。小幅度的摄影机运动加上大幅度的演员运动，制造出一种紧迫感。
+>
+> — Kenworthy, 第2章、第7.7节
 
-> "让摄影机和演员之间出现物体。当这些物体闪过，形成虚化，效果便能得到强化。" — 2.2
+---
 
-> "改变摄影机和演员之间的距离来增加运动感。在一段时间里摄影机保持着相同的距离，然后在第三个画面里偏离了若干英尺。这在镜头内部创造了一种跳跃感，让一切看似非常迅速地发生。" — 7.6
+## I — 方法论骨架 (Interpretation)
 
-## I — Interpretation
+速度感不只来自剪辑频率——镜头选择和运动方式可以从根本上改变观众对速度的感知。广角+近拍演员+前景物体=最大速度感；长焦+固定位置+快速摇摄=从静态位置获得速度感。
 
-Speed perception in cinema is not about how fast you cut — it's about **how the camera relates to the actor's movement path**. The framework layers multiple techniques to create a cumulative speed effect without relying on fast editing.
+核心公式：速度感知 = 演员运动幅度 / 摄影机运动幅度。比值越大，紧迫感越强。
 
-The core layers:
+---
 
-1. **Camera Angle** (7.7): Shoot at a near-perpendicular angle (close to 180°) to the actor's path. A short shot at this angle creates more speed than multiple fast cuts. The world rushes past while the actor stays centered.
+## A1 — 书中的应用 (Past Application)
 
-2. **Camera Height** (7.7): Lower camera = faster perception. Ground proximity makes the audience feel the earth rushing by. Higher camera = slower, more contemplative. Use low angle to accelerate, high angle to decelerate.
+### 案例 1
+- **问题**: 如何在视觉叙事中应用此框架
+- **方法论的使用**: 《命运规划局》中，Matt Damon 在城市中奔跑，摄影机以近180°角度跟拍。摄影机保持相同距离，通过透视扭曲创造强烈的速度感。
+- **结论**: 此框架提供了超越常识的专业视觉叙事工具
+- **结果**: 视觉叙事获得了与故事语境一致的效果
 
-3. **Foreground Objects** (2.2): Place objects between camera and actor. As they flash past creating motion blur, speed is amplified. Running through a corridor with pillars > running in an open field.
+---
 
-4. **Distance Variation** (7.6): During orbiting shots, vary the camera-actor distance. Maintaining constant distance, then suddenly shifting a few feet, creates a perceptual "jump" that reads as acceleration.
+## A2 — 触发场景 (Future Trigger) ★
 
-5. **Behind-Object Pass** (7.6): Let the camera pass behind columns or obstacles during an orbit. When the camera emerges, speed perception increases even if actual speed hasn't changed.
+### 用户会在什么情境下需要这个 skill?
 
-6. **Motion Type Combination** (7.1): Combining two different motion types in one shot (e.g., actor path + camera stop) is more impactful than cutting between them.
+1. 追逐戏感觉慢
+2. 怎么不用快速剪辑表现速度
+3. 动作戏怎么更有冲击力
 
-## A1 — Past Application
+### 语言信号 (用户的话里出现这些就应激活)
 
-| Film | Technique | Effect |
-|------|-----------|--------|
-| 《命运规划局》(Adjustment Bureau) | Near-180° angle, actor centered, world rushing past (7.7) | Speed from a single position without fast cutting |
-| 《功夫梦》(Karate Kid) | Orbit with distance variation + foreground objects (7.6) | Training montage feels intense without fast editing |
-| 《功夫梦》(Karate Kid) | Camera matching actor speed + foreground blur (2.2) | Chase through corridors feels fast and immersive |
-| 《星球大战前传一》(Phantom Menace) | Opposing motion directions + camera retreat (7.1) | Action feels inevitable and fast |
+- "速度感"
+- "紧迫感"
+- "追逐"
+- "动作戏"
+- "怎么拍快"
 
-## A2 — Future Trigger
+### 与相邻 skill 的区分
 
-**Trigger scenarios:**
-- "My chase scene feels slow despite fast editing" → Use near-perpendicular camera angle (7.7), add foreground objects (2.2), lower camera angle for ground proximity.
-- "The training montage is boring" → Orbit with distance variation, pass behind columns (7.6).
-- "I want speed without cutting fast" → Layer angle + height + foreground objects in a single sustained shot.
-- "The action scene feels flat" → Combine two different motion types in one shot (7.1).
+- 与 `msv3-speed-conveyance` 的区别: speed-conveyance 处理速度感知，本 skill 处理速度传达
+- 与 `msv3-power-distance` 的区别: power-distance 处理权力关系，本 skill 处理更广泛的视觉叙事
 
-**Language signals:**
-- "feels slow," "not enough energy," "lacks pace"
-- "too many cuts," "disorienting editing"
-- "make it faster without cutting faster"
-- "Kinetic," "visceral," "gut-punch speed"
+---
 
-## E — Execution
+## E — 可执行步骤 (Execution)
 
-### Step 1: Choose the Camera Angle
-For maximum speed: shoot at near-perpendicular angle to actor's path (7.7). The closer to 90° from the actor's direction, the faster the perceived speed.
+当 skill 被激活后, agent 应按以下步骤执行:
 
-### Step 2: Lower the Camera
-Ground proximity = speed. Lower the camera so the audience feels the earth rushing past. If you want to decelerate, raise the camera (7.7).
+1. **选择镜头**
+   - 完成标准: 广角近拍=最大速度感，长焦固定=从静态位置获得速度。完成标准：镜头选择与速度目标匹配
 
-### Step 3: Add Foreground Objects
-Place obstacles between camera and actor: walls, pillars, trees, vehicles. As they flash past creating motion blur, speed compounds (2.2). Open spaces feel slow.
+2. **设计运动方式**
+   - 完成标准: 广角+小幅度摄影机运动+大幅度演员运动=紧迫感。完成标准：演员/摄影机运动比值最大化
 
-### Step 4: Vary Distance (for Orbit Shots)
-During orbiting camera moves, maintain constant distance for 2-3 beats, then shift distance by several feet. This creates a perceptual "jump" that reads as acceleration (7.6).
+3. **利用前景物体**
+   - 完成标准: 广角+前景物体经过=速度感倍增。完成标准：前景物体与运动方向一致
 
-### Step 5: Layer, Don't Stack
-Combine 2-3 techniques from above in one shot rather than cutting between different speed techniques. A single shot with angle + foreground + distance variation is more powerful than cutting between three separate speed shots (7.1).
 
-## B — Boundary
+---
 
-### When NOT to Use
-- **Dialogue scenes**: Speed techniques distract from conversation. Use only during action/movement.
-- **Emotional climaxes**: Speed perception should serve the story, not overwhelm it. A character's moment of realization doesn't need kinetic energy.
-- **When the actor is stationary**: These techniques require actor movement to work. A static actor with speed-technique camera feels wrong.
+## B — 边界 (Boundary) ★
 
-### Author Blind Spots
-- Kenworthy assumes professional equipment (Steadicam, tracks, cranes). The orbit-with-distance-variation technique (7.6) requires a skilled Steadicam operator.
-- No discussion of how post-production speed ramping interacts with these in-camera techniques.
-- The framework doesn't address how lens choice affects speed perception — wide-angle exaggerates speed, telephoto compresses it (see msv3-lens-emotion-mapping).
+### 不要在以下情况使用此 skill
 
-### Counter-Example
-Using low camera angle for too long during a chase can make the audience feel disoriented rather than energized. Balance speed techniques with occasional higher/wider shots to orient the viewer (7.7).
+- 不要只靠剪辑频率——镜头选择和运动方式比剪辑更根本
+- 不要在长焦上做快速摇摄
+
+### 作者在书中警告的失败模式
+
+- 推进过快失去演员移动=喜剧效果
+
+### 作者的盲点
+
+作者假设所有速度感都需要广角镜头，但某些风格化作品可能故意用长焦的‘慢’感来对比快速剪辑。

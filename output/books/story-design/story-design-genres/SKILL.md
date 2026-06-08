@@ -7,7 +7,6 @@ source_chapter: 第4章 Genres
 tags: [screenwriting, story-structure, beat-sheet, blake-snyder]
 related_skills:
   - depends-on: story-design-beat-sheet — 其他7个skill都基于BS2框架
-  - composes-with: story-design-genres — 类型决定BS2的具体节拍内容
   - composes-with: story-design-logline — logline是概念的终极测试
   - contrasts-with: directing-story-framework — STC!是商业模板，directing是自由构建
 ---

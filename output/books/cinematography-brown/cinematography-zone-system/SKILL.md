@@ -8,7 +8,6 @@ tags: [曝光, 分区系统, 测光, 创意控制, 亮度管理]
 related_skills:
   - composes-with: cinematography-three-point-lighting — 灯光比的精确量化
   - composes-with: cinematography-hard-soft-light — 硬光/软光影响对比度范围
-  - depends-on: cinematography-depth-of-field — 景深控制需要正确的曝光设定
 ---
 
 # 分区曝光系统
@@ -76,7 +75,7 @@ related_skills:
    - 完成标准：所有关键元素的亮度关系符合叙事需求
 
 
-   - 🔴 判停条件: 若以上步骤无法完成或产出质量不达标，回到步骤1重新评估
+   - 🔴 判停条件: 若定位后其他关键元素的跟随结果不在可接受的分区内（如演员落入第II区以下），需要改变灯光比而非继续调整光圈
 
 ## B — 边界 (Boundary) ★
 ### 不要在以下情况使用此 skill

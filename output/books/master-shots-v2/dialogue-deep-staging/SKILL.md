@@ -1,11 +1,14 @@
 ---
-id: v02
-title: 深布景三层空间框架
-source: 大师镜头 第二卷
-author: Christopher Kenworthy
-type: framework
+name: dialogue-deep-staging
+description: |
+  当用户需要在室内对话场景中制造空间纵深感、小房间怎么拍出大片感、前景背景怎么安排时调用。核心 trigger：深布景、三层空间、前景/中景/背景、摄影机靠墙。
+source_book: 《大师镜头 第二卷》 Christopher Kenworthy
+source_chapter: 第1.9节"深布景"
 tags: [dialogue, staging, depth, production-design, spatial-storytelling]
-
+related_skills:
+  - depends-on: dialogue-barrier-narrative (v01) — 障碍物是深布景的前景层元素之一
+  - composes-with: dialogue-camera-follow-identity (v10) — 摄影机运动配合三层空间设计
+  - contrasts-with: dialogue-telephoto-claustrophobia (v12) — 深布景扩大空间感，长焦压缩空间感
 ---
 
 ## R — 原文 (Reading)

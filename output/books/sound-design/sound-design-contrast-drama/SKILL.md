@@ -65,8 +65,8 @@ related_skills: [sound-design-loudness-fatigue, sound-design-expectation]
 2. **喘息设计**：在连续高峰之间插入至少2-3秒的低谷
 3. **对比放大**：在爆发前把声音降到最低——安静越深，爆发越震撼
 
-
-   - 🔴 判停条件: 若以上步骤无法完成或产出质量不达标，回到步骤1重新评估
+   
+   - 🔴 判停条件: 若动态地图中高峰和低谷的音差不足6dB导致对比感不明显，回到步骤1扩大动态范围；若喘息设计后测试观众误以为设备故障或影片中断，回到步骤2缩短低谷时长或加入微弱环境声维持空间感
 
 ## B — 边界 (Boundary) ★
 
@@ -78,9 +78,9 @@ related_skills: [sound-design-loudness-fatigue, sound-design-expectation]
 - 忽视影院声学——反射强的影院中低频混响会破坏安静效果
 
 ### Common Failure Modes
-- **Anti-pattern**: Using contrast drama as a crutch instead of understanding the underlying emotional structure of the scene
-- **Blind spot**: Failing to account for how contrast drama affects the audience's perception of time and pacing
-- **Common mistake**: Applying contrast drama too uniformly — real dramatic impact comes from contrast and restraint
+- 不要陷入"越大越好"的陷阱——持续提高音量上限只会让听觉疲劳更快到来，真正的冲击力来自低谷的深度而非高峰的高度。如果安静段落不够安静，爆发段落再响也无效
+- 不要在所有场景中使用相同的对比幅度——安静的对话场景和动作高潮需要完全不同的动态范围，套用固定对比公式会让整部影片听起来"忽大忽小"而缺乏节奏感
+- 忽视播放环境对对比效果的毁灭性影响——手机外放和流媒体压缩会抹平动态对比，在混音时必须针对目标平台测试对比效果是否仍然可感知
 
 ### 作者的盲点 / 时代局限
 

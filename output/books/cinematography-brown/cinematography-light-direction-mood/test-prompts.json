@@ -2,37 +2,37 @@
   {
     "id": "should-trigger-01",
     "type": "should_trigger",
-    "prompt": "关于mood的摄影问题",
-    "expected_behavior": "应激活对应skill"
+    "prompt": "怎么用灯光营造神秘/悬疑的氛围",
+    "expected_behavior": "激活，解释灯光方向与情绪的关系"
   },
   {
     "id": "should-trigger-02",
     "type": "should_trigger",
-    "prompt": "摄影中遇到相关技术问题",
-    "expected_behavior": "应激活"
+    "prompt": "侧面光和背光拍出来的感觉有什么不同",
+    "expected_behavior": "激活，解释不同方向灯光的情绪效果"
   },
   {
     "id": "should-trigger-03",
     "type": "should_trigger",
-    "prompt": "需要专业摄影指导",
-    "expected_behavior": "应激活"
+    "prompt": "想让画面看起来更暗更有戏剧感但不能欠曝",
+    "expected_behavior": "激活，解释背光技巧"
   },
   {
     "id": "should-not-trigger-01",
     "type": "should_not_trigger",
-    "prompt": "故事结构怎么设计？",
-    "expected_behavior": "不应激活——这是叙事问题"
+    "prompt": "硬光和软光怎么选",
+    "expected_behavior": "不激活，这是光质问题"
   },
   {
     "id": "should-not-trigger-02",
     "type": "should_not_trigger",
-    "prompt": "对白怎么写？",
-    "expected_behavior": "不应激活"
+    "prompt": "180度规则怎么用",
+    "expected_behavior": "不激活，这是轴线问题"
   },
   {
-    "id": "edge-01",
-    "type": "edge_case",
-    "prompt": "用手机拍摄需要考虑这些灯光原则吗？",
-    "expected_behavior": "应部分激活——原则通用但设备限制不同"
+    "id": "should-not-trigger-03",
+    "type": "should_not_trigger",
+    "prompt": "怎么用示波器看曝光",
+    "expected_behavior": "不激活，这是曝光/Zone System问题"
   }
 ]

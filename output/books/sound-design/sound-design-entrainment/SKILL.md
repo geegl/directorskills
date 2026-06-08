@@ -69,7 +69,7 @@ related_skills: [sound-design-contrast-drama, sound-design-expectation]
 3. **渐进引导**：不要突然改变节奏，用渐进变化引导观众生理节律
 
 
-   - 🔴 判停条件: 若以上步骤无法完成或产出质量不达标，回到步骤1重新评估
+   - 🔴 判停条件: 若节奏匹配后测试观众的心率/呼吸未出现预期方向的变化，回到步骤1重新评估目标BPM是否在人体自然共振范围内；若渐进引导过程中观众报告不适感（头晕、心悸），回到步骤2降低BPM变化幅度或延长过渡时间
 
 ## B — 边界 (Boundary) ★
 
@@ -81,9 +81,10 @@ related_skills: [sound-design-contrast-drama, sound-design-expectation]
 - 文化差异——不同文化对节奏的生理反应可能不同
 
 ### Common Failure Modes
-- **Anti-pattern**: Using entrainment as a crutch instead of understanding the underlying emotional structure of the scene
-- **Blind spot**: Failing to account for how entrainment affects the audience's perception of time and pacing
-- **Common mistake**: Applying entrainment too uniformly — real dramatic impact comes from contrast and restraint
+### 反模式与常见错误
+- 不要用单一BPM贯穿整个场景——人体生理节律需要变化才能维持注意力，持续相同节奏会让观众进入"节律麻木"状态，互引效应逐渐失效。必须在场景内设计节奏变化点
+- 不要忽视文化差异对互引效应的影响——不同文化背景的听众对相同BPM的生理反应可能截然不同，西方听众觉得"放松"的60BPM在某些文化中可能引发不安
+- 不要在对话场景中强行施加互引效应——当语言节奏和音乐节奏冲突时，观众的生理节律会无所适从，导致焦虑感而非预期的情绪效果
 
 ### 作者的盲点 / 时代局限
 

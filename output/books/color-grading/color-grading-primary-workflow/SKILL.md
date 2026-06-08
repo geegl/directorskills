@@ -6,8 +6,6 @@ source_book: 《调色师手册》第2版 Alexis Van Hurkman
 source_chapter: 第3章、第4章
 tags: [一级校色, 工作流, 对比度, 色彩平衡, Lift-Gamma-Gain, 调色基础]
 related_skills:
-  - depends-on: color-grading-lift-gamma-gain (g01) — 需理解三大控件才能执行
-  - depends-on: color-grading-waveform-monitor (g04) — 需用波形监视器评估对比度
   - composes-with: color-grading-shot-matching (f03) — 单镜头一级校色完成后进入场景匹配
   - composes-with: color-grading-look-development (f05) — 一级校色是创意Look的基础
   - contrasts-with: color-grading-log-workflow (f04) — Log素材有特殊的调色顺序
@@ -33,6 +31,12 @@ related_skills:
 - **问题**: 原始素材曝光保守，黑位在23%、白位在87%，画面看起来平淡。
 - **方法论的使用**: 先降低Lift将黑位拉到5%，再提高Gain让高光接近100%，最后微调Gamma平衡中间调。对比度扩展后画面"像把胶片灰尘擦掉了"。
 - **结论**: 看似很小的对比度调整能带来显著的画面改善。
+
+### 案例 2: 修复室内偏绿素材
+- **问题**: 日光灯室内拍摄的素材整体偏绿，人物肤色发灰发绿，客户要求'看起来自然'
+- **方法论的使用**: 先用Lift/Gamma/Gain将黑位拉到5%、白位推到95%建立对比度骨架，再用色彩平衡控件在中间调区域加入品红色偏抵消绿色，最后检查矢量示波器确认肤色回到I-bar附近并微调饱和度
+- **结论**: 三步迭代工作流在处理偏色素材时尤其有效——对比度为色彩校正提供了稳定的亮度基础
+- **结果**: 肤色恢复自然，室内光感清透
 
 ## A2 — 触发场景 (Future Trigger) ★
 ### 用户会在什么情境下需要这个 skill?
@@ -65,7 +69,7 @@ related_skills:
    - 判停：色彩鲜艳但不过度，肤色看起来健康
 
 
-   - 🔴 判停条件: 若以上步骤无法完成或产出质量不达标，回到步骤1重新评估
+   - 🔴 判停条件: 若经过3轮迭代对比度和色彩仍无法平衡（如黑位始终偏低或偏色反复出现），检查素材本身是否有技术缺陷（如LOG素材未正常化）
 
 ## B — 边界 (Boundary) ★
 ### 不要在以下情况使用此 skill

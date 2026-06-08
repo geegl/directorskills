@@ -1,3 +1,4 @@
+E0608 05:11:01.740607 3646600 ev_epoll1_linux.cc:191] OrphanHandle: epoll_ctl failed: Bad file descriptor (9)
 ---
 name: dialogue-camera-follow-identity
 description: |
@@ -76,7 +77,7 @@ related_skills:
    - 完成标准：观众能感受到追赶者正在"入侵"被追者的空间
 
 
-   - 🔴 判停条件: 若以上步骤无法完成或产出质量不达标，回到步骤1重新评估
+   - 🔴 判停条件: 若跟随后观众认同的角色与导演意图相反（如跟随了追赶者而非被追者），或追赶者在画面中位置过于居中分散了注意力，回到步骤1重新识别被追/被迫的角色
 
 ## B — 边界 (Boundary)
 

@@ -8,7 +8,6 @@ tags: [拍摄技法, 主场景法, 连续性, 覆盖策略, 镜头规划]
 related_skills:
   - composes-with: cinematography-180-degree-rule — 主场景法中的机位必须遵守180度法则
   - composes-with: cinematography-three-point-lighting — 每个机位的灯光必须与主镜头一致
-  - contrasts-with: cinematography-light-as-symbol — 主场景法是技术框架，灯光象征是叙事框架
 ---
 
 # 主场景拍摄法
@@ -80,7 +79,7 @@ related_skills:
    - 完成标准：所有镜头可以流畅地剪辑在一起
 
 
-   - 🔴 判停条件: 若以上步骤无法完成或产出质量不达标，回到步骤1重新评估
+   - 🔴 判停条件: 若备选镜头与主镜头在灯光、道具位置或动作时间线上出现不一致，回到步骤1检查主镜头的连续性框架
 
 ## B — 边界 (Boundary) ★
 ### 不要在以下情况使用此 skill

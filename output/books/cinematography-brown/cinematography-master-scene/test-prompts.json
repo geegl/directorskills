@@ -2,37 +2,37 @@
   {
     "id": "should-trigger-01",
     "type": "should_trigger",
-    "prompt": "关于scene的摄影问题",
-    "expected_behavior": "应激活对应skill"
+    "prompt": "主场景法是什么？先拍全景还是先拍特写？",
+    "expected_behavior": "激活，解释主场景拍摄法的流程"
   },
   {
     "id": "should-trigger-02",
     "type": "should_trigger",
-    "prompt": "摄影中遇到相关技术问题",
-    "expected_behavior": "应激活"
+    "prompt": "对话场景怎么拍才能在剪辑时有足够素材",
+    "expected_behavior": "激活，解释主场景法+预备选镜头"
   },
   {
     "id": "should-trigger-03",
     "type": "should_trigger",
-    "prompt": "需要专业摄影指导",
-    "expected_behavior": "应激活"
+    "prompt": "多机位拍摄和主场景法有什么区别",
+    "expected_behavior": "激活，比较两种方法"
   },
   {
     "id": "should-not-trigger-01",
     "type": "should_not_trigger",
-    "prompt": "故事结构怎么设计？",
-    "expected_behavior": "不应激活——这是叙事问题"
+    "prompt": "怎么用灯光拍对话",
+    "expected_behavior": "不激活，这是灯光问题"
   },
   {
     "id": "should-not-trigger-02",
     "type": "should_not_trigger",
-    "prompt": "对白怎么写？",
-    "expected_behavior": "不应激活"
+    "prompt": "过肩镜头怎么构图",
+    "expected_behavior": "不激活，这是构图问题"
   },
   {
-    "id": "edge-01",
-    "type": "edge_case",
-    "prompt": "用手机拍摄需要考虑这些灯光原则吗？",
-    "expected_behavior": "应部分激活——原则通用但设备限制不同"
+    "id": "should-not-trigger-03",
+    "type": "should_not_trigger",
+    "prompt": "180度规则是什么",
+    "expected_behavior": "不激活，这是轴线问题"
   }
 ]

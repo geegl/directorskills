@@ -7,8 +7,6 @@ source_chapter: 第3章
 tags: [Log编码, LUT, 正常化, 动态范围, RAW素材, 高宽容度]
 related_skills:
   - composes-with: color-grading-primary-workflow (f01) — 正常化后的一级校色
-  - composes-with: color-grading-lift-gamma-gain (g01) — 精细调整的工具
-  - depends-on: color-grading-waveform-monitor (g04) — 评估信号范围
 ---
 
 # Log编码素材调色流程
@@ -38,6 +36,12 @@ Log编码素材保留了摄影机传感器的高动态范围（13-14档），但
 - **方法论的使用**: 先在Log状态用Offset整体定位，再用Shadow/Midtone/Highlight做初步影调，最后套LUT正常化后用Lift/Gamma/Gain精调
 - **结论**: Log状态下的Shadow控件向中间调区域延伸更多，提供更平滑的过渡
 
+### 案例 2: RED Monstro 8K VV素材调色
+- **问题**: RED RAW素材在Log3G10编码下动态范围极高，直接套LUT后高光裁切严重，天空细节完全丢失
+- **方法论的使用**: 先在Log状态用Offset整体降低信号2档保护高光，再用Shadow/Midtone/Highlight做宽范围影调，最后套LUT正常化后用Lift/Gamma/Gain精调天空区域的高光恢复
+- **结论**: Log状态下先做信号定位是防止正常化后细节丢失的关键步骤
+- **结果**: 成功保留了14档动态范围内的高光和暗部细节
+
 ## A2 — 触发场景 (Future Trigger) ★
 1. 拿到Log编码素材（RED Log3G10/ARRI Log-C/Sony S-Log3）需要调色
 2. 客户提供LUT需要在调色流程中集成
@@ -56,7 +60,7 @@ Log编码素材保留了摄影机传感器的高动态范围（13-14档），但
 5. **做色彩平衡和饱和度微调**
 
 
-   - 🔴 判停条件: 若以上步骤无法完成或产出质量不达标，回到步骤1重新评估
+   - 🔴 判停条件: 若正常化后发现高光或暗部细节丢失，说明Log状态下未做充分的信号定位，回到步骤1在Log状态下重新调整Offset
 
 ## B — 边界 (Boundary) ★
 - **不要在正常化后再用Shadow/Midtone/Highlight**——过渡会变得尖锐不自然

@@ -1,11 +1,14 @@
 ---
-id: v07
-title: 演员任务过载触发本能表演
-source: 大师镜头 第二卷
-author: Christopher Kenworthy
-type: framework
+name: dialogue-task-overload
+description: |
+  当演员表演不自然/太僵硬、演员说走位不对但说不出原因、需要给演员找事做时调用。核心 trigger：任务过载、本能表演、演员反对、洗碗/泡咖啡/摆道具。
+source_book: 《大师镜头 第二卷》 Christopher Kenworthy
+source_chapter: 结语 / 第6.9节
 tags: [dialogue, acting, direction, performance, actor-management]
-
+related_skills:
+  - composes-with: dialogue-busy-hands-no-eye-contact (v06) — 手部任务+视线回避是任务过载的具体组合
+  - composes-with: dialogue-deep-staging (v02) — 环境道具为任务过载提供自然素材
+  - contrasts-with: dialogue-closeup-timing (v09) — 任务过载用全景展示，特写捕捉本能反应
 ---
 
 ## R — 原文 (Reading)

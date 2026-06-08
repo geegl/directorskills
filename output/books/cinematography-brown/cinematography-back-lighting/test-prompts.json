@@ -2,37 +2,37 @@
   {
     "id": "should-trigger-01",
     "type": "should_trigger",
-    "prompt": "关于lighting的摄影问题",
-    "expected_behavior": "应激活对应skill"
+    "prompt": "怎么拍逆光人像？演员背后有窗户但脸太暗",
+    "expected_behavior": "激活，解释逆光布光技巧"
   },
   {
     "id": "should-trigger-02",
     "type": "should_trigger",
-    "prompt": "摄影中遇到相关技术问题",
-    "expected_behavior": "应激活"
+    "prompt": "想要角色边缘有一圈亮边，从背后打光可以吗",
+    "expected_behavior": "激活，解释背光/轮廓光的使用"
   },
   {
     "id": "should-trigger-03",
     "type": "should_trigger",
-    "prompt": "需要专业摄影指导",
-    "expected_behavior": "应激活"
+    "prompt": "拍对话场景，台灯在演员旁边，怎么补光才自然",
+    "expected_behavior": "激活，解释台灯+辅助逆光的布光方案"
   },
   {
     "id": "should-not-trigger-01",
     "type": "should_not_trigger",
-    "prompt": "故事结构怎么设计？",
-    "expected_behavior": "不应激活——这是叙事问题"
+    "prompt": "摄影机放在什么角度拍对话最好",
+    "expected_behavior": "不激活，这是摄影机角度问题不是灯光问题"
   },
   {
     "id": "should-not-trigger-02",
     "type": "should_not_trigger",
-    "prompt": "对白怎么写？",
-    "expected_behavior": "不应激活"
+    "prompt": "怎么用三盏灯布光",
+    "expected_behavior": "不激活，这是三点照明问题"
   },
   {
-    "id": "edge-01",
-    "type": "edge_case",
-    "prompt": "用手机拍摄需要考虑这些灯光原则吗？",
-    "expected_behavior": "应部分激活——原则通用但设备限制不同"
+    "id": "should-not-trigger-03",
+    "type": "should_not_trigger",
+    "prompt": "色温怎么设置",
+    "expected_behavior": "不激活，这是色温问题"
   }
 ]

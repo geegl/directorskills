@@ -2,37 +2,37 @@
   {
     "id": "should-trigger-01",
     "type": "should_trigger",
-    "prompt": "关于system的摄影问题",
-    "expected_behavior": "应激活对应skill"
+    "prompt": "Zone System是什么？数字摄影还适用吗",
+    "expected_behavior": "激活，解释Zone System及其数字应用"
   },
   {
     "id": "should-trigger-02",
     "type": "should_trigger",
-    "prompt": "摄影中遇到相关技术问题",
-    "expected_behavior": "应激活"
+    "prompt": "怎么用入射读数和反射读数测光",
+    "expected_behavior": "激活，解释测光方法"
   },
   {
     "id": "should-trigger-03",
     "type": "should_trigger",
-    "prompt": "需要专业摄影指导",
-    "expected_behavior": "应激活"
+    "prompt": "18%灰卡怎么用？和点测光有什么关系",
+    "expected_behavior": "激活，解释灰卡测光"
   },
   {
     "id": "should-not-trigger-01",
     "type": "should_not_trigger",
-    "prompt": "故事结构怎么设计？",
-    "expected_behavior": "不应激活——这是叙事问题"
+    "prompt": "LOG拍摄有什么好处",
+    "expected_behavior": "不激活，这是LOG工作流问题"
   },
   {
     "id": "should-not-trigger-02",
     "type": "should_not_trigger",
-    "prompt": "对白怎么写？",
-    "expected_behavior": "不应激活"
+    "prompt": "怎么布三点光",
+    "expected_behavior": "不激活，这是布光问题"
   },
   {
-    "id": "edge-01",
-    "type": "edge_case",
-    "prompt": "用手机拍摄需要考虑这些灯光原则吗？",
-    "expected_behavior": "应部分激活——原则通用但设备限制不同"
+    "id": "should-not-trigger-03",
+    "type": "should_not_trigger",
+    "prompt": "硬光和软光怎么选",
+    "expected_behavior": "不激活，这是光质问题"
   }
 ]

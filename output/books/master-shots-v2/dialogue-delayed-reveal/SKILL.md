@@ -1,10 +1,14 @@
 ---
-id: v03
-title: 延迟揭示主角框架
-source: 大师镜头 第二卷
-author: Christopher Kenworthy
-type: framework
+name: dialogue-delayed-reveal
+description: |
+  当用户需要延迟揭示角色身份制造悬念、先让观众听到声音再看到人、角色出场怎么有戏剧感时调用。核心 trigger：延迟揭示、角色出场、悬念、背影。
+source_book: 《大师镜头 第二卷》 Christopher Kenworthy
+source_chapter: 第4.6节"延迟揭示"
 tags: [dialogue, suspense, character-introduction, audience-psychology, reveal]
+related_skills:
+  - composes-with: dialogue-closeup-timing (v09) — 延迟揭示后用特写强化冲击
+  - composes-with: dialogue-gaze-mapping (v08) — 观众视线引导配合延迟揭示
+  - contrasts-with: dialogue-camera-follow-identity (v10) — 延迟揭示隐藏身份，跟随镜头揭示身份
 ---
 
 ## R — 原文 (Reading)

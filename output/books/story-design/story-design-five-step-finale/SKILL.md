@@ -38,6 +38,12 @@ related_skills:
 - **结论**: 此框架提供了可操作的工具，将抽象的故事问题转化为具体的结构决策
 - **结果**: 故事获得了清晰的结构和情感弧线
 
+### 案例 2: 《黑暗骑士》的五步终局
+- **问题**: 如何设计一个反派占主导的终局
+- **方法论的使用**: 蝙蝠侠和Gordon联手（Gather），执行双线计划——救Rachel和Dent（Execute），发现Joker设了反局——Rachel死、Dent被烧伤（High Tower Surprise），蝙蝠侠在道德困境中选择不杀Joker、理解'有些东西比胜利更重要'（Dig Deep Down），最终他选择背负Dent的罪名成为黑暗骑士（Execution of new plan——体现了'英雄不是我们应得的'主题）
+- **结论**: 五步法也适用于反派驱动的终局——Dig Deep Down 可以是道德选择而非物理胜利
+- **结果**: 成为超级英雄电影中最复杂的终局之一
+
 ---
 
 ## A2 — 触发场景 (Future Trigger) ★

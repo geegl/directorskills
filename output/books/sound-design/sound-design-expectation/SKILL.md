@@ -28,9 +28,13 @@ related_skills: [sound-design-sonata-drama, sound-design-contrast-drama]
 
 ## A1 — 书中的应用 (Past Application)
 
-恐怖片结构：先用突然的声音（如蝙蝠）引起虚惊，建立"突然声音=吓人"的预期。然后当观众以为又是一次虚惊时，真正的怪物出现。预期的延迟和打破创造了双重恐惧。
+1. Identify the specific expectation technique in your current project's refere## A2 — 触发场景 (Future Trigger) ★
 
-## A2 — 触发场景 (Future Trigger) ★
+1. 语言信号："这个吓人点应该怎么铺？"
+2. 语言信号："这个笑点的声音应该怎么处理？"
+3. 语言信号："观众都知道接下来会发生什么。"ifications
+4. Review the result against the original: does the emotional beat land more clearly?
+5. If yes, document the specific parameters; if no, adjust the intensity and retry## A2 — 触发场景 (Future Trigger) ★
 
 **场景1**：恐怖/惊悚场景需要设计"惊吓点"。
 - 语言信号："这个吓人点应该怎么铺？"

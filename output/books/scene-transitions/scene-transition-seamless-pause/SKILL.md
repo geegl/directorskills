@@ -1,3 +1,10 @@
+---
+name: Scene Transition Seamless Pause
+description: Scene Transition Seamless Pause — cinematic technique for directors and editors
+tags: [scene, transition, seamless, pause]
+version: 1.0
+---
+
      1|     1|---
      2|     2|name: scene-transition-seamless-pause
      3|     3|description: |

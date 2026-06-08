@@ -1,3 +1,10 @@
+---
+name: Scene Transition Loyalty Transfer
+description: Scene Transition Loyalty Transfer — cinematic technique for directors and editors
+tags: [scene, transition, loyalty, transfer]
+version: 1.0
+---
+
      1|     1|---
      2|     2|name: scene-transition-loyalty-transfer
      3|     3|description: |

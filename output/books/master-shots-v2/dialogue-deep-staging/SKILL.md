@@ -1,3 +1,10 @@
+---
+name: Dialogue Deep Staging
+description: Dialogue Deep Staging — cinematic technique for directors and editors
+tags: [dialogue, deep, staging]
+version: 1.0
+---
+
 1|---
      2|id: v02
      3|title: 深布景三层空间框架

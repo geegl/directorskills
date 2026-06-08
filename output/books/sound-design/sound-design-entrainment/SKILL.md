@@ -31,9 +31,13 @@ related_skills: [sound-design-contrast-drama, sound-design-expectation]
 
 ## A1 — 书中的应用 (Past Application)
 
-罗伯特·乔丹分析音乐如"药物"：激烈摇滚乐像可卡因使人狂乱；轻松音乐像马提尼酒让人放松；冷静爵士乐像大麻导致懒散快感。声音设计师可利用互引效应引导观众进入特定心理状态。
+1. Identify the specific entrainment technique in your current project's reference mat## A2 — 触发场景 (Future Trigger) ★
 
-## A2 — 触发场景 (Future Trigger) ★
+1. 语言信号："这里应该让观众放松/紧张。"
+2. 语言信号："角色在吸毒/冥想/恐慌。"
+3. 语言信号："节奏太快了/太慢了。"ifications
+4. Review the result against the original: does the emotional beat land more clearly?
+5. If yes, document the specific parameters; if no, adjust the intensity and retry## A2 — 触发场景 (Future Trigger) ★
 
 **场景1**：需要让观众感到放松/紧张。
 - 语言信号："这里应该让观众放松/紧张。"
@@ -61,3 +65,8 @@ related_skills: [sound-design-contrast-drama, sound-design-expectation]
 - 节奏与身体自然共振冲突——如重摇滚的切分导致肌肉失控
 - 节奏变化太突然——观众生理无法跟上
 - 文化差异——不同文化对节奏的生理反应可能不同
+
+### Common Failure Modes
+- **Anti-pattern**: Using entrainment as a crutch instead of understanding the underlying emotional structure of the scene
+- **Blind spot**: Failing to account for how entrainment affects the audience's perception of time and pacing
+- **Common mistake**: Applying entrainment too uniformly — real dramatic impact comes from contrast and restraint

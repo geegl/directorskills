@@ -63,3 +63,13 @@ related_skills:
 - **不要忽略播放检查**——静止帧看起来匹配不代表播放时也匹配
 - **不要忘记饱和度维度**——色彩平衡正确但饱和度不同时容易误判为色彩偏移
 - **失败模式**: 反复微调进入死循环→设定迭代上限后继续前进
+
+### Common Failure Modes
+- **Anti-pattern**: Over-processing shot matching to the point where it draws attention to itself instead of serving the story
+- **Blind spot**: Ignoring how shot matching interacts with the preceding and following shots in the sequence
+- **Common mistake**: Applying shot matching uniformly across all scenes without considering emotional context
+
+### Diagnostic Questions
+1. Does this shot matching choice serve the emotional beat, or is it just visually "cool"?
+2. Would a casual viewer notice the technique? If yes, it's probably too heavy
+3. Does the grade maintain skin tone naturalism after shot matching adjustments?

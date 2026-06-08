@@ -29,9 +29,13 @@ related_skills: [sound-design-loudness-fatigue, sound-design-expectation]
 
 ## A1 — 书中的应用 (Past Application)
 
-《珍珠港》混录：在持续的飞机攻击、炮声、爆炸声中，在不同战争段落之间或之内给观众留出喘息机会。关键技巧：声音在刮擦时上去，然后下来，而不是一直保持高音量。
+1. Identify the specific contrast drama technique in your current project's ref## A2 — 触发场景 (Future Trigger) ★
 
-## A2 — 触发场景 (Future Trigger) ★
+1. 语言信号："声音太响了但没有感觉。"
+2. 语言信号："太吵了/耳朵疼/受不了。"
+3. 语言信号："这个爆发应该怎么铺垫？"ple modifications
+4. Review the result against the original: does the emotional beat land more clearly?
+5. If yes, document the specific parameters; if no, adjust the intensity and retry## A2 — 触发场景 (Future Trigger) ★
 
 **场景1**：一个动作场景感觉"没有冲击力"。
 - 语言信号："声音太响了但没有感觉。"
@@ -59,3 +63,8 @@ related_skills: [sound-design-loudness-fatigue, sound-design-expectation]
 - 低谷太长——观众以为影片出问题了
 - 对比太频繁——变成噪音而非戏剧
 - 忽视影院声学——反射强的影院中低频混响会破坏安静效果
+
+### Common Failure Modes
+- **Anti-pattern**: Using contrast drama as a crutch instead of understanding the underlying emotional structure of the scene
+- **Blind spot**: Failing to account for how contrast drama affects the audience's perception of time and pacing
+- **Common mistake**: Applying contrast drama too uniformly — real dramatic impact comes from contrast and restraint

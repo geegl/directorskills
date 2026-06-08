@@ -57,3 +57,13 @@ related_skills:
 - **不要跳过一级校色直接做风格化**——基础不扎实会导致风格化效果不稳定
 - **不要在一个节点/层中混合技术校色和风格化**——分离才能独立修改
 - **失败模式**: 过度风格化导致肤色不自然、广播信号超标、观众出戏
+
+### Common Failure Modes
+- **Anti-pattern**: Over-processing look development to the point where it draws attention to itself instead of serving the story
+- **Blind spot**: Ignoring how look development interacts with the preceding and following shots in the sequence
+- **Common mistake**: Applying look development uniformly across all scenes without considering emotional context
+
+### Diagnostic Questions
+1. Does this look development choice serve the emotional beat, or is it just visually "cool"?
+2. Would a casual viewer notice the technique? If yes, it's probably too heavy
+3. Does the grade maintain skin tone naturalism after look development adjustments?

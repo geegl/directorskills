@@ -1,3 +1,10 @@
+---
+name: Scene Transition Weather Contrast
+description: Scene Transition Weather Contrast — cinematic technique for directors and editors
+tags: [scene, transition, weather, contrast]
+version: 1.0
+---
+
      1|     1|---
      2|     2|name: scene-transition-weather-contrast
      3|     3|description: |

@@ -14,6 +14,7 @@ related_skills: [sound-design-foley, sound-design-consistency]
 ## R — 原文 (Reading)
 
 > "观众会认为任何与画面同步的声音，就是该画面发出的声音。一些真实的声音戏剧效果并不好，而完全不同声源发出的声音效果却不错。"
+> — 声音设计 — David Sonnenschein, p.g_0006
 
 ## I — 方法论骨架 (Interpretation)
 

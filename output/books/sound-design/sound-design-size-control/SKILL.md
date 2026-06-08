@@ -14,6 +14,7 @@ related_skills: [sound-design-sync-illusion, sound-design-t2-shapeshift]
 ## R — 原文 (Reading)
 
 > "声源的外观大小可以通过改变原始素材的速度来控制。在《终结者2》中，沸腾液体声音速度被降低，让人觉得熔化槽更大。"
+> — 声音设计 — David Sonnenschein, p.g_0029
 
 ## I — 方法论骨架 (Interpretation)
 

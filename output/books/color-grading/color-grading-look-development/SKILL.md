@@ -15,7 +15,7 @@ related_skills:
 
 ## R — 原文 (Reading)
 > 在做出任何调整之前先评估镜头，规划一下调整思路。
-> — Van Hurkman, 第7章
+> — Van Hurkman, 第7章, p.g_0065
 
 ## I — 方法论骨架 (Interpretation)
 创意Look开发是一个从技术到艺术的递进过程。核心原则是将技术校色和风格化处理分离到不同的操作节点/层中：

@@ -16,7 +16,7 @@ related_skills:
 ## R — 原文 (Reading)
 > 拍电影就像编舞，每一个场景，你都要设计好演员和摄像师的舞步。
 >
-> — Christopher Kenworthy, 前言
+> — Christopher Kenworthy, 前言, p.3
 
 ---
 

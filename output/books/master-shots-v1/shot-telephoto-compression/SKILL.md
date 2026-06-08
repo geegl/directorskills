@@ -16,7 +16,7 @@ related_skills:
 ## R — 原文 (Reading)
 > 长焦镜头有压缩空间的功效，使用长焦镜头，会让物体间的距离看起来比实际距离短。
 >
-> — Christopher Kenworthy, 第1章
+> — Christopher Kenworthy, 第1章, p.4
 
 ---
 

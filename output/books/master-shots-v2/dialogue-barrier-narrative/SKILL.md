@@ -10,6 +10,7 @@ tags: [dialogue, cinematography, visual-storytelling]
 ## R — 原文 (Reading)
 
 > 真实的障碍物会让演员有必要大声叫喊……当矛盾愈演愈烈，这重障碍很可能被冲破……窗户是斑驳的，所以两名演员并不能清晰地看到对方，但他们可以看到对方的轮廓。
+> — 《大师镜头 第二卷》Christopher Kenworthy, p.g_0007
 
 ——《大师镜头 第二卷》第1.5节"障碍物"
 

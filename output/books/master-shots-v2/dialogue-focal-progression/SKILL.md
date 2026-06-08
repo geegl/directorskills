@@ -10,6 +10,7 @@ tags: [dialogue, cinematography, visual-storytelling]
 ## R — 原文 (Reading)
 
 > 导演开场用了广角镜头进行拍摄，当演员越靠越近的时候，镜头的焦距也增长了。当演员走到一块儿时，再换上最长焦距的镜头。这种镜头递进的使用增强了演员相互接近的效果。
+> — 《大师镜头 第二卷》Christopher Kenworthy, p.g_0011
 
 ——《大师镜头 第二卷》第2.2节"缩近距离"
 

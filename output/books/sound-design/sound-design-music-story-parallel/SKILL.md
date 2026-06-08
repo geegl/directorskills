@@ -14,6 +14,7 @@ related_skills: [sound-design-sonata-drama, sound-design-expectation, sound-desi
 ## R — 原文 (Reading)
 
 > "旋律=人物，和声=布景设计，不谐和音=冲突，节奏=速度，乐句=镜头/场景/段落，作曲家=编剧，演奏家=演员，指挥家=导演。"
+> — 声音设计 — David Sonnenschein, p.g_0029
 
 ## I — 方法论骨架 (Interpretation)
 

@@ -29,22 +29,35 @@ related_skills: [sound-design-loudness-fatigue, sound-design-expectation]
 
 ## A1 — 书中的应用 (Past Application)
 
-1. Identify the specific contrast drama technique in your current project's ref## A2 — 触发场景 (Future Trigger) ★
+### 案例 1: 《珍珠港》的爆炸对比
+- **问题**: 持续大音量的爆炸声让观众产生听觉疲劳，后续爆炸失去冲击力
+- **方法论的使用**: 音效师乔治·沃特在飞机坠毁段落中，坠毁前降下所有声音，坠毁后再降下，刮擦时声音上去再下来。在连续高峰之间插入低谷"喘息空间"
+- **结论**: 安静越深，爆发越震撼；对比产生戏剧效果，而非绝对音量
+- **结果**: 该段落成为战争片音效设计的教科书案例
 
-1. 语言信号："声音太响了但没有感觉。"
-2. 语言信号："太吵了/耳朵疼/受不了。"
-3. 语言信号："这个爆发应该怎么铺垫？"ple modifications
-4. Review the result against the original: does the emotional beat land more clearly?
-5. If yes, document the specific parameters; if no, adjust the intensity and retry## A2 — 触发场景 (Future Trigger) ★
+### 案例 2: 恐怖片的寂静铺垫
+- **问题**: 如何让一个普通的jump scare真正吓人？
+- **方法论的使用**: 在惊吓点前3-5秒完全消除环境声，制造"真空感"。观众的听觉系统在寂静中提高灵敏度，此时即使中等音量的突然声响也能产生强烈冲击
+- **结论**: 对比的幅度取决于低谷的深度，而非高峰的高度
 
-**场景1**：一个动作场景感觉"没有冲击力"。
-- 语言信号："声音太响了但没有感觉。"
+## A2 — 触发场景 (Future Trigger) ★
 
-**场景2**：观众反映"听觉疲劳"。
-- 语言信号："太吵了/耳朵疼/受不了。"
+### 用户会在什么情境下需要这个 skill?
 
-**场景3**：设计一个从安静到爆发的转场。
-- 语言信号："这个爆发应该怎么铺垫？"
+1. 用户觉得声音"太响了但没有感觉"——持续大音量导致听觉疲劳
+2. 用户在设计从安静到爆发的转场——需要铺垫和对比
+3. 用户反映"太吵了/耳朵疼"——需要在高峰间插入喘息空间
+4. 用户在做动作/战争/恐怖场景的音效——需要最大化冲击力
+
+### 语言信号
+- "声音太响了但没有感觉"
+- "太吵了/耳朵疼/受不了"
+- "这个爆发应该怎么铺垫"
+- "怎么让观众被吓到"
+- "声音太平了没有起伏"
+
+### 与相邻 skill 的区分
+- 与 `sound-design-expectation` 的区别: expectation 处理预期的建立与违背，contrast-drama 处理物理层面的音量/密度对比。先用 contrast-drama 设计动态曲线，再用 expectation 设计预期节奏。
 
 ## E — 可执行步骤 (Execution)
 

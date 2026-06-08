@@ -16,7 +16,7 @@ related_skills:
 ## R — 原文 (Reading)
 > 短一点的镜头会让人变得有些恐怖，而长镜头则会让人看起来比较和善。
 >
-> — Christopher Kenworthy, 第1章
+> — Christopher Kenworthy, 第1章, p.g_0005
 
 ---
 

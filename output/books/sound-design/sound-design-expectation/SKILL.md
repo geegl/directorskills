@@ -14,6 +14,7 @@ related_skills: [sound-design-sonata-drama, sound-design-contrast-drama]
 ## R — 原文 (Reading)
 
 > "当期望不准确的时候，情绪会在音乐和故事当中爆发。通过某一时刻与预期的背离，下一个应验的预期时刻能够被强化。"
+> — 声音设计 — David Sonnenschein, p.g_0023
 
 ## I — 方法论骨架 (Interpretation)
 
@@ -28,22 +29,36 @@ related_skills: [sound-design-sonata-drama, sound-design-contrast-drama]
 
 ## A1 — 书中的应用 (Past Application)
 
-1. Identify the specific expectation technique in your current project's refere## A2 — 触发场景 (Future Trigger) ★
+### 案例 1: 恐怖片的虚惊-实惊交替
+- **问题**: 如何让观众在整部恐怖片中保持紧张感？
+- **方法论的使用**: 经典恐怖片结构：先用蝙蝠声/树枝声引起2-3次"虚惊"（建立预期=突然声响=惊吓），然后在观众习惯这个模式后，用完全不同的声音（如低沉的呼吸声）打破预期——这次是"实惊"
+- **结论**: 预期的建立是违背的前提。没有足够的铺垫，违背毫无效果
+- **结果**: 这成为恐怖片声音设计的基础公式
 
-1. 语言信号："这个吓人点应该怎么铺？"
-2. 语言信号："这个笑点的声音应该怎么处理？"
-3. 语言信号："观众都知道接下来会发生什么。"ifications
-4. Review the result against the original: does the emotional beat land more clearly?
-5. If yes, document the specific parameters; if no, adjust the intensity and retry## A2 — 触发场景 (Future Trigger) ★
+### 案例 2: 喜剧的声音预期违背
+- **问题**: 如何用声音增强喜剧效果？
+- **方法论的使用**: 角色严肃地走向舞台中央，观众预期庄重的音乐——结果放出了滑稽的音效。预期越"正经"，违背越搞笑。关键：先建立严肃的预期，再用声音打破它
+- **结论**: 喜剧和恐怖在声音设计上是同构的——都依赖预期的建立和违背，只是情绪方向不同
 
-**场景1**：恐怖/惊悚场景需要设计"惊吓点"。
-- 语言信号："这个吓人点应该怎么铺？"
+## A2 — 触发场景 (Future Trigger) ★
 
-**场景2**：喜剧场景需要设计"笑点"。
-- 语言信号："这个笑点的声音应该怎么处理？"
+### 用户会在什么情境下需要这个 skill?
 
-**场景3**：场景感觉"可预测"。
-- 语言信号："观众都知道接下来会发生什么。"
+1. 用户在设计恐怖/惊悚场景的"惊吓点"——需要铺垫和预期管理
+2. 用户在设计喜剧场景的"笑点"——需要用声音打破严肃预期
+3. 用户觉得场景"可预测"——需要用声音制造意外
+4. 用户在设计反转/揭示场景——需要声音配合叙事转折
+
+### 语言信号
+- "这个吓人点应该怎么铺"
+- "这个笑点的声音应该怎么处理"
+- "观众都知道接下来会发生什么"
+- "怎么让观众感到意外"
+- "声音太平淡了没有惊喜"
+
+### 与相邻 skill 的区分
+- 与 `sound-design-contrast-drama` 的区别: contrast-drama 处理物理层面的音量对比，expectation 处理认知层面的预期管理。前者用"大声vs小声"，后者用"预期A vs 实际B"
+- 与 `sound-design-sonata-drama` 的区别: sonata-drama 处理宏观叙事结构，expectation 处理微观声音事件的预期管理
 
 ## E — 可执行步骤 (Execution)
 

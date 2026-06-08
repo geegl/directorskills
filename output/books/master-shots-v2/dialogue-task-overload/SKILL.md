@@ -11,6 +11,7 @@ tags: [dialogue, acting, direction, performance, actor-management]
 ## R — 原文 (Reading)
 
 > 当你给演员安排越多的任务时，他们的表现反而往往越出色……要解决这一问题，最好的方法就是给演员增加更多的任务，直到他们的脑子转不过来为止。那他们就只能凭本能去表演了。
+> — master-shots-v2, p.g_0060
 
 ——《大师镜头 第二卷》结语
 

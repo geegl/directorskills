@@ -10,6 +10,7 @@ tags: [dialogue, blocking, power-dynamics, spatial-narrative, wide-shot]
 ## R — 原文 (Reading)
 
 > 当两方力量对比出现转变时，男演员走开了。当他停下来的时候，他出现在了镜头的右边，这里原来是女演员的位置。两个人这样的位置调换暗示了他们的主导地位也发生了变换。
+> — 《大师镜头 第二卷》Christopher Kenworthy, p.g_0017
 
 ——《大师镜头 第二卷》第3.3节"位置调换"
 

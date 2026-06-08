@@ -11,7 +11,7 @@ tags: [dialogue, suspense, character-introduction, audience-psychology, reveal]
 
 > 要想保持住紧张的气氛，在拍摄主角之前，要把重点全部集中在另一个角色身上……观众知道她在那里，但却看不到她的脸……当镜头终于转向女主角时，观众能强烈地感觉到她内心的紧张。
 >
-> — Kenworthy, 第2.4节"戏剧性转向"
+> — Kenworthy, 第2.4节"戏剧性转向", p.g_0012
 
 ---
 

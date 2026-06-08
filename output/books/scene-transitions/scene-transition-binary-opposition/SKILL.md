@@ -15,7 +15,7 @@ related_skills:
 ## R — 原文 (Reading)
 > 当你将两个场景并置时，边界自然就会形成。两个不相似的场景相继放置时，观众就被强制性地去比较和对比它们。索绪尔认为大脑通过指出概念不是什么加以比较就使得概念产生意义。
 >
-> — Jeffrey Michael Bays, 第2章
+> — Jeffrey Michael Bays, 第2章, p.33-36
 
 ---
 

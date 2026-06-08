@@ -14,6 +14,7 @@ related_skills: [sound-design-sound-reference, sound-design-sync-illusion]
 ## R — 原文 (Reading)
 
 > "一旦某个声音被确定成为那个声画对象或环境声的参考，就应该坚持使用这个参考，除非故事里发生了明确的变化。"
+> — 声音设计 — David Sonnenschein, p.g_0038
 
 ## I — 方法论骨架 (Interpretation)
 

@@ -15,7 +15,7 @@ related_skills:
 
 ## R — 原文 (Reading)
 > 对已经正常化的素材使用Shadow、Midtone、Highlight工具，你会发现，每个影调之间的重叠比较轻微，不是很实用。这就是在套用LUT之前，调整这些控件的原因。
-> — Van Hurkman, 第3章
+> — Van Hurkman, 第3章, p.g_0025
 
 ## I — 方法论骨架 (Interpretation)
 Log编码素材保留了摄影机传感器的高动态范围（13-14档），但画面看起来低对比度、低饱和度。其调色需要特殊的两阶段工作流：

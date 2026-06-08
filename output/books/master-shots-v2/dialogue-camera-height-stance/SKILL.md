@@ -10,6 +10,7 @@ tags: [dialogue, cinematography, visual-storytelling]
 ## R — 原文 (Reading)
 
 > 尽管男演员是坐着的，但摄影机还是从他的高度进行拍摄，不论是拍他本人还是拍女演员，这个高度都没有改变。把镜头放到男演员的高度，观众就能感受到他的威力了。
+> — 《大师镜头 第二卷》Christopher Kenworthy, p.g_0014
 
 ——《大师镜头 第二卷》第2.8节"高度对比"
 

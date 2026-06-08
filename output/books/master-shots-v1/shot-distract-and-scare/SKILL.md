@@ -16,7 +16,7 @@ related_skills:
 ## R — 原文 (Reading)
 > 千万不要为了转移观众的注意力而生硬地设计一些情节。因为情节越是合理，最终吓人的效果就越强烈。
 >
-> — Christopher Kenworthy, 第7章
+> — Christopher Kenworthy, 第7章, p.48
 
 ---
 

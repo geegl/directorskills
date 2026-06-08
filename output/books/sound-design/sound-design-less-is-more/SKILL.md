@@ -14,6 +14,7 @@ related_skills: [sound-design-vader-breathing, sound-design-auditory-hierarchy]
 ## R — 原文 (Reading)
 
 > "有时候你可以用最少数量的声音元素得到最大的冲击力，通过让观众填补自己头脑中的信息缺失，使他们有更大的参与性。"
+> — 声音设计 — David Sonnenschein, p.g_0018
 
 ## I — 方法论骨架 (Interpretation)
 

@@ -31,22 +31,36 @@ related_skills: [sound-design-contrast-drama, sound-design-expectation]
 
 ## A1 — 书中的应用 (Past Application)
 
-1. Identify the specific entrainment technique in your current project's reference mat## A2 — 触发场景 (Future Trigger) ★
+### 案例 1: 萨满鼓声的脑波引导
+- **问题**: 如何用声音引导听众进入特定意识状态？
+- **方法论的使用**: 萨满仪式使用约4-4.5Hz的重复鼓声，这个频率接近Theta脑波（4-8Hz，对应白日梦/浅催眠状态）。持续的节奏性刺激使脑波自动与鼓声频率同步
+- **结论**: 人体生理节律会自动与外部声音节奏同步——这就是互引效应的底层机制
+- **结果**: 该原理被广泛应用于冥想音乐、ASMR和治疗性声音设计
 
-1. 语言信号："这里应该让观众放松/紧张。"
-2. 语言信号："角色在吸毒/冥想/恐慌。"
-3. 语言信号："节奏太快了/太慢了。"ifications
-4. Review the result against the original: does the emotional beat land more clearly?
-5. If yes, document the specific parameters; if no, adjust the intensity and retry## A2 — 触发场景 (Future Trigger) ★
+### 案例 2: 动作片的BPM选择
+- **问题**: 如何用配乐节奏让观众在动作场景中感到兴奋？
+- **方法论的使用**: 动作片追逐场景的配乐通常选择120-140BPM，接近人在兴奋/紧张状态下的心跳频率。观众的心率会自动与音乐节奏趋同，从而在生理层面感到紧张和兴奋
+- **结论**: BPM选择不是美学问题，而是生理操控问题
 
-**场景1**：需要让观众感到放松/紧张。
-- 语言信号："这里应该让观众放松/紧张。"
+## A2 — 触发场景 (Future Trigger) ★
 
-**场景2**：角色进入特定精神状态。
-- 语言信号："角色在吸毒/冥想/恐慌。"
+### 用户会在什么情境下需要这个 skill?
 
-**场景3**：环境声需要与叙事节奏匹配。
-- 语言信号："节奏太快了/太慢了。"
+1. 用户需要让观众放松或紧张——通过BPM选择控制生理状态
+2. 用户在设计冥想/催眠/吸毒场景的声音——需要引导特定意识状态
+3. 用户觉得配乐节奏与画面不匹配——需要调整BPM与叙事节奏同步
+4. 用户在做游戏/VR的沉浸式音频——需要通过声音引导玩家状态
+
+### 语言信号
+- "这里应该让观众放松/紧张"
+- "角色在吸毒/冥想/恐慌"
+- "节奏太快了/太慢了"
+- "怎么用声音控制情绪"
+- "BPM应该选多少"
+
+### 与相邻 skill 的区分
+- 与 `sound-design-contrast-drama` 的区别: contrast-drama 处理音量/密度的对比，entrainment 处理节奏/频率对生理的同步效应。前者是"变化"，后者是"同步"
+- 与 `sound-design-expectation` 的区别: expectation 处理认知层面的预期，entrainment 处理生理层面的节律同步。前者影响"想法"，后者影响"心跳" 
 
 ## E — 可执行步骤 (Execution)
 

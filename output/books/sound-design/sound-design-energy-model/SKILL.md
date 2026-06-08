@@ -14,6 +14,7 @@ related_skills: [sound-design-listening-modes, sound-design-auditory-hierarchy]
 ## R — 原文 (Reading)
 
 > "声能转化图：连续阶段 影片→放映→观众；平行层面 物理的、情绪的、智力的、道德的。"
+> — 声音设计 — David Sonnenschein, p.g_0003
 
 ## I — 方法论骨架 (Interpretation)
 

@@ -15,7 +15,7 @@ related_skills:
 ## R — 原文 (Reading)
 > 两个场景同时进行，镜头不停地在两处场景中切换。每个镜头长度一致，制造安全幻觉。当观众放松时，突然打破节奏。
 >
-> — Christopher Kenworthy, 第4章
+> — Christopher Kenworthy, 第4章, p.34
 
 ---
 

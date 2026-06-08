@@ -14,7 +14,7 @@ related_skills:
 ## R — 原文 (Reading)
 > 为了关联多情节线，你必须使用我所说的同步节点：物体、场所或通过随机的巧合使用物体、场所或瞬间关联两个或多个不同的情节线。
 >
-> — Jeffrey Michael Bays, 第3章
+> — Jeffrey Michael Bays, 第3章, p.53-56
 
 ---
 

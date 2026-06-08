@@ -14,6 +14,7 @@ related_skills: [sound-design-gestalt, sound-design-less-is-more, sound-design-e
 ## R — 原文 (Reading)
 
 > "声音支配注意力的三个层级：1）有意识倾听的现场感觉；2）听到但不直接注意的辅助声音；3）影响潜意识的背景声音。"
+> — 声音设计 — David Sonnenschein, p.g_0044
 
 ## I — 方法论骨架 (Interpretation)
 

@@ -14,6 +14,7 @@ related_skills: [sound-design-energy-model, sound-design-gestalt, sound-design-e
 ## R — 原文 (Reading)
 
 > "米歇尔·琼对三种听音模式作了辨析：简化模式、因果模式和语义模式。这里还介绍了第四种：参考模式。"
+> — 声音设计 — David Sonnenschein, p.g_0021
 
 ## I — 方法论骨架 (Interpretation)
 

@@ -7,19 +7,9 @@ source_book: 《救猫咪》Blake Snyder
 source_chapter: 第6章 Structure
 tags: [screenwriting, story-structure, beat-sheet, blake-snyder]
 related_skills:
-  - composes-with: story-design-genres — 类型决定BS2的具体节拍内容
-  - composes-with: story-design-logline — logline是概念的终极测试
-  - contrasts-with: directing-story-framework — STC!是商业模板，directing是自由构建
----
-
-# BS2 十五节拍故事结构
-
-## R — 原文 (Reading)
-
-> The BS2 is a simplified 2-page beat sheet that anyone can use to map out their story before writing. It has 15 beats from Opening Image to Final Image, each serving a specific structural function.
->
-> — Snyder, 第6章 Structure
-
+  - composes-with: story-design-genres — 类型决定BS2的具体节拍内容和时长分配
+  - composes-with: story-design-midpoint — 中点是节拍表的核心转折，决定后半段走向
+  - composes-with: story-design-five-step-finale — 终幕五步是节拍表高潮段的详细展开
 ---
 
 ## I — 方法论骨架 (Interpretation)

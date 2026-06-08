@@ -6,19 +6,9 @@ source_book: 《救猫咪》Blake Snyder
 source_chapter: 第4章 Genres
 tags: [screenwriting, story-structure, beat-sheet, blake-snyder]
 related_skills:
-  - depends-on: story-design-beat-sheet — 其他7个skill都基于BS2框架
-  - composes-with: story-design-logline — logline是概念的终极测试
-  - contrasts-with: directing-story-framework — STC!是商业模板，directing是自由构建
----
-
-# STC! 十种故事类型分类法
-
-## R — 原文 (Reading)
-
-> Save the Cat!® Goes to the Movies identifies 10 unique genres that break open the discussion of story in a new way. From 'Monster in the House' to 'Superhero,' these redefine what we look for in our storytelling process.
->
-> — Snyder, 第4章 Genres
-
+  - composes-with: story-design-beat-sheet — 类型决定节拍表的具体内容和节奏
+  - composes-with: story-design-theme-b-story — 类型惯例为B Story提供框架
+  - depends-on: story-design-logline — logline帮助验证概念是否符合类型期待
 ---
 
 ## I — 方法论骨架 (Interpretation)

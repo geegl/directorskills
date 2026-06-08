@@ -6,20 +6,9 @@ source_book: 《救猫咪》Blake Snyder
 source_chapter: 第6章 Structure
 tags: [screenwriting, story-structure, beat-sheet, blake-snyder]
 related_skills:
-  - depends-on: story-design-beat-sheet — 其他7个skill都基于BS2框架
-  - composes-with: story-design-genres — 类型决定BS2的具体节拍内容
-  - composes-with: story-design-logline — logline是概念的终极测试
-  - contrasts-with: directing-story-framework — STC!是商业模板，directing是自由构建
----
-
-# Midpoint 假胜利/假失败操控法
-
-## R — 原文 (Reading)
-
-> The Midpoint is a 'false victory' or 'false failure.' It's the moment where the hero seems to win (but hasn't really) or seems to lose (but will come back). It connects the A Story and B Story.
->
-> — Snyder, 第6章 Structure
-
+  - depends-on: story-design-beat-sheet — 中点在BS2节拍表中位于正中间
+  - contrasts-with: story-design-five-step-finale — 中点是真假转折，终幕是最终审判
+  - composes-with: story-design-shard-of-glass — 中点的假高光让碎片低谷更有冲击
 ---
 
 ## I — 方法论骨架 (Interpretation)

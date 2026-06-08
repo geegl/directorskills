@@ -16,7 +16,7 @@ related_skills:
 ## R — 原文 (Reading)
 > 用长焦镜头拍摄——前景演员完全模糊、背景消失，观众只能注意角色脸上的每丝变化。
 >
-> — Christopher Kenworthy, 第2章
+> — Christopher Kenworthy, 第2章, p.g_0005
 
 ---
 

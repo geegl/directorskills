@@ -14,6 +14,7 @@ related_skills: [sound-design-contrast-drama, sound-design-expectation]
 ## R — 原文 (Reading)
 
 > "互引是我们的身体和思想与外部节奏同步作用的一种特殊状态。心跳的节奏会跟音乐的节奏趋于一致。"
+> — 声音设计 — David Sonnenschein, p.g_0021
 
 ## I — 方法论骨架 (Interpretation)
 

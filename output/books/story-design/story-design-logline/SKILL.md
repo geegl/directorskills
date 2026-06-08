@@ -6,19 +6,9 @@ source_book: 《救猫咪》Blake Snyder
 source_chapter: 第3章 Titles and Loglines
 tags: [screenwriting, story-structure, beat-sheet, blake-snyder]
 related_skills:
-  - depends-on: story-design-beat-sheet — 其他7个skill都基于BS2框架
-  - composes-with: story-design-genres — 类型决定BS2的具体节拍内容
-  - contrasts-with: directing-story-framework — STC!是商业模板，directing是自由构建
----
-
-# Logline 概念公式
-
-## R — 原文 (Reading)
-
-> A logline must be ironic. It must have a situation that is the opposite of what you'd expect. An uptight lawyer must defend a free-spirited prostitute. A cop who's afraid of the dark.
->
-> — Snyder, 第3章 Titles and Loglines
-
+  - composes-with: story-design-beat-sheet — logline的戏剧承诺通过节拍表逐步兑现
+  - composes-with: story-design-genres — 类型验证概念的市场可行性
+  - contrasts-with: story-design-theme-b-story — logline是'故事说什么'，主题是'故事在说什么'
 ---
 
 ## I — 方法论骨架 (Interpretation)

@@ -6,20 +6,9 @@ source_book: 《救猫咪》Blake Snyder
 source_chapter: 第6章 Structure
 tags: [screenwriting, story-structure, beat-sheet, blake-snyder]
 related_skills:
-  - depends-on: story-design-beat-sheet — 其他7个skill都基于BS2框架
-  - composes-with: story-design-genres — 类型决定BS2的具体节拍内容
-  - composes-with: story-design-logline — logline是概念的终极测试
-  - contrasts-with: directing-story-framework — STC!是商业模板，directing是自由构建
----
-
-# 五步终局法
-
-## R — 原文 (Reading)
-
-> The Finale is broken into 5 steps: 1. Gather the team, 2. Execute the plan, 3. High tower surprise, 4. Dig deep down, 5. Execution of the new plan.
->
-> — Snyder, 第6章 Structure
-
+  - depends-on: story-design-beat-sheet — 终幕五步建立在BS2节拍表的高潮结构之上
+  - composes-with: story-design-midpoint — 中点的真假转折决定终幕的情感起点
+  - composes-with: story-design-logline — logline的承诺必须在终幕中兑现
 ---
 
 ## I — 方法论骨架 (Interpretation)

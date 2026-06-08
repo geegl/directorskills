@@ -6,20 +6,9 @@ source_book: 《救猫咪》Blake Snyder
 source_chapter: 第2章 Themes
 tags: [screenwriting, story-structure, beat-sheet, blake-snyder]
 related_skills:
-  - depends-on: story-design-beat-sheet — 其他7个skill都基于BS2框架
-  - composes-with: story-design-genres — 类型决定BS2的具体节拍内容
-  - composes-with: story-design-logline — logline是概念的终极测试
-  - contrasts-with: directing-story-framework — STC!是商业模板，directing是自由构建
----
-
-# 主题通过 B Story 传达法
-
-## R — 原文 (Reading)
-
-> If your movie isn't 'about' something, why write it? Theme Stated/B Story must be addressed in your story. The B Story is the 'helper story' that helps your hero, and us, learn the lesson.
->
-> — Snyder, 第2章 Themes
-
+  - depends-on: story-design-beat-sheet — 主题通过BS2的B Story线贯穿全片
+  - composes-with: story-design-genres — 类型惯例为主题表达提供载体
+  - contrasts-with: story-design-logline — 主题是潜台词，logline是明线
 ---
 
 ## I — 方法论骨架 (Interpretation)

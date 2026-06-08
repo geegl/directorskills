@@ -6,20 +6,9 @@ source_book: 《救猫咪》Blake Snyder
 source_chapter: 第5章 Heroes
 tags: [screenwriting, story-structure, beat-sheet, blake-snyder]
 related_skills:
-  - depends-on: story-design-beat-sheet — 其他7个skill都基于BS2框架
-  - composes-with: story-design-genres — 类型决定BS2的具体节拍内容
-  - composes-with: story-design-logline — logline是概念的终极测试
-  - contrasts-with: directing-story-framework — STC!是商业模板，directing是自由构建
----
-
-# 碎片隐喻——All Is Lost 的情感核心
-
-## R — 原文 (Reading)
-
-> The Shard of Glass is the thing that has always been there, hidden under the skin of the hero. At the All Is Lost moment, the skin is pierced and the shard is revealed.
->
-> — Snyder, 第5章 Heroes
-
+  - depends-on: story-design-beat-sheet — 碎片场景在BS2的All Is Lost位置
+  - composes-with: story-design-midpoint — 中点假高光让碎片低谷形成最大落差
+  - contrasts-with: story-design-five-step-finale — 碎片是情感最低点，终幕是情感最高点
 ---
 
 ## I — 方法论骨架 (Interpretation)

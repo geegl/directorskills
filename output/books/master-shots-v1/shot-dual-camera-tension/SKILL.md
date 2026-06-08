@@ -16,7 +16,7 @@ related_skills:
 ## R — 原文 (Reading)
 > 一台摄影机慌乱地追赶逃跑者，另一台摄影机稳定地跟拍追兵——慌乱的镜头暗示逃跑者处于劣势，稳定的镜头暗示追兵必胜。
 >
-> — Christopher Kenworthy, 第2章
+> — Christopher Kenworthy, 第2章, p.15
 
 ---
 

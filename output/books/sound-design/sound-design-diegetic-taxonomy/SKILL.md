@@ -14,6 +14,7 @@ related_skills: [sound-design-listening-modes, sound-design-point-of-audition]
 ## R — 原文 (Reading)
 
 > "画内声音（看得到声源）/画外声音（看不到声源但在故事中存在）/非剧情声音（故事人物听不到）。米歇尔·琼创造了'幻听'术语。"
+> — 声音设计 — David Sonnenschein, p.g_0036
 
 ## I — 方法论骨架 (Interpretation)
 

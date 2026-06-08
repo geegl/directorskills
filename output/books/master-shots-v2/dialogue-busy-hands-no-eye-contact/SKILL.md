@@ -15,7 +15,7 @@ related_skills:
 ## R — 原文 (Reading)
 > 在现实生活中，熟人之间几乎不看对方眼睛——直接对视只有运用在刀刃上才会有令人难忘的效果。
 >
-> — Christopher Kenworthy, 第9章
+> — Christopher Kenworthy, 第9章, p.g_0031
 
 ---
 

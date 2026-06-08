@@ -14,6 +14,7 @@ related_skills: [sound-design-loudness-fatigue, sound-design-expectation]
 ## R — 原文 (Reading)
 
 > "关键不在于音量，而在于变化和对比。避免持续的大音量声音，因为这会导致观众没有听觉放松从而影响效果。"
+> — 声音设计 — David Sonnenschein, p.g_0015
 
 ## I — 方法论骨架 (Interpretation)
 

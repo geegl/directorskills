@@ -16,7 +16,7 @@ related_skills:
 ## R — 原文 (Reading)
 > 演员静止不动，背景飞速旋转，表现角色做出重大决定。
 >
-> — Christopher Kenworthy, 第5章
+> — Christopher Kenworthy, 第5章, p.41
 
 ---
 

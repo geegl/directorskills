@@ -6,20 +6,9 @@ source_book: 《救猫咪》Blake Snyder
 source_chapter: 第5章 Heroes
 tags: [screenwriting, story-structure, beat-sheet, blake-snyder]
 related_skills:
-  - depends-on: story-design-beat-sheet — 其他7个skill都基于BS2框架
-  - composes-with: story-design-genres — 类型决定BS2的具体节拍内容
-  - composes-with: story-design-logline — logline是概念的终极测试
-  - contrasts-with: directing-story-framework — STC!是商业模板，directing是自由构建
----
-
-# Save the Cat 认同建立法
-
-## R — 原文 (Reading)
-
-> The hero has to do something when we first meet him so that we like him and want him to win. It's the Save the Cat moment.
->
-> — Snyder, 第5章 Heroes
-
+  - depends-on: story-design-beat-sheet — 救猫咪场景在BS2的Opening Image之后
+  - composes-with: story-design-shard-of-glass — 从'让观众喜欢'到'让观众心碎'的情感弧线
+  - composes-with: story-design-theme-b-story — 救猫咪场景体现主角的核心价值观
 ---
 
 ## I — 方法论骨架 (Interpretation)

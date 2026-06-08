@@ -1,4 +1,3 @@
-E0608 05:11:01.740607 3646600 ev_epoll1_linux.cc:191] OrphanHandle: epoll_ctl failed: Bad file descriptor (9)
 ---
 name: dialogue-camera-follow-identity
 description: |

@@ -1,22 +1,26 @@
 [
   {
-    "input": "角色在法庭上听到判决，怎么拍他的反应才有冲击力？",
-    "expected_activation": true,
-    "reason": "角色接收到冲击性信息，需要心理压迫感"
+    "id": "should-trigger-01",
+    "type": "should_trigger",
+    "prompt": "角色在法庭上听到判决，怎么拍他的反应才有冲击力？",
+    "expected_behavior": "激活 dialogue-telephoto-claustrophobia，角色接收到冲击性信息需要心理压迫感"
   },
   {
-    "input": "我想拍一个角色在公园散步的长镜头",
-    "expected_activation": false,
-    "reason": "日常场景不需要长焦压迫"
+    "id": "should-not-trigger-01",
+    "type": "should_not_trigger",
+    "prompt": "我想拍一个角色在公园散步的长镜头",
+    "expected_behavior": "不激活，日常场景不需要长焦压迫"
   },
   {
-    "input": "怎么让观众感受到角色听到噩耗时的窒息感？",
-    "expected_activation": true,
-    "reason": "坏消息+窒息感=核心 trigger"
+    "id": "should-trigger-02",
+    "type": "should_trigger",
+    "prompt": "怎么让观众感受到角色听到噩耗时的窒息感？",
+    "expected_behavior": "激活，坏消息+窒息感是长焦压迫的核心场景"
   },
   {
-    "input": "角色崩溃的瞬间用什么镜头？",
-    "expected_activation": true,
-    "reason": "情感冲击时刻需要长焦放大微表情"
+    "id": "edge-case-01",
+    "type": "edge_case",
+    "prompt": "角色崩溃的瞬间用什么镜头？",
+    "expected_behavior": "激活，情感冲击时刻需要长焦放大微表情"
   }
 ]

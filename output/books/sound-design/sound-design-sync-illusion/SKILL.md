@@ -1,4 +1,3 @@
-E0608 05:19:08.596785 3652265 ev_epoll1_linux.cc:191] OrphanHandle: epoll_ctl failed: Bad file descriptor (9)
 ---
 name: sound-design-sync-illusion
 description: >

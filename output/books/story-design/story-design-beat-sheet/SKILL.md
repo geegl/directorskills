@@ -1,4 +1,3 @@
-E0608 05:23:19.474455 3657594 ev_epoll1_linux.cc:191] OrphanHandle: epoll_ctl failed: Bad file descriptor (9)
 ---
 name: story-design-beat-sheet
 description: |

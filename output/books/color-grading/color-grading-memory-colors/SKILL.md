@@ -1,4 +1,3 @@
-E0608 05:22:08.934167 3656501 ev_epoll1_linux.cc:191] OrphanHandle: epoll_ctl failed: Bad file descriptor (9)
 ---
 name: color-grading-memory-colors
 description: |

@@ -1,19 +1,19 @@
 {
-  "total": 617,
-  "passed": 617,
+  "total": 629,
+  "passed": 629,
   "failed": 0,
-  "skipped": 42,
+  "skipped": 30,
   "should_trigger": {
-    "total": 323,
-    "passed": 323
+    "total": 329,
+    "passed": 329
   },
   "should_not_trigger": {
-    "total": 204,
-    "passed": 204
+    "total": 207,
+    "passed": 207
   },
   "edge_case": {
-    "total": 90,
-    "passed": 90
+    "total": 93,
+    "passed": 93
   },
   "by_book": {
     "cinematography-brown": {
@@ -37,8 +37,8 @@
       "failed": 0
     },
     "master-shots-v2": {
-      "total": 20,
-      "passed": 20,
+      "total": 32,
+      "passed": 32,
       "failed": 0
     },
     "master-shots-v3": {

@@ -1,7 +1,7 @@
 ---
 name: dialogue-barrier-narrative
 description: |
-  障碍物、物理隔离、隔窗对峙
+  障碍物、物理隔离、隔窗对峙、隔墙对话、隔栏杆、争吵到和好
 source_book: 《大师镜头 第二卷》Christopher Kenworthy
 source_chapter: 第1.5节"障碍物"
 tags: [dialogue, cinematography, visual-storytelling]

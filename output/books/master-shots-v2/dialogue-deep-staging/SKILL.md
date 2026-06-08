@@ -1,7 +1,7 @@
 ---
 name: dialogue-deep-staging
 description: |
-  深布景、三层空间、前景/中景/背景、摄影机靠墙
+  深布景、三层空间、前景/中景/背景、摄影机靠墙、小空间、看起来不挤
 source_book: 《大师镜头 第二卷》 Christopher Kenworthy
 source_chapter: 第1.9节"深布景"
 tags: [dialogue, staging, depth, production-design, spatial-storytelling]

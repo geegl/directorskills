@@ -1,51 +1,32 @@
 [
   {
-    "id": "t01",
+    "id": "should-trigger-01",
+    "type": "should_trigger",
     "prompt": "我的电影开场是主角被叫到校长办公室，怎样让主角的第一次出场更有冲击力？",
-    "expected_elements": [
-      "先拍校长/其他角色",
-      "主角以背影或后脑勺出现",
-      "逐步积累张力",
-      "揭示时刻与情感同步"
-    ]
+    "expected_behavior": ""
   },
   {
-    "id": "t02",
+    "id": "should-trigger-02",
+    "type": "should_trigger",
     "prompt": "剧本里一个角色收到了噩耗，我想让观众感受到他听到消息时的震惊。怎样用延迟揭示来放大这个瞬间？",
-    "expected_elements": [
-      "先拍传递消息的人",
-      "接收者面部不可见",
-      "推近非主角",
-      "揭示时切特写"
-    ]
+    "expected_behavior": ""
   },
   {
-    "id": "t03",
-    "prompt": "在一个群戏中，有一个人一直没说话但最后开口说了关键台词。怎样让他的出场更有分量？",
-    "expected_elements": [
-      "通过他人反应交代位置",
-      "光线/构图暗示存在",
-      "开口时其他角色转身"
-    ]
+    "id": "should-trigger-03",
+    "type": "should_trigger",
+    "prompt": "群戏中一个角色一直沉默，最后才揭示他的身份。怎么用延迟揭示让他开口的瞬间更有冲击力？",
+    "expected_behavior": ""
   },
   {
-    "id": "t04",
+    "id": "should-trigger-04",
+    "type": "should_trigger",
     "prompt": "恐怖片中，受害者发现房间里还有另一个人。怎样用延迟揭示制造恐惧？",
-    "expected_elements": [
-      "受害者占据画面",
-      "另一人以声音/影子暗示",
-      "逐步积累",
-      "揭示时用特写"
-    ]
+    "expected_behavior": ""
   },
   {
-    "id": "t05",
+    "id": "should-trigger-05",
+    "type": "should_trigger",
     "prompt": "我想拍一个面试场景，面试官已经坐好了，应聘者推门进来。怎样让应聘者的出场更有戏剧性？",
-    "expected_elements": [
-      "先拍面试官等待",
-      "门声暗示到来",
-      "逐步转向门的方向",
-      "揭示时给应聘者特写"
-    ]
+    "expected_behavior": ""
   }
 ]

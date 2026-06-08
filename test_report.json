@@ -1,11 +1,11 @@
 {
-  "total": 629,
-  "passed": 629,
+  "total": 659,
+  "passed": 659,
   "failed": 0,
-  "skipped": 30,
+  "skipped": 0,
   "should_trigger": {
-    "total": 329,
-    "passed": 329
+    "total": 359,
+    "passed": 359
   },
   "should_not_trigger": {
     "total": 207,
@@ -37,8 +37,8 @@
       "failed": 0
     },
     "master-shots-v2": {
-      "total": 32,
-      "passed": 32,
+      "total": 62,
+      "passed": 62,
       "failed": 0
     },
     "master-shots-v3": {

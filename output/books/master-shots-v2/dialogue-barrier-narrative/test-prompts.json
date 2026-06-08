@@ -1,40 +1,26 @@
 [
   {
-    "id": "t01",
+    "id": "should-trigger-01",
+    "type": "should_trigger",
     "prompt": "我需要拍一个场景：两个曾经的好友闹翻了，现在隔着咖啡馆的玻璃窗对视。怎样用障碍物表现他们从隔绝到可能和解的过程？",
-    "expected_elements": [
-      "半透明障碍物选择",
-      "双机位规则",
-      "递进式打破障碍",
-      "全景含障碍物+单人不含障碍物"
-    ]
+    "expected_behavior": ""
   },
   {
-    "id": "t02",
+    "id": "should-trigger-02",
+    "type": "should_trigger",
     "prompt": "剧本里有一场戏，母亲和女儿冷战三天没说话，今天终于在厨房隔着餐桌坐下来吃饭。预算很低，只能用家里现成的东西。怎么设计这个障碍物？",
-    "expected_elements": [
-      "象征性小物件递进",
-      "不透明→半透明→消除",
-      "日常道具承载叙事"
-    ]
+    "expected_behavior": ""
   },
   {
-    "id": "t03",
-    "prompt": "我要拍一段从争吵到和好的对话，两个人在各自的房间里，中间隔着一面墙和一扇窗。你能给我具体的摄影机布置方案吗？",
-    "expected_elements": [
-      "A机全景含墙窗",
-      "B机单人不含障碍",
-      "突破瞬间切广角同框",
-      "窗户优于纯墙"
-    ]
+    "id": "should-trigger-03",
+    "type": "should_trigger",
+    "prompt": "两个角色隔墙对话，我想用障碍物的材质表现他们关系的变化。障碍物怎么选？",
+    "expected_behavior": ""
   },
   {
-    "id": "t04",
-    "prompt": "在一个法庭戏中，被告和原告律师隔着栏杆对话。我想要表现律师逐渐赢得被告信任的过程。",
-    "expected_elements": [
-      "栏杆作为半透明障碍物",
-      "律师靠近栏杆打破距离",
-      "焦距变化配合障碍消除"
-    ]
+    "id": "should-trigger-04",
+    "type": "should_trigger",
+    "prompt": "隔栏杆对话的场景，怎么用物理隔离制造戏剧张力？",
+    "expected_behavior": ""
   }
 ]

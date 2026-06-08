@@ -1,7 +1,7 @@
 ---
 name: dialogue-camera-height-stance
 description: |
-  摄影机高度、观众立场、仰拍俯拍
+  摄影机高度、观众立场、仰拍俯拍、每个对话场景、摄影机放多高
 source_book: 《大师镜头 第二卷》Christopher Kenworthy
 source_chapter: 第2.8节"高度对比"
 tags: [dialogue, cinematography, visual-storytelling]

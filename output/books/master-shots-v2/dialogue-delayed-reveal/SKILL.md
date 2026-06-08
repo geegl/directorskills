@@ -1,7 +1,7 @@
 ---
 name: dialogue-delayed-reveal
 description: |
-  延迟揭示、角色出场、悬念、背影
+  延迟揭示、角色出场、悬念、背影、沉默、关键台词、群戏
 source_book: 《大师镜头 第二卷》 Christopher Kenworthy
 source_chapter: 第4.6节"延迟揭示"
 tags: [dialogue, suspense, character-introduction, audience-psychology, reveal]

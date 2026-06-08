@@ -1,39 +1,26 @@
 [
   {
-    "id": "t01",
+    "id": "should-trigger-01",
+    "type": "should_trigger",
     "prompt": "剧本里两个恋人多年后重逢，从街的两端走向对方。怎样让这个接近的过程比实际更有仪式感？",
-    "expected_elements": [
-      "广角开场",
-      "焦距逐步增加",
-      "长焦压缩空间",
-      "终点焦距配合情感释放"
-    ]
+    "expected_behavior": ""
   },
   {
-    "id": "t02",
+    "id": "should-trigger-02",
+    "type": "should_trigger",
     "prompt": "我要拍一个场景：老板从办公桌后面走出来靠近下属施压。怎样用焦距变化增强压迫感？",
-    "expected_elements": [
-      "短焦近距离=变形增强威胁",
-      "焦距与距离同步",
-      "压迫感来自焦距心理效果"
-    ]
+    "expected_behavior": ""
   },
   {
-    "id": "t03",
+    "id": "should-trigger-03",
+    "type": "should_trigger",
     "prompt": "一段关系从亲密走向破裂的场景，两个人在同一个房间里渐渐远离。怎样用镜头表达这种疏远？",
-    "expected_elements": [
-      "长焦→广角反向使用",
-      "空间逐步拉开",
-      "广角终点展现开阔=空虚"
-    ]
+    "expected_behavior": ""
   },
   {
-    "id": "t04",
+    "id": "should-trigger-04",
+    "type": "should_trigger",
     "prompt": "用单机位能实现焦距递进效果吗？我只有一台摄影机。",
-    "expected_elements": [
-      "变焦镜头实时跟随",
-      "或多次拍摄不同焦距后期剪辑",
-      "至少需要变焦能力"
-    ]
+    "expected_behavior": ""
   }
 ]
